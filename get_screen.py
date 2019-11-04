@@ -1,9 +1,12 @@
-def get_cart_location(screen_width):
+import numpy as np
+import torch
+
+def get_cart_location(screen_width, env):
     world_width = env.x_threshold * 2
     scale = screen_width / world_width
     return int(env.state[0] * scale + screen_width / 2.0)  # MIDDLE OF CART
 
-def get_screen():
+def get_screen(env, resize, device):
     # Returned screen requested by gym is 400x600x3, but is sometimes larger
     # such as 800x1200x3. Transpose it into torch order (CHW).
     screen = env.render(mode='rgb_array').transpose((2, 0, 1))
@@ -11,7 +14,7 @@ def get_screen():
     _, screen_height, screen_width = screen.shape
     screen = screen[:, int(screen_height*0.4):int(screen_height * 0.8)]
     view_width = int(screen_width * 0.6)
-    cart_location = get_cart_location(screen_width)
+    cart_location = get_cart_location(screen_width, env)
     if cart_location < view_width // 2:
         slice_range = slice(view_width)
     elif cart_location > (screen_width - view_width // 2):

@@ -1,4 +1,7 @@
-def plot_durations():
+import matplotlib.pyplot as plt
+import torch
+
+def plot_durations(episode_durations, is_ipython, display):
     plt.figure(2)
     plt.clf()
     durations_t = torch.tensor(episode_durations, dtype=torch.float)
@@ -14,5 +17,5 @@ def plot_durations():
 
     plt.pause(0.001)  # pause a bit so that plots are updated
     if is_ipython:
-        display.clear_output(wait=True)
+        #display.clear_output(wait=True)
         display.display(plt.gcf())

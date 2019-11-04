@@ -1,4 +1,10 @@
-def select_action(state):
+import math
+import random
+import torch
+
+steps_done = 0
+
+def select_action(state, EPS_START, EPS_END, EPS_DECAY, policy_net, n_actions, device):
     global steps_done
     sample = random.random()
     eps_threshold = EPS_END + (EPS_START - EPS_END) * \

@@ -9,4 +9,4 @@
  #BSUB -e logs/%J.err
 
  echo "Running script..."
- python3 main.py
+ python3 Pong_DDQN.py

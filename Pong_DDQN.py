@@ -18,6 +18,11 @@ env = gym.make('Pong-v0').unwrapped
 
 # if gpu is to be used
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+
+f = open("log.txt", "a")
+f.write('Start using %s\n' % device)
+
 Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
 
 class ReplayMemory(object):
@@ -164,7 +169,7 @@ def optimize_model():
     optimizer.step()
 
 
-num_episodes = 1500000
+num_episodes = 1000000
 
 for i_episode in range(num_episodes):
     # Initialize the environment and state
@@ -211,11 +216,14 @@ for i_episode in range(num_episodes):
             # plot_durations()
             break
     # Update the target network
-    print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1])
+
+    f.write("Epoch: %s - Total reward: %s - Episode duration: %s\n" % (i_episode, total_reward, episode_durations[-1]))
     if i_episode % TARGET_UPDATE == 0:
         target_net.load_state_dict(policy_net.state_dict())
 
-print('Complete')
+
+f.write('Complete')
+f.close()
 plot_durations()
 env.render()
 env.close()

@@ -25,8 +25,6 @@ if is_ipython:
     print("Is using ipython display")
 
 plt.ion()
-plt.show()
-
 # if gpu is to be used
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Is using %s as device" % device)

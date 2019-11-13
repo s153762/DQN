@@ -167,7 +167,7 @@ def optimize_model():
     optimizer.step()
 
 
-num_episodes = 2
+num_episodes = 1000000
 
 for i_episode in range(num_episodes):
     # Initialize the environment and state

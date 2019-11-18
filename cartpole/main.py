@@ -9,12 +9,12 @@ import torch
 import torch.optim as optim
 import torchvision.transforms as T
 
-from ReplayMemory import ReplayMemory # Get ReplayMemory
-from DQN import DQN # Get Network
-from get_screen import get_screen
-from select_action import select_action
-from plot_durations import plot_durations
-from optimize_model import optimize_model
+from cartpole.ReplayMemory import ReplayMemory # Get ReplayMemory
+from cartpole.DQN import DQN # Get Network
+from cartpole.get_screen import get_screen
+from cartpole.select_action import select_action
+from cartpole.plot_durations import plot_durations
+from cartpole.optimize_model import optimize_model
 
 env = gym.make('CartPole-v1').unwrapped
 

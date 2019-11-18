@@ -12,4 +12,4 @@
 #BSUB -N
 
 echo "Running script..."
-python3 Pong_DDQN.py
+python3 pong/script/Pong_DDQN.py

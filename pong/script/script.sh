@@ -3,10 +3,10 @@
 #BSUB -gpu "num=1"
 #BSUB -J myJob
 #BSUB -n 1
-#BSUB -W 05:00
+#BSUB -W 10:00
 #BSUB -R "rusage[mem=32GB]"
-#BSUB -o logs/%J.out
-#BSUB -e logs/%J.err
+#BSUB -o ../logs/%J.out
+#BSUB -e ../logs/%J.err
 #BSUB -u eida@dtu.dk
 #BSUB -B
 #BSUB -N

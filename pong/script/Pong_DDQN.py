@@ -41,7 +41,7 @@ EPS_START = 0.9
 EPS_END = 0.05
 EPS_DECAY = 200
 TARGET_UPDATE = 10
-learning_rate = 3*1e-4
+learning_rate = 3e-4
 decay_rate = 0.99
 
 policy_net = DQN().to(device)
@@ -52,13 +52,13 @@ target_net.eval()
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate, weight_decay=decay_rate)
 memory = ReplayMemory(10000, Transition)
 
-model_save_name = 'Pong_POLICY.pt'
+model_save_name = 'Pong_POLICY_2.pt'
 path = F"../model/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
 episode_durations = []
 
-num_episodes = 1000000
+num_episodes = 100000
 for i_episode in range(num_episodes):
     # Initialize the environment and state
     env.reset()

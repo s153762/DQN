@@ -52,13 +52,13 @@ target_net.eval()
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate, weight_decay=decay_rate)
 memory = ReplayMemory(10000, Transition)
 
-model_save_name = 'Pong_POLICY_2.pt'
+model_save_name = 'Pong_POLICY_3_.pt'
 path = F"../model/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
 episode_durations = []
 
-num_episodes = 100000
+num_episodes = 10
 for i_episode in range(num_episodes):
     # Initialize the environment and state
     env.reset()
@@ -113,7 +113,7 @@ for i_episode in range(num_episodes):
     if i_episode % TARGET_UPDATE == 0:
         target_net.load_state_dict(policy_net.state_dict())
 
-    if i_episode % 500 == 0:
+    if i_episode % 2 == 0:
         torch.save(policy_net.state_dict(), path)
         print("Model Saved %d" % (i_episode))
         if i_episode % 5000 == 0:

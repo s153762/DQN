@@ -3,7 +3,7 @@
 #BSUB -gpu "num=1"
 #BSUB -J myJob
 #BSUB -n 1
-#BSUB -W 10:00
+#BSUB -W 01:00
 #BSUB -R "rusage[mem=32GB]"
 #BSUB -o logs/%J.out
 #BSUB -e logs/%J.err
@@ -13,4 +13,4 @@
 
 echo "Running script..."
 python3 Pong_DDQN.py
-echo "Script.fishished."
+echo "Script fishished."

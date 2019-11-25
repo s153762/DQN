@@ -72,7 +72,7 @@ torch.save(policy_net.state_dict(), path)
 
 episode_durations = []
 
-num_episodes = 10000
+num_episodes = 1000000
 counter = 1
 loss = list()
 
@@ -136,8 +136,8 @@ for i_episode in range(num_episodes):
         counter += 1
     # Update the target network
     print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1], "Actions: ", actions, "Threshold: ", threshold)
-    #writer.add_scalar('training loss', loss, t)
-    writer.add_scalar('test reward', total_reward, i_episode)
+    writer.add_scalar('training loss', np.mean(loss), i_episode)
+    writer.add_scalar('total reward', total_reward, i_episode)
 
     if i_episode % TARGET_UPDATE == 0:
         target_net.load_state_dict(policy_net.state_dict())

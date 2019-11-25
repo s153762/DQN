@@ -136,7 +136,8 @@ for i_episode in range(num_episodes):
         counter += 1
     # Update the target network
     print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1], "Actions: ", actions, "Threshold: ", threshold)
-    writer.add_scalar('training loss', np.mean(loss), i_episode)
+    writer.add_scalar('training loss', np.sum(loss), i_episode)
+    loss = list()
     writer.add_scalar('total reward', total_reward, i_episode)
 
     if i_episode % TARGET_UPDATE == 0:

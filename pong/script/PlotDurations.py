@@ -14,3 +14,4 @@ def plot_durations(episode_durations):
         means = durations_t.unfold(0, 100, 1).mean(1).view(-1)
         means = torch.cat((torch.zeros(99), means))
         plt.plot(means.numpy())
+        plt.savefig("../plt/plot_durations")

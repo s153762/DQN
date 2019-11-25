@@ -1,0 +1,7 @@
+Loaded module: python3/3.6.2
+Loaded module: cuda/8.0
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'cudnn/v.7.0-prod-cuda8'
+Traceback (most recent call last):
+  File "Pong_DDQN.py", line 193, in <module>
+    next_state[:, 1:4, :, :] = next_state[:, 0:3, :, :]
+RuntimeError: unsupported operation: some elements of the input tensor and the written-to tensor refer to a single memory location. Please clone() the tensor before performing the operation.

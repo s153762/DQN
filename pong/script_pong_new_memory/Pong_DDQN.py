@@ -9,13 +9,13 @@ import torch
 import torch.optim as optim
 import torchvision.transforms as T
 
-from ReplayMemory import ReplayMemory # Get ReplayMemory
 from DQN import DQN # Get Network
 from GetScreen import get_screen
 from GetScreen import update_state
 from SelectAction import select_action
 from PlotDurations import plot_durations
 from OptimizeModel import optimize_model
+from Per import PER
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
 
@@ -66,9 +66,9 @@ target_net.eval()
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
 #optimizer = optim.RMSprop(policy_net.parameters(), lr=learning_rate)
 
-memory = ReplayMemory(MEMORY_SIZE, Transition)
+memory = PER(MEMORY_SIZE, GAMMA, Transition, device)
 
-model_save_name = 'Pong_POLICY_6.pt'
+model_save_name = 'Pong_POLICY_7.pt'
 path = F"../model/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
@@ -85,7 +85,7 @@ for i_episode in range(num_episodes):
     loss = 0
     actions = np.zeros((n_actions), dtype=np.int)
     env.reset()
-    for j in range(59):
+    for j in range(15):
         env.step(env.action_space.sample())
 
     state = torch.cat((get_screen(env, resize),
@@ -108,7 +108,7 @@ for i_episode in range(num_episodes):
         next_state = update_state(env, resize, state, done)
 
         # Store the transition in memory
-        memory.push(state, action, next_state, reward)
+        memory.push(state, action, reward, next_state, done, policy_net, target_net)
 
         # Move to the next state
         if next_state is not None:
@@ -118,12 +118,11 @@ for i_episode in range(num_episodes):
 
 
         # Perform one step of the optimization (on the target network)
-        if (counter % OPTIMIZE_FREQUENCE == 0) and counter > START_OPTIMIZER:
+        if (steps_done % OPTIMIZE_FREQUENCE == 0) and steps_done > START_OPTIMIZER:
             temp = optimize_model(memory, BATCH_SIZE, Transition, device, policy_net, target_net, GAMMA, optimizer)
 
             if temp is not None:
                 loss += temp
-
 
         if done:
             episode_durations.append(t + 1)

@@ -18,8 +18,8 @@ def optimize_model(memory, BATCH_SIZE, Transition, device, policy_net, target_ne
     policy_net.train()
     target_net.eval()
 
-    if len(memory) < BATCH_SIZE:
-        return
+    #if len(memory) < BATCH_SIZE:
+    #    return
 
     if batch is None:
         batch = sample_memory(memory, BATCH_SIZE, Transition, device)
@@ -32,10 +32,9 @@ def optimize_model(memory, BATCH_SIZE, Transition, device, policy_net, target_ne
 
     # Compute expected state action value
     argmax_next_state_values = policy_net(non_final_next_states).argmax(1).detach().unsqueeze(1)
-    next_state_values[non_final_mask] = target_net(non_final_next_states).gather(1,argmax_next_state_values).detach().squeeze()
+    next_state_values[non_final_mask] = target_net(non_final_next_states).gather(1, argmax_next_state_values).detach().squeeze()
 
     expected_state_action_values = (next_state_values * GAMMA) + reward_batch
-
 
     # compute loss
     loss = F.smooth_l1_loss(state_action_values, expected_state_action_values.unsqueeze(1))

@@ -46,14 +46,14 @@ BATCH_SIZE = 32
 GAMMA = 0.99
 EPS_START = 1
 EPS_END = 0.02
-MEMORY_SIZE = 10000
+MEMORY_SIZE = 50000
 EPS_DECAY = 1000000 + MEMORY_SIZE
 TARGET_UPDATE = 10000
 OPTIMIZE_FREQUENCE = 4
 learning_rate = 3e-4
 decay_rate = 0.01
 
-n_actions = 3#env.action_space.n
+n_actions = env.action_space.n
 actions_offset = 1
 
 criterion = nn.SmoothL1Loss().cuda() # Not used right now
@@ -63,10 +63,10 @@ target_net = DQN(4, n_actions).to(device)
 target_net.load_state_dict(policy_net.state_dict())
 target_net.eval()
 
-optimizer = optim.RMSprop(policy_net.parameters(), lr=0.0025, alpha=0.9, eps=1e-02, momentum=0.0)
+optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate, alpha=0.9, eps=1e-02, momentum=0.0)
 memory = ReplayMemory(MEMORY_SIZE, Transition)
 
-model_save_name = 'Pong_POLICY_4_.pt'
+model_save_name = 'Pong_POLICY_5.pt'
 path = F"../model/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
@@ -135,7 +135,6 @@ for i_episode in range(num_episodes):
 
         counter += 1
     # Update the target network
-    print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1], "Actions: ", actions, "Threshold: ", threshold)
     writer.add_scalar('training loss', np.sum(loss), i_episode)
     loss = list()
     writer.add_scalar('total reward', total_reward, i_episode)
@@ -144,10 +143,11 @@ for i_episode in range(num_episodes):
         target_net.load_state_dict(policy_net.state_dict())
 
     if i_episode % 100 == 0:
+        print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1], "Actions: ", actions, "Threshold: ", threshold)
         torch.save(policy_net.state_dict(), path)
         print("Model Saved %d" % (i_episode))
-        if i_episode % 1000 == 0:
-            torch.save(policy_net.state_dict(), path.replace(".pt", F"{i_episode}.pt"))
+        if i_episode % 10000 == 0:
+            torch.save(policy_net.state_dict(), path.replace(".pt", F"_{i_episode}.pt"))
 
 torch.save(policy_net.state_dict(), path)
 print('Complete')

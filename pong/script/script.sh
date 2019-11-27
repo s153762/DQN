@@ -12,5 +12,5 @@
 #BSUB -N
 
 echo "Running script..."
-python3 Pong_DDQN.py
+python3 -W ignore::UserWarning Pong_DDQN.py
 echo "Script fishished."

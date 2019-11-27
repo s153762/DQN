@@ -66,7 +66,7 @@ target_net.eval()
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate, alpha=0.9, eps=1e-02, momentum=0.0)
 memory = ReplayMemory(MEMORY_SIZE, Transition)
 
-model_save_name = 'Pong_POLICY_5_.pt'
+model_save_name = 'Pong_POLICY_5.pt'
 path = F"../model/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
@@ -135,7 +135,6 @@ for i_episode in range(num_episodes):
 
         counter += 1
     # Update the target network
-    print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1], "Actions: ", actions, "Threshold: ", threshold)
     writer.add_scalar('training loss', np.sum(loss), i_episode)
     loss = list()
     writer.add_scalar('total reward', total_reward, i_episode)
@@ -144,10 +143,11 @@ for i_episode in range(num_episodes):
         target_net.load_state_dict(policy_net.state_dict())
 
     if i_episode % 100 == 0:
+        print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1], "Actions: ", actions, "Threshold: ", threshold)
         torch.save(policy_net.state_dict(), path)
         print("Model Saved %d" % (i_episode))
         if i_episode % 10000 == 0:
-            torch.save(policy_net.state_dict(), path.replace(".pt", F"{i_episode}.pt"))
+            torch.save(policy_net.state_dict(), path.replace(".pt", F"_{i_episode}.pt"))
 
 torch.save(policy_net.state_dict(), path)
 print('Complete')

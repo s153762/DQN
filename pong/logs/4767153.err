@@ -1,0 +1,9 @@
+Loaded module: python3/3.6.2
+Loaded module: cuda/10.0
+Loaded module: cudnn/v7.4.2.24-prod-cuda-10.0
+Traceback (most recent call last):
+  File "Pong_DDQN.py", line 17, in <module>
+    from OptimizeModel import optimize_model
+  File "/zhome/ad/0/108841/Documents/DQN/pong/script_pong_new_memory/OptimizeModel.py", line 3, in <module>
+    from ReplayMemory import sample_memory
+ModuleNotFoundError: No module named 'ReplayMemory'

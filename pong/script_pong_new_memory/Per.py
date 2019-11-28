@@ -1,6 +1,5 @@
 #Prioritized Experience Replay
 import random
-
 from SumTree import SumTree
 import torch
 
@@ -38,7 +37,6 @@ class PER:  # stored as ( s, a, r, s_ ) in SumTree
     def update(self, idx, error):
         p = self._getPriority(error)
         self.tree.update(idx, p)
-
 
     def push(self, state, action, reward, next_state, done, model, target_model):
         target = model(state.to(self.device))

@@ -1,9 +1,8 @@
 import gym
-import matplotlib.pyplot as plt
+import numpy as np
 from collections import namedtuple
 from itertools import count
 from PIL import Image
-import numpy as np
 
 import torch
 import torch.optim as optim
@@ -19,7 +18,10 @@ from Per import PER
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
 
-env = gym.make('Pong-v0').unwrapped #
+#env_name = "Pong-v0"
+#env_name = "PongNoFrameskip-v4"
+env_name = "PongDeterministic-v4"
+env = gym.make(env_name).unwrapped #
 
 # if gpu is to be used
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -62,22 +64,18 @@ target_net.load_state_dict(policy_net.state_dict())
 policy_net.train()
 target_net.eval()
 
-
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
 #optimizer = optim.RMSprop(policy_net.parameters(), lr=learning_rate)
 
 memory = PER(MEMORY_SIZE, GAMMA, Transition, device)
 
-model_save_name = 'Pong_POLICY_7.pt'
+model_save_name = 'Pong_POLICY_8.pt'
 path = F"../model/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
 episode_durations = []
 steps_done = 0
-
 num_episodes = 1000000
-counter = 1
-
 
 for i_episode in range(num_episodes):
     # Initialize the environment and state
@@ -97,7 +95,7 @@ for i_episode in range(num_episodes):
     for t in count():
         # Select and perform an action
         state_cuda = state.to(device)
-        action, threshold = select_action(state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
+        steps_done, action, threshold = select_action(steps_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
         _, reward, done, _ = env.step(action.item() + actions_offset)
         total_reward += reward
         actions[action.item()] += 1
@@ -116,7 +114,6 @@ for i_episode in range(num_episodes):
         else:
             state = None
 
-
         # Perform one step of the optimization (on the target network)
         if (steps_done % OPTIMIZE_FREQUENCE == 0) and steps_done > START_OPTIMIZER:
             temp = optimize_model(memory, BATCH_SIZE, Transition, device, policy_net, target_net, GAMMA, optimizer)
@@ -129,10 +126,10 @@ for i_episode in range(num_episodes):
             # plot_durations()
             break
 
-        if counter % TARGET_UPDATE == 0 and counter > (START_OPTIMIZER +TARGET_UPDATE):
+        if steps_done % TARGET_UPDATE == 0 and steps_done > (START_OPTIMIZER +TARGET_UPDATE):
             target_net.load_state_dict(policy_net.state_dict())
 
-        counter += 1
+
 
     # plot data
     writer.add_scalar('training loss', loss, i_episode)

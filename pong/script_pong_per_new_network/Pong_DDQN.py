@@ -29,8 +29,8 @@ print('Start using %s\n' % device)
 
 # Display results using tensorboard
 init_time = datetime.now()
-writer = SummaryWriter(f'../runs/PongDeterministic-v4-per_new_network_{init_time}_{device}')
-print(f"Writing to 'runs/PongDeterministic-v4-per_new_network_{init_time}_{device}'")
+writer = SummaryWriter(f'../runs/PongDeterministic-v4-per_new_network-less-random-{init_time}_{device}')
+print(f"Writing to '../runs/PongDeterministic-v4-per_new_network-less-random-{init_time}_{device}'")
 
 Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
 
@@ -70,13 +70,14 @@ optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
 
 memory = PER(MEMORY_SIZE, GAMMA, Transition, device)
 
-model_save_name = 'Pong_POLICY_9.pt'
+model_save_name = 'Pong_POLICY_11.pt'
 path = F"../model/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
+episodes_done = 0
 episode_durations = []
 steps_done = 0
-num_episodes = 10000
+num_episodes = 3000
 
 for i_episode in range(num_episodes):
     # Initialize the environment and state
@@ -96,7 +97,7 @@ for i_episode in range(num_episodes):
     for t in count():
         # Select and perform an action
         state_cuda = state.to(device)
-        steps_done, action, threshold = select_action(steps_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
+        steps_done, action, threshold = select_action(steps_done, episodes_done, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
         _, reward, done, _ = env.step(action.item() + actions_offset)
         total_reward += reward
         actions[action.item()] += 1
@@ -123,6 +124,7 @@ for i_episode in range(num_episodes):
                 loss += temp
 
         if done:
+            episodes_done += 1
             episode_durations.append(t + 1)
             # plot_durations()
             break

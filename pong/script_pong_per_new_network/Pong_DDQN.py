@@ -97,7 +97,7 @@ for i_episode in range(num_episodes):
     for t in count():
         # Select and perform an action
         state_cuda = state.to(device)
-        steps_done, action, threshold = select_action(steps_done, episodes_done, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
+        steps_done, action, threshold = select_action(steps_done, episodes_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
         _, reward, done, _ = env.step(action.item() + actions_offset)
         total_reward += reward
         actions[action.item()] += 1

@@ -27,8 +27,8 @@ print('Start using %s\n' % device)
 
 # Display results using tensorboard
 init_time = datetime.now()
-writer = SummaryWriter(f'../runs/Pong-v0_{init_time}_{device}')
-print(f"Writing to 'runs/Pong-v0_{init_time}_{device}'")
+writer = SummaryWriter(f'../runs/PongNoFrameskip-v4_{init_time}_{device}')
+print(f"Writing to 'runs/PongNoFrameskip-v4_{init_time}_{device}'")
 
 Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
 

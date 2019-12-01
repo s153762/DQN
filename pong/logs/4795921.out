@@ -1,0 +1,48 @@
+Running script...
+Start using cuda
+
+Writing to '../runs/PongDeterministic-v4-per_new_network-less-random-2019-11-30 11:08:41.039367_cuda'
+Epoch:  0  - Total reward:  -21.0 Episode duration:  870 Actions:  [267 308 295] Threshold:  0.9915206959364202
+Model new iteration Saved 0
+Epoch:  100  - Total reward:  10.0 Episode duration:  2928 Actions:  [ 986  723 1219] Threshold:  0.16173265498008005
+Epoch:  200  - Total reward:  18.0 Episode duration:  1938 Actions:  [902 419 617] Threshold:  0.03607334920703892
+Model new iteration Saved 250
+Epoch:  300  - Total reward:  21.0 Episode duration:  1620 Actions:  [1027  107  486] Threshold:  0.022621279537540197
+Epoch:  400  - Total reward:  21.0 Episode duration:  1623 Actions:  [926  90 607] Threshold:  0
+Epoch:  500  - Total reward:  21.0 Episode duration:  1622 Actions:  [883 125 614] Threshold:  0
+Model new iteration Saved 500
+Epoch:  600  - Total reward:  21.0 Episode duration:  1619 Actions:  [647  85 887] Threshold:  0
+Epoch:  700  - Total reward:  21.0 Episode duration:  1622 Actions:  [730  70 822] Threshold:  0
+Model new iteration Saved 750
+Epoch:  800  - Total reward:  21.0 Episode duration:  1618 Actions:  [1357  101  160] Threshold:  0
+Epoch:  900  - Total reward:  21.0 Episode duration:  1618 Actions:  [ 512   65 1041] Threshold:  0
+Epoch:  1000  - Total reward:  21.0 Episode duration:  1618 Actions:  [781  76 761] Threshold:  0
+Model new iteration Saved 1000
+Epoch:  1100  - Total reward:  21.0 Episode duration:  1623 Actions:  [ 344  112 1167] Threshold:  0
+Epoch:  1200  - Total reward:  21.0 Episode duration:  1623 Actions:  [ 393  220 1010] Threshold:  0
+Model new iteration Saved 1250
+Epoch:  1300  - Total reward:  21.0 Episode duration:  1623 Actions:  [823 244 556] Threshold:  0
+Epoch:  1400  - Total reward:  21.0 Episode duration:  1627 Actions:  [860 151 616] Threshold:  0
+Epoch:  1500  - Total reward:  21.0 Episode duration:  1623 Actions:  [608 284 731] Threshold:  0
+Model new iteration Saved 1500
+Epoch:  1600  - Total reward:  21.0 Episode duration:  1622 Actions:  [829 197 596] Threshold:  0
+Epoch:  1700  - Total reward:  20.0 Episode duration:  1723 Actions:  [1421  134  168] Threshold:  0
+Model new iteration Saved 1750
+Epoch:  1800  - Total reward:  20.0 Episode duration:  1655 Actions:  [1429   81  145] Threshold:  0
+Epoch:  1900  - Total reward:  13.0 Episode duration:  2321 Actions:  [ 682  441 1198] Threshold:  0
+Epoch:  2000  - Total reward:  17.0 Episode duration:  2037 Actions:  [1457  165  415] Threshold:  0
+Model new iteration Saved 2000
+Epoch:  2100  - Total reward:  21.0 Episode duration:  1684 Actions:  [  53   84 1547] Threshold:  0
+Epoch:  2200  - Total reward:  21.0 Episode duration:  1684 Actions:  [  75   87 1522] Threshold:  0
+Model new iteration Saved 2250
+Epoch:  2300  - Total reward:  21.0 Episode duration:  1684 Actions:  [  56   95 1533] Threshold:  0
+Epoch:  2400  - Total reward:  21.0 Episode duration:  1635 Actions:  [  90  124 1421] Threshold:  0
+Epoch:  2500  - Total reward:  21.0 Episode duration:  1639 Actions:  [ 216  139 1284] Threshold:  0
+Model new iteration Saved 2500
+Epoch:  2600  - Total reward:  21.0 Episode duration:  1635 Actions:  [ 233  135 1267] Threshold:  0
+Epoch:  2700  - Total reward:  21.0 Episode duration:  1635 Actions:  [ 231  180 1224] Threshold:  0
+Model new iteration Saved 2750
+Epoch:  2800  - Total reward:  21.0 Episode duration:  1635 Actions:  [ 319  172 1144] Threshold:  0
+Epoch:  2900  - Total reward:  21.0 Episode duration:  1635 Actions:  [  64  186 1385] Threshold:  0
+Complete
+Script fishished.

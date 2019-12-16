@@ -29,10 +29,8 @@ print('Start using %s\n' % device)
 
 # Display results using tensorboard
 init_time = datetime.now()
-name = f'PER_Dueling_{init_time}'
-path = f'../runs/{name}'
-writer = SummaryWriter(path)
-print(path)
+writer = SummaryWriter(f'../runs/PongDeterministic-v4-per_new_network-less-random-{init_time}_{device}')
+print(f"Writing to '../runs/PongDeterministic-v4-per_new_network-less-random-{init_time}_{device}'")
 
 Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
 
@@ -45,10 +43,10 @@ resize = T.Compose([T.ToPILImage(),
 BATCH_SIZE = 32
 GAMMA = 0.99
 EPS_START = 1
-EPS_END = 0.01
+EPS_END = 0.02
 MEMORY_SIZE = 10000
 EPS_DECAY = 100000
-TARGET_UPDATE = 10000
+TARGET_UPDATE = 100
 START_OPTIMIZER = 1000
 OPTIMIZE_FREQUENCE = 4
 learning_rate = 0.00025
@@ -59,6 +57,8 @@ batch_cuda = []
 n_actions = 3#env.action_space.n
 actions_offset = 1
 
+
+
 policy_net = DuelingDQN(4, n_actions).to(device)
 target_net = DuelingDQN(4, n_actions).to(device)
 target_net.load_state_dict(policy_net.state_dict())
@@ -66,10 +66,11 @@ policy_net.train()
 target_net.eval()
 
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
+#optimizer = optim.RMSprop(policy_net.parameters(), lr=learning_rate)
 
 memory = PER(MEMORY_SIZE, GAMMA, Transition, device)
 
-model_save_name = f'{name}.pt'
+model_save_name = 'Pong_POLICY_11.pt'
 path = F"../model/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
@@ -131,22 +132,29 @@ for i_episode in range(num_episodes):
         if steps_done % TARGET_UPDATE == 0 and steps_done > (START_OPTIMIZER +TARGET_UPDATE):
             target_net.load_state_dict(policy_net.state_dict())
 
-    # plot data
-    if i_episode % 10 == 0:
-        writer.add_scalar('Training Loss', loss, steps_done)
-        writer.add_scalar('Total Training Reward', total_reward, steps_done)
-        writer.add_scalars('Training Actions',actions.sum(), steps_done)
 
-        if i_episode % 250 == 0:
-            print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
+
+    # plot data
+    writer.add_scalar('training loss', loss, i_episode)
+    writer.add_scalar('total reward', total_reward, i_episode)
+    for i in range(len(actions)):
+        writer.add_scalars('Actions',{str(i):actions[i]}, i_episode)
+
+    if i_episode % TARGET_UPDATE == 0:
+        target_net.load_state_dict(policy_net.state_dict())
+        print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
               "Actions: ", actions, "Threshold: ", threshold)
-            torch.save(policy_net.state_dict(), path)
-            print("Model Saved %d" % (i_episode))
+        torch.save(policy_net.state_dict(), path)
+
+    if i_episode % 250 == 0:
+        print("Model new iteration Saved %d" % (i_episode))
+        torch.save(policy_net.state_dict(), path.replace(".pt", F"_{i_episode}.pt"))
 
     del state_cuda
     torch.cuda.empty_cache()
 
 torch.save(policy_net.state_dict(), path)
 print('Complete')
+plot_durations(episode_durations)
 env.close()
 

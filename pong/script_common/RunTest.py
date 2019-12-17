@@ -6,16 +6,20 @@ import torch
 
 from GetScreen import get_screen
 from GetScreen import update_state
+import numpy as np
 # env, resize, 1, policy_net, device, actions_offset
 def test(env, resize, n_episodes, policy, device, actions_offset, render=True,path = F"/../videos"):
     #env = gym.wrappers.Monitor(env, path, force=True)
+    total_reward = []
+    actions = []
     state = torch.cat((get_screen(env, resize),
                        get_screen(env, resize),
                        get_screen(env, resize),
                        get_screen(env, resize)), dim=1, out=None)
     for episode in range(n_episodes):
-        obs = env.reset()
-        total_reward = 0.0
+        env.reset()
+        total_reward.append(0.0)
+        actions.append(0.0)
         for t in count():
             state_cuda = state.to(device)
             action = policy(state_cuda).max(1)[1].view(1,1) + actions_offset
@@ -24,12 +28,12 @@ def test(env, resize, n_episodes, policy, device, actions_offset, render=True,pa
                 time.sleep(0.02)
 
             obs, reward, done, info = env.step(action)
-
-            total_reward += reward
+            actions[episode] += 1
+            total_reward[episode] += reward
             state = update_state(env, resize, state)
             if done:
-                print("Finished Episode {} with reward {}".format(episode, total_reward))
                 break
 
     env.close()
-    return total_reward
+    print("Finished {} test episodes:\n  - Rewards: {}\n  - Amount of actions: {}".format(n_episodes, total_reward, actions))
+    return np.array(total_reward), np.array(actions)

@@ -1,25 +1,28 @@
+import sys
+import os
 import gym
 import numpy as np
 from collections import namedtuple
 from itertools import count
 from PIL import Image
-
 import torch
 import torch.optim as optim
 import torchvision.transforms as T
+from datetime import datetime, time
+from torch.utils.tensorboard import SummaryWriter
 
+from Per import PER
 from DuelingDQN import DuelingDQN # Get Network
+
+sys.path.append(os.path.abspath('../script_common'))
+from OptimizeModel import optimize_model
 from GetScreen import get_screen
 from GetScreen import update_state
 from SelectAction import select_action
 from PlotDurations import plot_durations
-from OptimizeModel import optimize_model
-from Per import PER
-from datetime import datetime
-from torch.utils.tensorboard import SummaryWriter
+from RunTest import test
+sys.path.append(os.path.abspath('../script_pong_per_dueling'))
 
-#env_name = "Pong-v0"
-#env_name = "PongNoFrameskip-v4"
 env_name = "PongDeterministic-v4"
 env = gym.make(env_name).unwrapped #
 
@@ -30,9 +33,9 @@ print('Start using %s\n' % device)
 # Display results using tensorboard
 init_time = datetime.now()
 name = f'PER_Dueling_{init_time}'
-path = f'../runs/{name}'
+path = f'../runs/report_runs/{name}'
 writer = SummaryWriter(path)
-print(path)
+print(f"Writing to '{path}'")
 
 Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
 
@@ -51,6 +54,7 @@ EPS_DECAY = 100000
 TARGET_UPDATE = 10000
 START_OPTIMIZER = 1000
 OPTIMIZE_FREQUENCE = 4
+RUN_TEST = 500
 learning_rate = 0.00025
 
 state_cuda = []
@@ -70,12 +74,11 @@ optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
 memory = PER(MEMORY_SIZE, GAMMA, Transition, device)
 
 model_save_name = f'{name}.pt'
-path = F"../model/{model_save_name}"
+path = F"../models/report_models/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
 episodes_done = 0
 episode_durations = []
-steps_done = 0
 num_episodes = 3000
 
 for i_episode in range(num_episodes):
@@ -96,7 +99,7 @@ for i_episode in range(num_episodes):
     for t in count():
         # Select and perform an action
         state_cuda = state.to(device)
-        steps_done, action, threshold = select_action(steps_done, episodes_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
+        steps_done, action, threshold = select_action(state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
         _, reward, done, _ = env.step(action.item() + actions_offset)
         total_reward += reward
         actions[action.item()] += 1
@@ -125,28 +128,36 @@ for i_episode in range(num_episodes):
         if done:
             episodes_done += 1
             episode_durations.append(t + 1)
-            # plot_durations()
             break
 
         if steps_done % TARGET_UPDATE == 0 and steps_done > (START_OPTIMIZER +TARGET_UPDATE):
             target_net.load_state_dict(policy_net.state_dict())
 
-    # plot data
-    if i_episode % 10 == 0:
-        writer.add_scalar('Training Loss', loss, steps_done)
-        writer.add_scalar('Total Training Reward', total_reward, steps_done)
-        writer.add_scalars('Training Actions',actions.sum(), steps_done)
+        # plot data
+        if steps_done % RUN_TEST == 0:
+            writer.add_scalar('Training Loss', loss, steps_done)
+            writer.add_scalar('Total Training Reward', total_reward, steps_done)
 
-        if i_episode % 250 == 0:
-            print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
+            reward_test, actions_test = test(env, resize, 10, policy_net, device, actions_offset, False)
+            writer.add_scalar('Mean Test Reward', reward_test.mean(), steps_done)
+            writer.add_scalar('Std Test Reward', reward_test.std(), steps_done)
+            writer.add_scalar('Mean Test Actions', actions_test.mean(), steps_done)
+            writer.add_scalar('Std Test Actions', actions_test.std(), steps_done)
+
+    if i_episode % 10 == 0:
+        writer.add_scalar('Sum Training Actions', actions.sum(), i_episode)
+
+    if i_episode % 250 == 0:
+        print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
               "Actions: ", actions, "Threshold: ", threshold)
-            torch.save(policy_net.state_dict(), path)
-            print("Model Saved %d" % (i_episode))
+        torch.save(policy_net.state_dict(), path)
+        print("Model Saved %d" % (i_episode))
 
     del state_cuda
     torch.cuda.empty_cache()
 
 torch.save(policy_net.state_dict(), path)
 print('Complete')
+plot_durations(episode_durations)
 env.close()
 

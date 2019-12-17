@@ -5,8 +5,8 @@
 #BSUB -n 1
 #BSUB -W 20:00
 #BSUB -R "rusage[mem=32GB]"
-#BSUB -o ../logs/%J.out
-#BSUB -e ../logs/%J.err
+#BSUB -o ../logs/report_logs/%J.out
+#BSUB -e ../logs/report_logs/%J.err
 #BSUB -u eida@dtu.dk
 #BSUB -B
 #BSUB -N

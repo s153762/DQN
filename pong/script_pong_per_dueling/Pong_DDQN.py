@@ -135,17 +135,15 @@ for i_episode in range(num_episodes):
 
         # plot data
         if steps_done % RUN_TEST == 0:
-            writer.add_scalar('Training Loss', loss, steps_done)
-            writer.add_scalar('Total Training Reward', total_reward, steps_done)
-
             reward_test, actions_test = test(env, resize, 10, policy_net, device, actions_offset, False)
             writer.add_scalar('Mean Test Reward', reward_test.mean(), steps_done)
             writer.add_scalar('Std Test Reward', reward_test.std(), steps_done)
             writer.add_scalar('Mean Test Actions', actions_test.mean(), steps_done)
             writer.add_scalar('Std Test Actions', actions_test.std(), steps_done)
 
-    if i_episode % 10 == 0:
-        writer.add_scalar('Sum Training Actions', actions.sum(), i_episode)
+    writer.add_scalar('Training Loss', loss, i_episode)
+    writer.add_scalar('Sum Training Actions', actions.sum(), i_episode)
+    writer.add_scalar('Total Training Reward', total_reward, i_episode)
 
     if i_episode % 250 == 0:
         print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],

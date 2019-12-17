@@ -26,6 +26,7 @@ sys.path.append(os.path.abspath('../script_pong'))
 
 env_name = "PongDeterministic-v4"
 env = gym.make(env_name).unwrapped
+envTest = gym.make(env_name).unwrapped
 
 # if gpu is to be used
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -78,6 +79,7 @@ path = F"../models/report_models/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
 episodes_done = 0
+steps_done = 0
 episode_durations = []
 num_episodes = 3000
 
@@ -99,7 +101,7 @@ for i_episode in range(num_episodes):
     for t in count():
         # Select and perform an action
         state_cuda = state.to(device)
-        steps_done, action, threshold = select_action(state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
+        steps_done, action, threshold = select_action(steps_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
         _, reward, done, _ = env.step(action.item() + actions_offset)
         total_reward += reward
         actions[action.item()] += 1
@@ -135,16 +137,19 @@ for i_episode in range(num_episodes):
 
         # plot data
         if steps_done % RUN_TEST == 0:
-            reward_test, actions_test = test(env, resize, 10, policy_net, device, actions_offset, False)
+            reward_test, actions_test = test(envTest, resize, 10, policy_net, device, actions_offset, False)
             writer.add_scalar('Mean Test Reward', reward_test.mean(), steps_done)
             writer.add_scalar('Std Test Reward', reward_test.std(), steps_done)
             writer.add_scalar('Mean Test Actions', actions_test.mean(), steps_done)
             writer.add_scalar('Std Test Actions', actions_test.std(), steps_done)
 
-
+    # After Episode
     writer.add_scalar('Training Loss', loss, i_episode)
     writer.add_scalar('Sum Training Actions', actions.sum(), i_episode)
     writer.add_scalar('Total Training Reward', total_reward, i_episode)
+    writer.add_scalar('Training Loss Steps', loss, steps_done)
+    writer.add_scalar('Sum Training Actions Steps', actions.sum(), steps_done)
+    writer.add_scalar('Total Training Reward Steps', total_reward, steps_done)
 
     if i_episode % 250 == 0:
         print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],

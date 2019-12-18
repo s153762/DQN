@@ -55,7 +55,7 @@ EPS_DECAY = 100000
 TARGET_UPDATE = 10000
 START_OPTIMIZER = 1000
 OPTIMIZE_FREQUENCE = 4
-RUN_TEST = 500
+RUN_TEST = 2500
 learning_rate = 0.00025
 
 state_cuda = []
@@ -136,7 +136,8 @@ for i_episode in range(num_episodes):
             target_net.load_state_dict(policy_net.state_dict())
 
         # plot data
-        if steps_done % RUN_TEST == 0:
+        if steps_done % RUN_TEST == 0 or steps_done == 1:
+            print("test1", steps_done, i_episode, total_reward)
             reward_test, actions_test = test(envTest, resize, 10, policy_net, device, actions_offset, False)
             writer.add_scalar('Mean Test Reward', reward_test.mean(), steps_done)
             writer.add_scalar('Std Test Reward', reward_test.std(), steps_done)
@@ -144,6 +145,7 @@ for i_episode in range(num_episodes):
             writer.add_scalar('Std Test Actions', actions_test.std(), steps_done)
 
     # After Episode
+    print("test2", steps_done, i_episode, total_reward)
     writer.add_scalar('Training Loss', loss, i_episode)
     writer.add_scalar('Sum Training Actions', actions.sum(), i_episode)
     writer.add_scalar('Total Training Reward', total_reward, i_episode)
@@ -155,6 +157,7 @@ for i_episode in range(num_episodes):
         print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
               "Actions: ", actions, "Threshold: ", threshold)
         torch.save(policy_net.state_dict(), path)
+        torch.save(policy_net.state_dict(), path.replace(".pt", f"_{i_episode}_{steps_done}.pt"))
         print("Model Saved %d" % (i_episode))
 
     del state_cuda

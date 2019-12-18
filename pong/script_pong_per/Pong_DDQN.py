@@ -55,7 +55,7 @@ EPS_DECAY = 100000
 TARGET_UPDATE = 10000
 START_OPTIMIZER = 1000
 OPTIMIZE_FREQUENCE = 4
-RUN_TEST = 500
+RUN_TEST = 2500
 learning_rate = 0.00025
 
 state_cuda = []
@@ -156,6 +156,7 @@ for i_episode in range(num_episodes):
         print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
               "Actions: ", actions, "Threshold: ", threshold)
         torch.save(policy_net.state_dict(), path)
+        torch.save(policy_net.state_dict(), path.replace(".pt", f"_{i_episode}_{steps_done}.pt"))
         print("Model Saved %d" % (i_episode))
 
     del state_cuda

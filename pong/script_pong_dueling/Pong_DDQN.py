@@ -29,7 +29,7 @@ print('Start using %s\n' % device)
 
 # Display results using tensorboard
 init_time = datetime.now()
-name = f'PER_Dueling_{init_time}_{env_name}'
+name = f'Dueling_{init_time}_{env_name}'
 writer = SummaryWriter(f'../runs/report_runs/{name}')
 print(f"Writing to 'runs/report_runs/{name}'")
 

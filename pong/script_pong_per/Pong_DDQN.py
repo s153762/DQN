@@ -14,14 +14,14 @@ from torch.utils.tensorboard import SummaryWriter
 from Per import PER
 from DQN import DQN # Get Network
 
-sys.path.append(os.path.abspath('../script_common'))
+#sys.path.append(os.path.abspath('../script_common'))
 from OptimizeModel import optimize_model
 from GetScreen import get_screen
 from GetScreen import update_state
 from SelectAction import select_action
 from PlotDurations import plot_durations
 from RunTest import test
-sys.path.append(os.path.abspath('../script_pong_per'))
+#sys.path.append(os.path.abspath('../script_pong_per'))
 
 
 env_name = "PongDeterministic-v4"
@@ -137,7 +137,7 @@ for i_episode in range(num_episodes):
             target_net.load_state_dict(policy_net.state_dict())
 
         # plot data
-        if steps_done % RUN_TEST == 0:
+        if steps_done % RUN_TEST == 0 or steps_done == 1:
             reward_test, actions_test = test(envTest, resize, 10, policy_net, device, actions_offset, False)
             writer.add_scalar('Mean Test Reward', reward_test.mean(), steps_done)
             writer.add_scalar('Std Test Reward', reward_test.std(), steps_done)

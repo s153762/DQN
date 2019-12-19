@@ -14,14 +14,14 @@ from torch.utils.tensorboard import SummaryWriter
 from Per import PER
 from DuelingDQN import DuelingDQN # Get Network
 
-sys.path.append(os.path.abspath('../script_common'))
+#sys.path.append(os.path.abspath('../script_common'))
 from OptimizeModel import optimize_model
 from GetScreen import get_screen
 from GetScreen import update_state
 from SelectAction import select_action
 from PlotDurations import plot_durations
 from RunTest import test
-sys.path.append(os.path.abspath('../script_pong_per_dueling'))
+#sys.path.append(os.path.abspath('../script_pong_per_dueling'))
 
 env_name = "PongDeterministic-v4"
 env = gym.make(env_name).unwrapped #
@@ -137,7 +137,6 @@ for i_episode in range(num_episodes):
 
         # plot data
         if steps_done % RUN_TEST == 0 or steps_done == 1:
-            print("test1", steps_done, i_episode, total_reward)
             reward_test, actions_test = test(envTest, resize, 10, policy_net, device, actions_offset, False)
             writer.add_scalar('Mean Test Reward', reward_test.mean(), steps_done)
             writer.add_scalar('Std Test Reward', reward_test.std(), steps_done)
@@ -145,7 +144,6 @@ for i_episode in range(num_episodes):
             writer.add_scalar('Std Test Actions', actions_test.std(), steps_done)
 
     # After Episode
-    print("test2", steps_done, i_episode, total_reward)
     writer.add_scalar('Training Loss', loss, i_episode)
     writer.add_scalar('Sum Training Actions', actions.sum(), i_episode)
     writer.add_scalar('Total Training Reward', total_reward, i_episode)

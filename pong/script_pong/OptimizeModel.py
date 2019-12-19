@@ -34,6 +34,6 @@ def optimize_model(memory, BATCH_SIZE, Transition, device, policy_net, target_ne
     loss.backward()
     nn.utils.clip_grad_norm_(policy_net.parameters(), 10.)
     optimizer.step()
-    return loss.clone()
+    return loss
 
 

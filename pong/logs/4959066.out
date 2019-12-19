@@ -1,1 +1,6 @@
 Running script...
+Start using cuda
+
+Writing to 'runs/report_runs/Baseline_2019-12-19 16:22:06.978379_Pong-v0'
+Epoch:  0  - Total reward:  -20.0 Episode duration:  1304 Actions:  [409 433 462] Threshold:  0.9871839777110162
+Script fishished.

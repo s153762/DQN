@@ -29,8 +29,9 @@ print('Start using %s\n' % device)
 
 # Display results using tensorboard
 init_time = datetime.now()
-writer = SummaryWriter(f'../runs/PongDeterministic-v4-per-less-random-{init_time}_{device}')
-print(f"Writing to '../runs/PongDeterministic-v4-per-less-random-{init_time}_{device}'")
+name = f'PER_{init_time}'
+writer = SummaryWriter(f'../runs/report_runs/{name}')
+print(f"Writing to 'runs/report_runs/{name}'")
 
 Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
 
@@ -39,10 +40,11 @@ resize = T.Compose([T.ToPILImage(),
                     T.ToTensor()])
 
 
+# Trainin parameters
 BATCH_SIZE = 32
 GAMMA = 0.99
 EPS_START = 1
-EPS_END = 0.02
+EPS_END = 0.01
 MEMORY_SIZE = 10000
 EPS_DECAY = 100000
 TARGET_UPDATE = 10000
@@ -69,8 +71,8 @@ optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
 
 memory = PER(MEMORY_SIZE, GAMMA, Transition, device)
 
-model_save_name = 'Pong_POLICY_10.pt'
-path = F"../model/{model_save_name}"
+model_save_name = f'{name}.pt'
+path = F"../models/report/{model_save_name}"
 torch.save(policy_net.state_dict(), path)
 
 episode_durations = []
@@ -96,7 +98,7 @@ for i_episode in range(num_episodes):
     for t in count():
         # Select and perform an action
         state_cuda = state.to(device)
-        steps_done, action, threshold = select_action(steps_done, episodes_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
+        steps_done, action, threshold = select_action(steps_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device)
         _, reward, done, _ = env.step(action.item() + actions_offset)
         total_reward += reward
         actions[action.item()] += 1
@@ -123,7 +125,6 @@ for i_episode in range(num_episodes):
                 loss += temp
 
         if done:
-            episodes_done += 1
             episode_durations.append(t + 1)
             # plot_durations()
             break
@@ -133,10 +134,9 @@ for i_episode in range(num_episodes):
 
 
     # plot data
-    writer.add_scalar('training loss', loss, i_episode)
-    writer.add_scalar('total reward', total_reward, i_episode)
-    for i in range(len(actions)):
-        writer.add_scalars('Actions',{str(i):actions[i]}, i_episode)
+    writer.add_scalar('Training Loss', loss, i_episode)
+    writer.add_scalar('Training Reward', total_reward, i_episode)
+    writer.add_scalar('Actions', np.array(actions).sum(), i_episode)
 
     if i_episode % TARGET_UPDATE == 0:
         target_net.load_state_dict(policy_net.state_dict())

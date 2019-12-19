@@ -2,12 +2,9 @@ import math
 import random
 import torch
 
-def select_action(steps_done, episodes_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device):
+def select_action(steps_done, state, n_actions, EPS_END, EPS_START, EPS_DECAY, policy_net, device):
     sample = random.random()
-    if episodes_done < 400:
-        eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1 * steps_done / EPS_DECAY)
-    else:
-        eps_threshold = 0
+    eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1 * steps_done / EPS_DECAY)
     steps_done += 1
     if sample > eps_threshold:
         with torch.no_grad():

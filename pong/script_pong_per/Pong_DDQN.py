@@ -18,9 +18,9 @@ from Per import PER
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
 
-#env_name = "Pong-v0"
+env_name = "Pong-v0"
 #env_name = "PongNoFrameskip-v4"
-env_name = "PongDeterministic-v4"
+#env_name = "PongDeterministic-v4"
 env = gym.make(env_name).unwrapped #
 
 # if gpu is to be used
@@ -30,7 +30,7 @@ print('Start using %s\n' % device)
 # Display results using tensorboard
 init_time = datetime.now()
 name = f'PER_{init_time}'
-writer = SummaryWriter(f'../runs/report_runs/{name}')
+writer = SummaryWriter(f'../runs/report_runs/{name}_{env_name}')
 print(f"Writing to 'runs/report_runs/{name}'")
 
 Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'))
@@ -51,6 +51,10 @@ TARGET_UPDATE = 10000
 START_OPTIMIZER = 1000
 OPTIMIZE_FREQUENCE = 4
 learning_rate = 0.00025
+SAVE_MODEL = 250
+Skip = 15
+if env_name is "Pong-v0":
+    Skip = 45
 
 state_cuda = []
 batch_cuda = []
@@ -67,7 +71,6 @@ policy_net.train()
 target_net.eval()
 
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
-#optimizer = optim.RMSprop(policy_net.parameters(), lr=learning_rate)
 
 memory = PER(MEMORY_SIZE, GAMMA, Transition, device)
 
@@ -78,7 +81,6 @@ torch.save(policy_net.state_dict(), path)
 episode_durations = []
 steps_done = 0
 num_episodes = 3000
-episodes_done = 0
 
 for i_episode in range(num_episodes):
     # Initialize the environment and state
@@ -124,27 +126,22 @@ for i_episode in range(num_episodes):
             if temp is not None:
                 loss += temp
 
-        if done:
-            episode_durations.append(t + 1)
-            # plot_durations()
-            break
-
         if steps_done % TARGET_UPDATE == 0 and steps_done > (START_OPTIMIZER +TARGET_UPDATE):
             target_net.load_state_dict(policy_net.state_dict())
 
+        if done:
+            episode_durations.append(t + 1)
+            break
 
     # plot data
     writer.add_scalar('Training Loss', loss, i_episode)
     writer.add_scalar('Training Reward', total_reward, i_episode)
     writer.add_scalar('Actions', np.array(actions).sum(), i_episode)
 
-    if i_episode % TARGET_UPDATE == 0:
-        target_net.load_state_dict(policy_net.state_dict())
+    if i_episode % SAVE_MODEL == 0:
         print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
               "Actions: ", actions, "Threshold: ", threshold)
         torch.save(policy_net.state_dict(), path)
-
-    if i_episode % 250 == 0:
         print("Model new iteration Saved %d" % (i_episode))
         torch.save(policy_net.state_dict(), path.replace(".pt", F"_{i_episode}.pt"))
 

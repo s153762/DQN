@@ -1,21 +1,20 @@
 import gym
-import matplotlib.pyplot as plt
+import numpy as np
 from collections import namedtuple
 from itertools import count
 from PIL import Image
-import numpy as np
 
 import torch
 import torch.optim as optim
 import torchvision.transforms as T
 
-from ReplayMemory import ReplayMemory # Get ReplayMemory
-from DQN import DQN # Get Network
+from DuelingDQN import DuelingDQN # Get Network
 from GetScreen import get_screen
 from GetScreen import update_state
 from SelectAction import select_action
 from PlotDurations import plot_durations
 from OptimizeModel import optimize_model
+from ReplayMemory import ReplayMemory # Get ReplayMemory
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
 
@@ -30,7 +29,7 @@ print('Start using %s\n' % device)
 
 # Display results using tensorboard
 init_time = datetime.now()
-name = f'Baseline_{init_time}_{env_name}'
+name = f'PER_Dueling_{init_time}_{env_name}'
 writer = SummaryWriter(f'../runs/report_runs/{name}')
 print(f"Writing to 'runs/report_runs/{name}'")
 
@@ -39,6 +38,7 @@ Transition = namedtuple('Transition', ('state', 'action', 'next_state', 'reward'
 resize = T.Compose([T.ToPILImage(),
                     T.Resize(84, interpolation=Image.CUBIC),
                     T.ToTensor()])
+
 
 # Trainin parameters
 BATCH_SIZE = 32
@@ -62,12 +62,11 @@ batch_cuda = []
 n_actions = 3#env.action_space.n
 actions_offset = 1
 
-policy_net = DQN(4, n_actions).to(device)
-target_net = DQN(4, n_actions).to(device)
+policy_net = DuelingDQN(4, n_actions).to(device)
+target_net = DuelingDQN(4, n_actions).to(device)
 target_net.load_state_dict(policy_net.state_dict())
 policy_net.train()
 target_net.eval()
-
 
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
 #optimizer = optim.RMSprop(policy_net.parameters(), lr=learning_rate)
@@ -126,20 +125,23 @@ for i_episode in range(num_episodes):
             if temp is not None:
                 loss += temp
 
-        if steps_done % TARGET_UPDATE == 0 and steps_done > (START_OPTIMIZER+TARGET_UPDATE):
+        if steps_done % TARGET_UPDATE == 0 and steps_done > (START_OPTIMIZER +TARGET_UPDATE):
             target_net.load_state_dict(policy_net.state_dict())
 
         if done:
             episode_durations.append(t + 1)
             break
 
+
     # plot data
     writer.add_scalar('Training Loss', loss, i_episode)
     writer.add_scalar('Training Reward', total_reward, i_episode)
-    writer.add_scalar('Actions', np.array(actions).sum(), i_episode)
+    writer.add_scalar('Actions',np.array(actions).sum(), i_episode)
 
     if i_episode % SAVE_MODEL == 0:
-        print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1], "Actions: ", actions, "Threshold: ", threshold)
+        print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
+              "Actions: ", actions, "Threshold: ", threshold)
+        print("Model new iteration Saved %d" % (i_episode))
         torch.save(policy_net.state_dict(), path)
         torch.save(policy_net.state_dict(), path.replace(".pt", F"_{i_episode}.pt"))
 

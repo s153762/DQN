@@ -137,6 +137,7 @@ for i_episode in range(num_episodes):
 
         # plot data
         if steps_done % RUN_TEST == 0 or steps_done == 1:
+            print("Episodes done: ", episodes_done, ", I Episodes: ", i_episode, ", Steps_done: ", steps_done)
             reward_test, actions_test = test(envTest, resize, 10, policy_net, device, actions_offset, False)
             writer.add_scalar('Mean Test Reward', reward_test.mean(), steps_done)
             writer.add_scalar('Std Test Reward', reward_test.std(), steps_done)
@@ -144,14 +145,14 @@ for i_episode in range(num_episodes):
             writer.add_scalar('Std Test Actions', actions_test.std(), steps_done)
 
     # After Episode
-    writer.add_scalar('Training Loss', loss, i_episode)
-    writer.add_scalar('Sum Training Actions', actions.sum(), i_episode)
-    writer.add_scalar('Total Training Reward', total_reward, i_episode)
+    writer.add_scalar('Training Loss', loss, episodes_done)
+    writer.add_scalar('Sum Training Actions', actions.sum(), episodes_done)
+    writer.add_scalar('Total Training Reward', total_reward, episodes_done)
     writer.add_scalar('Training Loss Steps', loss, steps_done)
     writer.add_scalar('Sum Training Actions Steps', actions.sum(), steps_done)
     writer.add_scalar('Total Training Reward Steps', total_reward, steps_done)
 
-    if i_episode % 250 == 0:
+    if episodes_done % 250 == 0:
         print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
               "Actions: ", actions, "Threshold: ", threshold)
         torch.save(policy_net.state_dict(), path)

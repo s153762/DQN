@@ -35,5 +35,5 @@ def test(env, resize, n_episodes, policy, device, actions_offset, render=True,pa
                 break
 
     env.close()
-    print("Finished {} test episodes:\n  - Rewards: {}\n  - Amount of actions: {}".format(n_episodes, total_reward, actions))
+    print("  - Rewards: {}\n  - Amount of actions: {}".format(n_episodes, total_reward, actions))
     return np.array(total_reward), np.array(actions)

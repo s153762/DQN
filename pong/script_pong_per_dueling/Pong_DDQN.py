@@ -1,20 +1,20 @@
 import gym
-import numpy as np
 from collections import namedtuple
 from itertools import count
 from PIL import Image
+import numpy as np
 
 import torch
 import torch.optim as optim
 import torchvision.transforms as T
 
+from Per import PER
 from DuelingDQN import DuelingDQN # Get Network
 from GetScreen import get_screen
 from GetScreen import update_state
 from SelectAction import select_action
 from PlotDurations import plot_durations
 from OptimizeModel import optimize_model
-from Per import PER
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
 

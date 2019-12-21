@@ -1,5 +1,4 @@
 import gym
-import matplotlib.pyplot as plt
 from collections import namedtuple
 from itertools import count
 from PIL import Image
@@ -68,9 +67,7 @@ target_net.load_state_dict(policy_net.state_dict())
 policy_net.train()
 target_net.eval()
 
-
 optimizer = optim.AdamW(policy_net.parameters(), lr=learning_rate)
-#optimizer = optim.RMSprop(policy_net.parameters(), lr=learning_rate)
 
 memory = ReplayMemory(MEMORY_SIZE, Transition)
 

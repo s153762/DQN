@@ -20,21 +20,11 @@ def sample_memory(memory, BATCH_SIZE, Transition, device, non_blocking=False):
 
 
 def optimize_model(memory, BATCH_SIZE, Transition, device, policy_net, target_net, GAMMA, optimizer, batch=None):
-    """
-    Optimize policy following the DQN objective or Double DQN objective.
-    :param policy_net: policy model
-    :param target_net: target policy model updated every
-    :param memory: Replay memory
-    :param batch: batch to use (sample memory if None)
-    :param use_double_dqn: use double DQN
-    :return: None
-    """
-
     policy_net.train()
     target_net.eval()
 
-    #if len(memory) < BATCH_SIZE:
-    #    return
+    if len(memory) < BATCH_SIZE:
+        return
 
     if batch is None:
         batch = sample_memory(memory, BATCH_SIZE, Transition, device)

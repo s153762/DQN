@@ -33,9 +33,6 @@ def optimize_model(memory, BATCH_SIZE, Transition, device, policy_net, target_ne
     policy_net.train()
     target_net.eval()
 
-    if len(memory) < BATCH_SIZE:
-        return
-
     if batch is None:
         batch = sample_memory(memory, BATCH_SIZE, Transition, device)
 

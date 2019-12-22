@@ -129,14 +129,13 @@ for i_episode in range(num_episodes):
         if steps_done % TARGET_UPDATE == 0 and steps_done > (START_OPTIMIZER +TARGET_UPDATE):
             target_net.load_state_dict(policy_net.state_dict())
 
-        if i_episode % 5 == 0:
-            writer.add_scalar('Training Loss', loss, i_episode)
-            writer.add_scalar('Training Reward', total_reward, i_episode)
-            writer.add_scalar('Actions', np.array(actions).sum(), i_episode)
-
-            writer.add_scalar('Training Loss (steps)', loss, steps_done)
-            writer.add_scalar('Training Reward (steps)', total_reward, steps_done)
-            writer.add_scalar('Actions (steps)', np.array(actions).sum(), steps_done)
+        if steps_done % TARGET_UPDATE == 0 or steps_done == 1:
+            print("Episode: ", i_episode, ", steps: ", steps_done)
+            test_reward, test_actions = test(envTest, resize, 5, policy_net, device, actions_offset, False)
+            writer.add_scalar('Test Actions Mean', test_actions.mean(), i_episode)
+            writer.add_scalar('Test Reward Mean', test_reward.mean(), i_episode)
+            writer.add_scalar('Test Actions Std', test_actions.std(), i_episode)
+            writer.add_scalar('Test Reward Std', test_reward.std(), i_episode)
 
         if done:
             episode_durations.append(t + 1)
@@ -146,7 +145,11 @@ for i_episode in range(num_episodes):
     if i_episode % 5 == 0:
         writer.add_scalar('Training Loss', loss, i_episode)
         writer.add_scalar('Training Reward', total_reward, i_episode)
-        writer.add_scalar('Actions',np.array(actions).sum(), i_episode)
+        writer.add_scalar('Actions', np.array(actions).sum(), i_episode)
+
+        writer.add_scalar('Training Loss (steps)', loss, steps_done)
+        writer.add_scalar('Training Reward (steps)', total_reward, steps_done)
+        writer.add_scalar('Actions (steps)', np.array(actions).sum(), steps_done)
 
     if i_episode % SAVE_MODEL == 0:
         print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],

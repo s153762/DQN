@@ -15,6 +15,7 @@ from GetScreen import update_state
 from SelectAction import select_action
 from PlotDurations import plot_durations
 from OptimizeModel import optimize_model
+from RunTest import test
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
 
@@ -22,6 +23,7 @@ env_name = "Pong-v0"
 #env_name = "PongNoFrameskip-v4"
 #env_name = "PongDeterministic-v4"
 env = gym.make(env_name).unwrapped #
+envTest = gym.make(env_name).unwrapped
 
 # if gpu is to be used
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -44,9 +46,9 @@ resize = T.Compose([T.ToPILImage(),
 BATCH_SIZE = 32
 GAMMA = 0.99
 EPS_START = 1
-EPS_END = 0.01
+EPS_END = 0.015
 MEMORY_SIZE = 10000
-EPS_DECAY = 100000
+EPS_DECAY = 1000000
 TARGET_UPDATE = 10000
 START_OPTIMIZER = 1000
 OPTIMIZE_FREQUENCE = 4
@@ -127,20 +129,29 @@ for i_episode in range(num_episodes):
         if steps_done % TARGET_UPDATE == 0 and steps_done > (START_OPTIMIZER +TARGET_UPDATE):
             target_net.load_state_dict(policy_net.state_dict())
 
+        if i_episode % 5 == 0:
+            writer.add_scalar('Training Loss', loss, i_episode)
+            writer.add_scalar('Training Reward', total_reward, i_episode)
+            writer.add_scalar('Actions', np.array(actions).sum(), i_episode)
+
+            writer.add_scalar('Training Loss (steps)', loss, steps_done)
+            writer.add_scalar('Training Reward (steps)', total_reward, steps_done)
+            writer.add_scalar('Actions (steps)', np.array(actions).sum(), steps_done)
+
         if done:
             episode_durations.append(t + 1)
             break
 
     # plot data
-    writer.add_scalar('Training Loss', loss, i_episode)
-    writer.add_scalar('Training Reward', total_reward, i_episode)
-    writer.add_scalar('Actions',np.array(actions).sum(), i_episode)
+    if i_episode % 5 == 0:
+        writer.add_scalar('Training Loss', loss, i_episode)
+        writer.add_scalar('Training Reward', total_reward, i_episode)
+        writer.add_scalar('Actions',np.array(actions).sum(), i_episode)
 
     if i_episode % SAVE_MODEL == 0:
         print("Epoch: ", i_episode, " - Total reward: ", total_reward, "Episode duration: ", episode_durations[-1],
               "Actions: ", actions, "Threshold: ", threshold)
         torch.save(policy_net.state_dict(), path)
-        print("Model new iteration Saved %d" % (i_episode))
         torch.save(policy_net.state_dict(), path.replace(".pt", F"_{i_episode}.pt"))
 
     del state_cuda

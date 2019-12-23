@@ -1,3 +1,4 @@
 Loaded module: python3/3.6.2
 Loaded module: cuda/10.0
 Loaded module: cudnn/v7.4.2.24-prod-cuda-10.0
+User defined signal 2

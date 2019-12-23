@@ -19,9 +19,9 @@ from RunTest import test
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
 
-env_name = "Pong-v0"
+#env_name = "Pong-v0"
 #env_name = "PongNoFrameskip-v4"
-#env_name = "PongDeterministic-v4"
+env_name = "PongNoFrameskip-v4"
 env = gym.make(env_name).unwrapped #
 envTest = gym.make(env_name).unwrapped
 
@@ -55,7 +55,7 @@ OPTIMIZE_FREQUENCE = 4
 learning_rate = 0.00025
 SAVE_MODEL = 250
 Skip = 15
-if env_name is "Pong-v0":
+if env_name is "Pong-v0" or env_name is "PongNoFrameskip-v4":
     Skip = 45
 
 state_cuda = []
@@ -133,10 +133,10 @@ for i_episode in range(num_episodes):
         if steps_done % TARGET_UPDATE == 0 or steps_done == 1:
             print("Episode: ", i_episode, ", steps: ",steps_done)
             test_reward, test_actions = test(envTest, resize, 5, policy_net, device, actions_offset, False)
-            writer.add_scalar('Test Actions Mean', test_actions.mean(), i_episode)
-            writer.add_scalar('Test Reward Mean', test_reward.mean(), i_episode)
-            writer.add_scalar('Test Actions Std', test_actions.std(), i_episode)
-            writer.add_scalar('Test Reward Std', test_reward.std(), i_episode)
+            writer.add_scalar('Test Actions Mean', test_actions.mean(), steps_done)
+            writer.add_scalar('Test Reward Mean', test_reward.mean(), steps_done)
+            writer.add_scalar('Test Actions Std', test_actions.std(), steps_done)
+            writer.add_scalar('Test Reward Std', test_reward.std(), steps_done)
 
         if done:
             episode_durations.append(t + 1)

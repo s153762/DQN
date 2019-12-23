@@ -82,7 +82,7 @@ torch.save(policy_net.state_dict(), path)
 
 episode_durations = []
 steps_done = 0
-num_episodes = 3000
+num_episodes = 5000
 
 for i_episode in range(num_episodes):
     # Initialize the environment and state

@@ -21,7 +21,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 #env_name = "Pong-v0"
 #env_name = "PongNoFrameskip-v4"
-env_name = "PongNoFrameskip-v4"
+env_name = "PongDeterministic-v4"
 env = gym.make(env_name).unwrapped #
 envTest = gym.make(env_name).unwrapped
 
@@ -46,9 +46,9 @@ resize = T.Compose([T.ToPILImage(),
 BATCH_SIZE = 32
 GAMMA = 0.99
 EPS_START = 1
-EPS_END = 0.015
+EPS_END = 0.01
 MEMORY_SIZE = 10000
-EPS_DECAY = 1000000
+EPS_DECAY = 100000
 TARGET_UPDATE = 10000
 START_OPTIMIZER = 1000
 OPTIMIZE_FREQUENCE = 4

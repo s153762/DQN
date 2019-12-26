@@ -1,0 +1,67 @@
+Running script...
+Start using cuda
+
+Writing to 'runs/report_runs/Baseline_2019-12-25 16:39:13.178814_PongDeterministic-v4'
+Episode:  0 , steps:  1
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Epoch:  0  - Total reward:  -19.0 Episode duration:  923 Actions:  [313 299 311] Threshold:  0.9909141501322625
+Episode:  11 , steps:  10000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  22 , steps:  20000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  33 , steps:  30000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  43 , steps:  40000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  54 , steps:  50000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  65 , steps:  60000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  75 , steps:  70000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  84 , steps:  80000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  94 , steps:  90000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  101 , steps:  100000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  109 , steps:  110000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  115 , steps:  120000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  121 , steps:  130000
+  - Rewards: 5
+  - Amount of actions: [-2.0, -2.0, -2.0, -2.0, -2.0]
+Episode:  125 , steps:  140000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  130 , steps:  150000
+  - Rewards: 5
+  - Amount of actions: [-9.0, -9.0, -9.0, -9.0, -9.0]
+Episode:  134 , steps:  160000
+  - Rewards: 5
+  - Amount of actions: [-11.0, -11.0, -11.0, -11.0, -11.0]
+Episode:  138 , steps:  170000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  141 , steps:  180000
+  - Rewards: 5
+  - Amount of actions: [-19.0, -19.0, -19.0, -19.0, -19.0]
+Episode:  145 , steps:  190000
+  - Rewards: 5
+  - Amount of actions: [-3.0, -3.0, -3.0, -3.0, -3.0]
+Episode:  148 , steps:  200000
+Script fishished.

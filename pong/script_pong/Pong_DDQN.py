@@ -18,6 +18,7 @@ from OptimizeModel import optimize_model
 from RunTest import test
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
+from multiprocessing import Process
 
 #env_name = "Pong-v0"
 #env_name = "PongNoFrameskip-v4"
@@ -130,11 +131,12 @@ for i_episode in range(num_episodes):
 
         if steps_done % TARGET_UPDATE == 0 or steps_done == 1:
             print("Episode: ", i_episode, ", steps: ",steps_done)
-            test_reward, test_actions = test(envTest, resize, 5, policy_net, device, actions_offset, False)
-            writer.add_scalar('Test Actions Mean', test_actions.mean(), steps_done)
-            writer.add_scalar('Test Reward Mean', test_reward.mean(), steps_done)
-            writer.add_scalar('Test Actions Std', test_actions.std(), steps_done)
-            writer.add_scalar('Test Reward Std', test_reward.std(), steps_done)
+            total_reward_test, actions_test = test(envTest, steps_done, resize, 5, policy_net, device, actions_offset, Skip, False)
+            if total_reward_test.size > 0 and actions_test.size > 0:
+                writer.add_scalar('Test Actions Mean', actions_test.mean(), steps_done)
+                writer.add_scalar('Test Reward Mean', total_reward_test.mean(), steps_done)
+                writer.add_scalar('Test Actions Std', actions_test.std(), steps_done)
+                writer.add_scalar('Test Reward Std', total_reward_test.std(), steps_done)
 
         if done:
             episode_durations.append(t + 1)

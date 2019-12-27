@@ -20,9 +20,9 @@ from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
 from multiprocessing import Process
 
-#env_name = "Pong-v0"
+env_name = "Pong-v0"
 #env_name = "PongNoFrameskip-v4"
-env_name = "PongDeterministic-v4"
+#env_name = "PongDeterministic-v4"
 env = gym.make(env_name).unwrapped #
 envTest = gym.make(env_name).unwrapped
 

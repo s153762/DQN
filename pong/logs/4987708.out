@@ -1,0 +1,3578 @@
+Running script...
+Start using cuda
+
+Writing to 'runs/report_runs/Baseline_2019-12-26 13:43:31.669987_PongDeterministic-v4'
+Episode:  0 , steps:  1
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 749 749 749 749]
+Epoch:  0  - Total reward:  -21.0 Episode duration:  871 Actions:  [279 311 281] Threshold:  0.9914243581329146
+Episode:  10 , steps:  10000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 749 749 749 749]
+Episode:  22 , steps:  20000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 749 749 749 749]
+Episode:  33 , steps:  30000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 749 749 749 749]
+Episode:  44 , steps:  40000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [809 809 809 809 809]
+Episode:  55 , steps:  50000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 749 749 749 749]
+Episode:  66 , steps:  60000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 749 749 749 749]
+Episode:  77 , steps:  70000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [811 811 749 749 811]
+Episode:  85 , steps:  80000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [777 777 777 777 777]
+Episode:  94 , steps:  90000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 810 810 749 749]
+Episode:  102 , steps:  100000
+start
+  - Rewards: [-20 -20 -20 -20 -20]
+  - Amount of actions: [906 906 906 906 906]
+Episode:  109 , steps:  110000
+start
+  - Rewards: [-11 -11 -11 -11 -13]
+  - Amount of actions: [2484 2484 2484 2484 2373]
+Episode:  114 , steps:  120000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1978 2039 2039 1978 2039]
+Episode:  120 , steps:  130000
+start
+  - Rewards: [-21   9 -20 -21 -21]
+  - Amount of actions: [1739 3058 3364 1739 1739]
+Episode:  125 , steps:  140000
+start
+  - Rewards: [-16 -20 -16 -20 -16]
+  - Amount of actions: [5763 5665 5763 5665 5763]
+Episode:  128 , steps:  150000
+start
+  - Rewards: [-21 -21  21  21 -21]
+  - Amount of actions: [4270 4270 1930 1946 4270]
+Episode:  132 , steps:  160000
+start
+  - Rewards: [-2 -2 -2 -1 -2]
+  - Amount of actions: [6726 6726 6726 6597 6726]
+Episode:  136 , steps:  170000
+start
+  - Rewards: [-20 -20 -20 -20 -20]
+  - Amount of actions: [1627 1687 1687 1627 1627]
+Episode:  141 , steps:  180000
+start
+  - Rewards: [-10  -8  -8 -10 -21]
+  - Amount of actions: [4599 5099 5099 4599 1757]
+Episode:  145 , steps:  190000
+start
+  - Rewards: [-15 -15 -15 -15 -15]
+  - Amount of actions: [2265 2265 2265 2271 2271]
+Episode:  148 , steps:  200000
+start
+  - Rewards: [-21   1   1 -21 -21]
+  - Amount of actions: [2680 4999 4910 2680 2680]
+Episode:  151 , steps:  210000
+start
+  - Rewards: [-20 -20 -20 -20 -20]
+  - Amount of actions: [2818 2916 2916 2818 2818]
+Episode:  155 , steps:  220000
+start
+  - Rewards: [-21 -17 -17 -17 -21]
+  - Amount of actions: [2061 7456 7456 7456 2061]
+Episode:  158 , steps:  230000
+start
+  - Rewards: [ -2  -2 -18  -2  -2]
+  - Amount of actions: [5894 5894 2280 5894 5894]
+Episode:  161 , steps:  240000
+start
+  - Rewards: [-20 -17 -15 -17 -20]
+  - Amount of actions: [3291 3609 3905 3645 3291]
+Episode:  164 , steps:  250000
+start
+  - Rewards: [-20 -20 -20 -20 -20]
+  - Amount of actions: [2442 2442 2442 2442 2442]
+Episode:  167 , steps:  260000
+start
+  - Rewards: [-13 -13 -13 -13 -13]
+  - Amount of actions: [3837 3837 3837 3928 3928]
+Episode:  170 , steps:  270000
+start
+  - Rewards: [-15 -15 -15 -15 -15]
+  - Amount of actions: [3176 3176 3176 3176 3176]
+Episode:  173 , steps:  280000
+start
+  - Rewards: [-16 -16 -16 -10 -10]
+  - Amount of actions: [4376 4376 4376 5971 5971]
+Episode:  175 , steps:  290000
+start
+  - Rewards: [-19 -21 -19 -21 -21]
+  - Amount of actions: [3077 2557 3077 2557 2557]
+Episode:  178 , steps:  300000
+start
+  - Rewards: [-20 -21 -21 -21 -20]
+  - Amount of actions: [2097 2276 2276 2276 2097]
+Episode:  180 , steps:  310000
+start
+  - Rewards: [1 1 1 1 1]
+  - Amount of actions: [5652 5652 5652 5652 5652]
+Episode:  182 , steps:  320000
+start
+  - Rewards: [ -9 -11  -9 -17 -11]
+  - Amount of actions: [4353 4240 4353 1902 4240]
+Episode:  185 , steps:  330000
+start
+  - Rewards: [-8 -8 -8 -8 -8]
+  - Amount of actions: [5152 5152 5152 5152 5152]
+Episode:  187 , steps:  340000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [2283 2283 2283 2283 2283]
+Episode:  189 , steps:  350000
+start
+  - Rewards: [-19 -19 -19 -19 -19]
+  - Amount of actions: [3924 3924 3880 3924 3880]
+Episode:  191 , steps:  360000
+start
+  - Rewards: [-21 -21 -11  -9  -9]
+  - Amount of actions: [2948 2948 3758 4186 4186]
+Episode:  193 , steps:  370000
+start
+  - Rewards: [6 1 6 1 1]
+  - Amount of actions: [4443 4463 4443 4433 4433]
+Episode:  196 , steps:  380000
+start
+  - Rewards: [-10 -10 -11  -9  -9]
+  - Amount of actions: [4405 4405 4217 4593 4593]
+Episode:  200 , steps:  390000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1743 1743 1743 1743 1743]
+Episode:  205 , steps:  400000
+start
+  - Rewards: [-17 -21 -19 -19 -17]
+  - Amount of actions: [1564  837 1049 1049 1564]
+Episode:  208 , steps:  410000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1800 1800 1800 1800 1800]
+Episode:  212 , steps:  420000
+start
+  - Rewards: [20 20]
+  - Amount of actions: [2814 2814]
+Episode:  216 , steps:  430000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1921 1921 1921 1921 1921]
+Episode:  221 , steps:  440000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1688 1688 1688 1688 1688]
+Episode:  225 , steps:  450000
+start
+  - Rewards: [18 17 17 18 18]
+  - Amount of actions: [2782 2939 2939 2782 2782]
+Episode:  230 , steps:  460000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1645 1645 1645 1645 1645]
+Episode:  234 , steps:  470000
+start
+  - Rewards: [21 20 20 21 20]
+  - Amount of actions: [1767 1722 1722 1767 1722]
+Episode:  238 , steps:  480000
+start
+  - Rewards: [ 21 -21  21  21  21]
+  - Amount of actions: [1688 3188 1688 1688 1688]
+Episode:  243 , steps:  490000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1644 1644 1644 1644 1644]
+Episode:  248 , steps:  500000
+start
+  - Rewards: [21 20 20 20 20]
+  - Amount of actions: [2849 2856 2856 2856 2856]
+Epoch:  250  - Total reward:  19.0 Episode duration:  2061 Actions:  [931 467 663] Threshold:  0.016401324634746944
+Episode:  252 , steps:  510000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1722 1722 1722 1722 1722]
+Episode:  257 , steps:  520000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1751 1751 1751 1751 1751]
+Episode:  262 , steps:  530000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1688 1688 1688 1688 1688]
+Episode:  267 , steps:  540000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1688 1688 1688 1688 1688]
+Episode:  271 , steps:  550000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [3820 3820 3820 3820 3820]
+Episode:  276 , steps:  560000
+start
+  - Rewards: [20 20 20 21 21]
+  - Amount of actions: [2154 2154 2154 2073 2073]
+Episode:  280 , steps:  570000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1780 1780 1780 1780 1780]
+Episode:  285 , steps:  580000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1688 1688 1688 1688 1688]
+Episode:  289 , steps:  590000
+start
+  - Rewards: [20 20 21 21 20]
+  - Amount of actions: [1855 1855 1683 1683 1855]
+Episode:  295 , steps:  600000
+start
+  - Rewards: [20 21 21 21 21]
+  - Amount of actions: [1662 1627 1645 1627 1627]
+Episode:  301 , steps:  610000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1757 1757 1757 1757 1757]
+Episode:  306 , steps:  620000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  311 , steps:  630000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1662 1662 1662 1662 1662]
+Episode:  317 , steps:  640000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1801 1801 1801 1801 1662]
+Episode:  323 , steps:  650000
+start
+  - Rewards: [21 20 20 20 20]
+  - Amount of actions: [1688 1662 1662 1662 1662]
+Episode:  328 , steps:  660000
+start
+  - Rewards: [20 19 20 20 20]
+  - Amount of actions: [1783 1877 1783 1783 1783]
+Episode:  333 , steps:  670000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1751 1751 1751 1751 1662]
+Episode:  339 , steps:  680000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1722 1722 1722 1722 1722]
+Episode:  345 , steps:  690000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1707 1707 1707 1707 1707]
+Episode:  351 , steps:  700000
+start
+  - Rewards: [18 18 18 18 18]
+  - Amount of actions: [1815 1815 1815 1815 1815]
+Episode:  356 , steps:  710000
+start
+  - Rewards: [ 2 15  2 15  2]
+  - Amount of actions: [4624 2112 4624 2112 4624]
+Episode:  362 , steps:  720000
+start
+  - Rewards: [21 20 20 20 21]
+  - Amount of actions: [1627 1771 1771 1771 1627]
+Episode:  367 , steps:  730000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1722 1722 1722 1722 1722]
+Episode:  373 , steps:  740000
+start
+  - Rewards: [11 11 11 11 11]
+  - Amount of actions: [3122 3122 3122 3122 3122]
+Episode:  378 , steps:  750000
+start
+  - Rewards: [2 2 2 2 2]
+  - Amount of actions: [5196 5196 5196 5196 5196]
+Episode:  384 , steps:  760000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  390 , steps:  770000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  395 , steps:  780000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [2515 2515 2515 2515 2515]
+Episode:  400 , steps:  790000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  406 , steps:  800000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1723 1723 1723 1723 1723]
+Episode:  411 , steps:  810000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1644 1644 1644 1644 1644]
+Episode:  416 , steps:  820000
+start
+  - Rewards: [21 20 20 20 20]
+  - Amount of actions: [1627 1741 1741 1741 1741]
+Episode:  422 , steps:  830000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  427 , steps:  840000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1842 1842 1842 1842 1842]
+Episode:  433 , steps:  850000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [3428 3428 3428 3428 3428]
+Episode:  438 , steps:  860000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  444 , steps:  870000
+start
+  - Rewards: [20 20 21 20 20]
+  - Amount of actions: [1842 1842 1645 1842 1842]
+Episode:  449 , steps:  880000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1751 1751 1751 1751 1888]
+Episode:  455 , steps:  890000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1683 1627 1627 1687]
+Episode:  460 , steps:  900000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1683 1683 1783 1683 1683]
+Episode:  466 , steps:  910000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1860 1782 1782 1782 1860]
+Episode:  471 , steps:  920000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  476 , steps:  930000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1748 1748 1748 1748 1748]
+Episode:  481 , steps:  940000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1782 1782 1782 1782 1782]
+Episode:  486 , steps:  950000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  492 , steps:  960000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1781 1781 1781 1781 1781]
+Episode:  497 , steps:  970000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1782 1782 1782 1782 1782]
+Epoch:  500  - Total reward:  21.0 Episode duration:  1747 Actions:  [650 440 657] Threshold:  0.010056969738429594
+Episode:  502 , steps:  980000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1742 1742 1742 1742 1742]
+Episode:  508 , steps:  990000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1901 1901 1901 1901 1901]
+Episode:  513 , steps:  1000000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [2129 2129 2129 2129 2129]
+Episode:  518 , steps:  1010000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [871 871 871 871 871]
+Episode:  523 , steps:  1020000
+start
+  - Rewards: [20 20 20 21 21]
+  - Amount of actions: [1662 1662 1662 1627 1627]
+Episode:  529 , steps:  1030000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  534 , steps:  1040000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1662 1662 1662 1662 1662]
+Episode:  540 , steps:  1050000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [809 809 809 809 809]
+Episode:  545 , steps:  1060000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1704 1704 1704 1704 1704]
+Episode:  551 , steps:  1070000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1704 1627 1627]
+Episode:  556 , steps:  1080000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1721 1721 1721 1721 1721]
+Episode:  561 , steps:  1090000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1707 1707 1707 1707 1707]
+Episode:  567 , steps:  1100000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1704 1704 1704 1704 1704]
+Episode:  572 , steps:  1110000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  577 , steps:  1120000
+start
+  - Rewards: [13 13 13 13 13]
+  - Amount of actions: [3591 3591 3591 3591 3591]
+Episode:  583 , steps:  1130000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  589 , steps:  1140000
+start
+  - Rewards: [21 20 20 20 21]
+  - Amount of actions: [1688 1722 1722 1722 1688]
+Episode:  595 , steps:  1150000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1705 1705 1705 1688 1705]
+Episode:  601 , steps:  1160000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 749 749 749 749]
+Episode:  606 , steps:  1170000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  612 , steps:  1180000
+start
+  - Rewards: [19 19 19 19 21]
+  - Amount of actions: [1757 1757 1757 1757 1627]
+Episode:  617 , steps:  1190000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1842 1842 1842 1842 1842]
+Episode:  623 , steps:  1200000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  630 , steps:  1210000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1623 1623 1623 1623 1623]
+Episode:  635 , steps:  1220000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  641 , steps:  1230000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  645 , steps:  1240000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  651 , steps:  1250000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1751 1751 1751 1751 1751]
+Episode:  657 , steps:  1260000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1627 1627 1627 1662 1627]
+Episode:  663 , steps:  1270000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1627 1627 1722 1627 1627]
+Episode:  668 , steps:  1280000
+start
+  - Rewards: [20 21 20 21 20]
+  - Amount of actions: [1722 1627 1722 1627 1722]
+Episode:  674 , steps:  1290000
+start
+  - Rewards: [21 20 20 20 20]
+  - Amount of actions: [1627 1722 1722 1739 1739]
+Episode:  679 , steps:  1300000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  685 , steps:  1310000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  691 , steps:  1320000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  697 , steps:  1330000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  703 , steps:  1340000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  708 , steps:  1350000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  714 , steps:  1360000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1627 1627 1627 1722 1627]
+Episode:  719 , steps:  1370000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1662 1662 1662 1662 1662]
+Episode:  725 , steps:  1380000
+start
+  - Rewards: [19 21 21 21 21]
+  - Amount of actions: [1780 1622 1622 1622 1622]
+Episode:  731 , steps:  1390000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  737 , steps:  1400000
+start
+  - Rewards: [20 20 20 20 21]
+  - Amount of actions: [1657 1702 1702 1702 1622]
+Episode:  743 , steps:  1410000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1657 1738 1657 1657 1657]
+Episode:  748 , steps:  1420000
+start
+  - Rewards: [21 21 21 20 20]
+  - Amount of actions: [1622 1622 1622 1704 1704]
+Epoch:  750  - Total reward:  20.0 Episode duration:  1685 Actions:  [539 534 612] Threshold:  0.010000639588819976
+Episode:  753 , steps:  1430000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1715 1715 1715 1715 1715]
+Episode:  758 , steps:  1440000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1678 1678 1678 1678 1678]
+Episode:  764 , steps:  1450000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1678 1678 1622 1622 1622]
+Episode:  769 , steps:  1460000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1745 1745 1745 1745 1745]
+Episode:  775 , steps:  1470000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1683 1683 1683 1683 1683]
+Episode:  781 , steps:  1480000
+start
+  - Rewards: [20 20 20 21 20]
+  - Amount of actions: [1745 1745 1745 1622 1745]
+Episode:  786 , steps:  1490000
+start
+  - Rewards: [21 19 21 21 19]
+  - Amount of actions: [1622 1815 1622 1622 1815]
+Episode:  792 , steps:  1500000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1819 1622 1622]
+Episode:  797 , steps:  1510000
+start
+  - Rewards: [20 21 21 20 21]
+  - Amount of actions: [1702 1622 1622 1702 1622]
+Episode:  803 , steps:  1520000
+start
+  - Rewards: [21 20 21 21 21]
+  - Amount of actions: [1622 1657 1622 1622 1622]
+Episode:  809 , steps:  1530000
+start
+  - Rewards: [20 21 21 21 20]
+  - Amount of actions: [1764 1622 1622 1622 1764]
+Episode:  815 , steps:  1540000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  820 , steps:  1550000
+start
+  - Rewards: [20 21 20 20 21]
+  - Amount of actions: [1657 1622 1657 1657 1622]
+Episode:  826 , steps:  1560000
+start
+  - Rewards: [ 20  19 -21  20  21]
+  - Amount of actions: [1657 1800  989 1657 1622]
+Episode:  832 , steps:  1570000
+start
+  - Rewards: [ 21 -21 -21 -21 -21]
+  - Amount of actions: [1622  749  749  749  749]
+Episode:  838 , steps:  1580000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1715 1715 1715 1715 1715]
+Episode:  843 , steps:  1590000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  849 , steps:  1600000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1677 1677 1677 1677]
+Episode:  854 , steps:  1610000
+start
+  - Rewards: [20 21 20 20 20]
+  - Amount of actions: [1838 1622 1657 1838 1838]
+Episode:  860 , steps:  1620000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1657 1719 1657 1657 1719]
+Episode:  866 , steps:  1630000
+start
+  - Rewards: [21 21 19 21 19]
+  - Amount of actions: [1622 1622 1858 1622 1858]
+Episode:  871 , steps:  1640000
+start
+  - Rewards: [18 18 18 18 18]
+  - Amount of actions: [1862 1862 1862 1862 1862]
+Episode:  876 , steps:  1650000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1622 1622 1622 1794 1622]
+Episode:  881 , steps:  1660000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1639 1622 1639 1622]
+Episode:  886 , steps:  1670000
+start
+  - Rewards: [20 20 20 20 21]
+  - Amount of actions: [1717 1717 1717 1717 1622]
+Episode:  892 , steps:  1680000
+start
+  - Rewards: [20 21 19 21 20]
+  - Amount of actions: [1657 1622 1739 1622 1657]
+Episode:  898 , steps:  1690000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1622 1622 1703 1622 1622]
+Episode:  903 , steps:  1700000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1617 1617 1710 1617 1617]
+Episode:  909 , steps:  1710000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  914 , steps:  1720000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1622 1622 1622 1718 1622]
+Episode:  920 , steps:  1730000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  925 , steps:  1740000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  930 , steps:  1750000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  936 , steps:  1760000
+start
+  - Rewards: [20 21 21 21 21]
+  - Amount of actions: [1718 1623 1623 1623 1623]
+Episode:  942 , steps:  1770000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1622 1622 1622 1717 1622]
+Episode:  948 , steps:  1780000
+start
+  - Rewards: [20 21 21 21 20]
+  - Amount of actions: [1656 1622 1622 1622 1702]
+Episode:  953 , steps:  1790000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  959 , steps:  1800000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  964 , steps:  1810000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  970 , steps:  1820000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  976 , steps:  1830000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  982 , steps:  1840000
+start
+  - Rewards: [21 21 21 21 20]
+  - Amount of actions: [1617 1617 1617 1617 1680]
+Episode:  988 , steps:  1850000
+start
+  - Rewards: [19 21 21 21 21]
+  - Amount of actions: [1775 1617 1673 1617 1617]
+Episode:  994 , steps:  1860000
+start
+  - Rewards: [20 20 20 20 21]
+  - Amount of actions: [1789 1789 1789 1789 1635]
+Episode:  999 , steps:  1870000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1775 1775 1775 1775 1775]
+Epoch:  1000  - Total reward:  20.0 Episode duration:  1789 Actions:  [664 478 647] Threshold:  0.010000007313599067
+Episode:  1005 , steps:  1880000
+start
+  - Rewards: [21 20 21 21 20]
+  - Amount of actions: [1617 1774 1617 1617 1712]
+Episode:  1011 , steps:  1890000
+start
+  - Rewards: [20 21 20 21 20]
+  - Amount of actions: [1697 1617 1697 1617 1697]
+Episode:  1017 , steps:  1900000
+start
+  - Rewards: [20 21 20 20 21]
+  - Amount of actions: [1697 1617 1697 1697 1617]
+Episode:  1023 , steps:  1910000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1029 , steps:  1920000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  1034 , steps:  1930000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1040 , steps:  1940000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1729 1729 1729 1729 1729]
+Episode:  1046 , steps:  1950000
+start
+  - Rewards: [15 15 15 15 15]
+  - Amount of actions: [2294 2294 2294 2294 2294]
+Episode:  1051 , steps:  1960000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1772 1772 1772 1772 1772]
+Episode:  1056 , steps:  1970000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1772 1772 1772 1772 1772]
+Episode:  1061 , steps:  1980000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1741 1772 1741 1741 1741]
+Episode:  1066 , steps:  1990000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1741 1741 1741 1741 1741]
+Episode:  1072 , steps:  2000000
+start
+  - Rewards: [20 20 20 21 21]
+  - Amount of actions: [1832 1832 1832 1617 1617]
+Episode:  1077 , steps:  2010000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1911 1699 1911 1911 1911]
+Episode:  1083 , steps:  2020000
+start
+  - Rewards: [20 21 21 21 21]
+  - Amount of actions: [1712 1617 1617 1617 1617]
+Episode:  1088 , steps:  2030000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1712 1712 1712 1712 1712]
+Episode:  1094 , steps:  2040000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1712 1712 1712 1712 1712]
+Episode:  1099 , steps:  2050000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1777 1777 1777 1777 1777]
+Episode:  1104 , steps:  2060000
+start
+  - Rewards: []
+  - Amount of actions: []
+Episode:  1109 , steps:  2070000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1796 1796 1796 1796 1736]
+Episode:  1115 , steps:  2080000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1652 1652 1652 1652]
+Episode:  1120 , steps:  2090000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [2792 2792 2792 2792 2792]
+Episode:  1126 , steps:  2100000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1798 1798 1798 1798 1798]
+Episode:  1131 , steps:  2110000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1717 1717 1717 1717 1717]
+Episode:  1137 , steps:  2120000
+start
+  - Rewards: [21 20 20 20 20]
+  - Amount of actions: [1622 1715 1715 1715 1715]
+Episode:  1142 , steps:  2130000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1850 1850 1850 1850 1850]
+Episode:  1147 , steps:  2140000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1798 1798 1798 1798 1798]
+Episode:  1153 , steps:  2150000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1772 1772 1772 1772 1772]
+Episode:  1158 , steps:  2160000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1695 1695 1695 1695 1695]
+Episode:  1164 , steps:  2170000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1697 1697 1697 1697 1697]
+Episode:  1170 , steps:  2180000
+start
+  - Rewards: [21 20 20 20 20]
+  - Amount of actions: [1617 1853 1853 1853 1853]
+Episode:  1175 , steps:  2190000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1678 1678 1678 1678 1678]
+Episode:  1180 , steps:  2200000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1774 1774 1774 1774 1774]
+Episode:  1186 , steps:  2210000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1740 1740 1740 1740 1740]
+Episode:  1190 , steps:  2220000
+start
+  - Rewards: [18 18 18 18 18]
+  - Amount of actions: [1984 1984 1984 1984 1984]
+Episode:  1195 , steps:  2230000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1635 1635 1635 1635 1635]
+Episode:  1201 , steps:  2240000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1712 1699 1699 1652]
+Episode:  1206 , steps:  2250000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1212 , steps:  2260000
+start
+  - Rewards: [21 20 21 21 20]
+  - Amount of actions: [1617 1791 1617 1617 1791]
+Episode:  1217 , steps:  2270000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1791 1652 1652 1652 1652]
+Episode:  1223 , steps:  2280000
+start
+  - Rewards: [21 21 21 20 20]
+  - Amount of actions: [1617 1617 1617 1833 1833]
+Episode:  1228 , steps:  2290000
+start
+  - Rewards: [21 20 21 20 21]
+  - Amount of actions: [1617 1652 1617 1652 1617]
+Episode:  1234 , steps:  2300000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1699 1699 1699 1699 1699]
+Episode:  1239 , steps:  2310000
+start
+  - Rewards: [20 20 20 20 21]
+  - Amount of actions: [1680 1832 1832 1680 1617]
+Episode:  1245 , steps:  2320000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1712 1712 1712 1712 1712]
+Episode:  1250 , steps:  2330000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1788 1697 1697 1652 1788]
+Epoch:  1250  - Total reward:  20.0 Episode duration:  1713 Actions:  [778 451 484] Threshold:  0.010000000074818171
+Episode:  1256 , steps:  2340000
+start
+  - Rewards: [21 20 20 21 20]
+  - Amount of actions: [1679 1697 1697 1679 1697]
+Episode:  1261 , steps:  2350000
+start
+  - Rewards: [19 19 21 21 21]
+  - Amount of actions: [1732 1732 1617 1617 1617]
+Episode:  1267 , steps:  2360000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1273 , steps:  2370000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1697 1697 1697 1697 1697]
+Episode:  1278 , steps:  2380000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1283 , steps:  2390000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1749 1749 1749 1749 1749]
+Episode:  1289 , steps:  2400000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1680 1680 1680 1680 1680]
+Episode:  1295 , steps:  2410000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1867 1867 1867 1867 1867]
+Episode:  1300 , steps:  2420000
+start
+  - Rewards: [21 20 21 20 21]
+  - Amount of actions: [1617 1652 1617 1652 1617]
+Episode:  1305 , steps:  2430000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1311 , steps:  2440000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1773 1773 1773 1773 1773]
+Episode:  1317 , steps:  2450000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1991 1991 1991 1991 1991]
+Episode:  1323 , steps:  2460000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1328 , steps:  2470000
+start
+  - Rewards: [1 1 1 1 1]
+  - Amount of actions: [3092 3092 3092 3092 3092]
+Episode:  1334 , steps:  2480000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1339 , steps:  2490000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1345 , steps:  2500000
+start
+  - Rewards: [21 20 21 21 20]
+  - Amount of actions: [1617 1652 1617 1617 1652]
+Episode:  1351 , steps:  2510000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1789 1789 1789 1789 1789]
+Episode:  1356 , steps:  2520000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1362 , steps:  2530000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1368 , steps:  2540000
+start
+  - Rewards: [20 20 21 20 20]
+  - Amount of actions: [1652 1652 1617 1652 1652]
+Episode:  1374 , steps:  2550000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1652 1652 1652 1652]
+Episode:  1380 , steps:  2560000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1386 , steps:  2570000
+start
+  - Rewards: [20 21 21 21 21]
+  - Amount of actions: [1652 1617 1617 1617 1617]
+Episode:  1392 , steps:  2580000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1398 , steps:  2590000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1403 , steps:  2600000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1409 , steps:  2610000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1415 , steps:  2620000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1421 , steps:  2630000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1427 , steps:  2640000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1432 , steps:  2650000
+start
+  - Rewards: [14 14 14 14 14]
+  - Amount of actions: [2119 2119 2119 2119 2119]
+Episode:  1438 , steps:  2660000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1444 , steps:  2670000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1450 , steps:  2680000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1455 , steps:  2690000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1461 , steps:  2700000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1467 , steps:  2710000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1712 1712 1712 1712 1712]
+Episode:  1472 , steps:  2720000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1801 1801 1801 1801 1801]
+Episode:  1478 , steps:  2730000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1484 , steps:  2740000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1489 , steps:  2750000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1495 , steps:  2760000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Epoch:  1500  - Total reward:  20.0 Episode duration:  1713 Actions:  [701 409 603] Threshold:  0.010000000000927772
+Episode:  1501 , steps:  2770000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1506 , steps:  2780000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1512 , steps:  2790000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1518 , steps:  2800000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1524 , steps:  2810000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1530 , steps:  2820000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1536 , steps:  2830000
+start
+  - Rewards: [21 21 20 20 21]
+  - Amount of actions: [1617 1617 1789 1789 1617]
+Episode:  1542 , steps:  2840000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1548 , steps:  2850000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1554 , steps:  2860000
+start
+  - Rewards: [11 11 11 11 11]
+  - Amount of actions: [2407 2407 2407 2407 2407]
+Episode:  1560 , steps:  2870000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1565 , steps:  2880000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1571 , steps:  2890000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1872 1872 1872 1872 1872]
+Episode:  1577 , steps:  2900000
+start
+  - Rewards: [20 20 21 20 21]
+  - Amount of actions: [1680 1680 1617 1680 1617]
+Episode:  1582 , steps:  2910000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1588 , steps:  2920000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1594 , steps:  2930000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1600 , steps:  2940000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1605 , steps:  2950000
+start
+  - Rewards: [21 21 20 21 20]
+  - Amount of actions: [1617 1617 1699 1617 1699]
+Episode:  1611 , steps:  2960000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1617 , steps:  2970000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1623 , steps:  2980000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1629 , steps:  2990000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1635 , steps:  3000000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1641 , steps:  3010000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1646 , steps:  3020000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1652 , steps:  3030000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1658 , steps:  3040000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1729 1729 1729 1729 1729]
+Episode:  1663 , steps:  3050000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1669 , steps:  3060000
+start
+  - Rewards: [21 21 21 21 20]
+  - Amount of actions: [1617 1617 1617 1617 1741]
+Episode:  1675 , steps:  3070000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1681 , steps:  3080000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1647 1617]
+Episode:  1686 , steps:  3090000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1652 1652 1652 1652]
+Episode:  1692 , steps:  3100000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1698 , steps:  3110000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1734 1734 1734 1734 1734]
+Episode:  1702 , steps:  3120000
+start
+  - Rewards: [21 21 20 21 20]
+  - Amount of actions: [1617 1617 1727 1617 1727]
+Episode:  1708 , steps:  3130000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1617 1617 1712 1617 1617]
+Episode:  1714 , steps:  3140000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1720 , steps:  3150000
+start
+  - Rewards: [20 21 20 20 21]
+  - Amount of actions: [1821 1617 1821 1821 1617]
+Episode:  1725 , steps:  3160000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1731 , steps:  3170000
+start
+  - Rewards: [20 20 21 21 20]
+  - Amount of actions: [1680 1680 1617 1617 1680]
+Episode:  1737 , steps:  3180000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1743 , steps:  3190000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1749 , steps:  3200000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Epoch:  1750  - Total reward:  20.0 Episode duration:  1697 Actions:  [527 597 573] Threshold:  0.01000000000001228
+Episode:  1755 , steps:  3210000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1761 , steps:  3220000
+start
+  - Rewards: [20 21 21 21 21]
+  - Amount of actions: [1729 1617 1617 1617 1617]
+Episode:  1766 , steps:  3230000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1772 , steps:  3240000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1778 , steps:  3250000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1783 , steps:  3260000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1789 , steps:  3270000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1795 , steps:  3280000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1801 , steps:  3290000
+start
+  - Rewards: [18 21 21 20 21]
+  - Amount of actions: [1926 1617 1617 1680 1617]
+Episode:  1806 , steps:  3300000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1812 , steps:  3310000
+start
+  - Rewards: [11 11 11 11 11]
+  - Amount of actions: [2752 2752 2752 2752 2752]
+Episode:  1817 , steps:  3320000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1792 1792 1792 1792 1792]
+Episode:  1823 , steps:  3330000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1829 , steps:  3340000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1834 , steps:  3350000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1840 , steps:  3360000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1846 , steps:  3370000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1852 , steps:  3380000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1857 , steps:  3390000
+start
+  - Rewards: [ 21  21  21 -21 -21]
+  - Amount of actions: [1617 1617 1617  808  808]
+Episode:  1863 , steps:  3400000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1868 , steps:  3410000
+start
+  - Rewards: [12 12 12 12 12]
+  - Amount of actions: [2630 2630 2630 2630 2630]
+Episode:  1873 , steps:  3420000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1879 , steps:  3430000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1885 , steps:  3440000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1891 , steps:  3450000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1897 , steps:  3460000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1652 1652 1652 1652]
+Episode:  1903 , steps:  3470000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1909 , steps:  3480000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1915 , steps:  3490000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1921 , steps:  3500000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1927 , steps:  3510000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1932 , steps:  3520000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1937 , steps:  3530000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1943 , steps:  3540000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1949 , steps:  3550000
+start
+  - Rewards: [20 20 21 21 20]
+  - Amount of actions: [1759 1759 1617 1617 1652]
+Episode:  1955 , steps:  3560000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1960 , steps:  3570000
+start
+  - Rewards: [ 20  20  21 -21 -21]
+  - Amount of actions: [1699 1699 1617  749  749]
+Episode:  1965 , steps:  3580000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1791 1791 1791 1791 1791]
+Episode:  1970 , steps:  3590000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1976 , steps:  3600000
+start
+  - Rewards: [20 21 20 20 21]
+  - Amount of actions: [1759 1617 1759 1759 1617]
+Episode:  1982 , steps:  3610000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1987 , steps:  3620000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1993 , steps:  3630000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  1999 , steps:  3640000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Epoch:  2000  - Total reward:  16.0 Episode duration:  1913 Actions:  [673 658 582] Threshold:  0.01000000000000015
+Episode:  2005 , steps:  3650000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2010 , steps:  3660000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1673 1673 1617 1673 1673]
+Episode:  2016 , steps:  3670000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2021 , steps:  3680000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1652 1652 1652 1652]
+Episode:  2027 , steps:  3690000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2033 , steps:  3700000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2039 , steps:  3710000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2045 , steps:  3720000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2051 , steps:  3730000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2057 , steps:  3740000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1652 1652 1652 1652]
+Episode:  2062 , steps:  3750000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2067 , steps:  3760000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2073 , steps:  3770000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1621 1621 1621 1621 1621]
+Episode:  2078 , steps:  3780000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2084 , steps:  3790000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2090 , steps:  3800000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2095 , steps:  3810000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2101 , steps:  3820000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2106 , steps:  3830000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2111 , steps:  3840000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2117 , steps:  3850000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2123 , steps:  3860000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2129 , steps:  3870000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2135 , steps:  3880000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2141 , steps:  3890000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2146 , steps:  3900000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2152 , steps:  3910000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2158 , steps:  3920000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2164 , steps:  3930000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2170 , steps:  3940000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2176 , steps:  3950000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2181 , steps:  3960000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2186 , steps:  3970000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2192 , steps:  3980000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2198 , steps:  3990000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2204 , steps:  4000000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2210 , steps:  4010000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2216 , steps:  4020000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2221 , steps:  4030000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2227 , steps:  4040000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2233 , steps:  4050000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2238 , steps:  4060000
+start
+  - Rewards: [11 11 11 11 11]
+  - Amount of actions: [2742 2742 2742 2742 2742]
+Episode:  2243 , steps:  4070000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2249 , steps:  4080000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Epoch:  2250  - Total reward:  20.0 Episode duration:  1832 Actions:  [757 272 803] Threshold:  0.010000000000000002
+Episode:  2255 , steps:  4090000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2260 , steps:  4100000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2266 , steps:  4110000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2272 , steps:  4120000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1617 1617 1617 1714 1617]
+Episode:  2277 , steps:  4130000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2283 , steps:  4140000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2289 , steps:  4150000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1675 1675 1675 1675 1675]
+Episode:  2295 , steps:  4160000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2300 , steps:  4170000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2306 , steps:  4180000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2312 , steps:  4190000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2318 , steps:  4200000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2323 , steps:  4210000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2329 , steps:  4220000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2335 , steps:  4230000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2341 , steps:  4240000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2347 , steps:  4250000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2352 , steps:  4260000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2357 , steps:  4270000
+start
+  - Rewards: [21 21 21 18 21]
+  - Amount of actions: [1622 1622 1622 1727 1622]
+Episode:  2363 , steps:  4280000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1622 1622 1622 1657 1622]
+Episode:  2369 , steps:  4290000
+start
+  - Rewards: [-20  21  21  21  21]
+  - Amount of actions: [ 887 1622 1622 1622 1622]
+Episode:  2375 , steps:  4300000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2381 , steps:  4310000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2387 , steps:  4320000
+start
+  - Rewards: [19 21 21 21 21]
+  - Amount of actions: [1692 1622 1622 1622 1622]
+Episode:  2393 , steps:  4330000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2398 , steps:  4340000
+start
+  - Rewards: [20 21 21 21 21]
+  - Amount of actions: [1657 1622 1622 1622 1622]
+Episode:  2404 , steps:  4350000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2410 , steps:  4360000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2416 , steps:  4370000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1622 1622 1657 1622 1622]
+Episode:  2421 , steps:  4380000
+start
+  - Rewards: [21 20 21 21 21]
+  - Amount of actions: [1617 1652 1617 1617 1617]
+Episode:  2427 , steps:  4390000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2433 , steps:  4400000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2439 , steps:  4410000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2445 , steps:  4420000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2450 , steps:  4430000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2456 , steps:  4440000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2461 , steps:  4450000
+start
+  - Rewards: [20 20 20 21 20]
+  - Amount of actions: [1718 1718 1778 1622 1778]
+Episode:  2466 , steps:  4460000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1682 1622 1682 1682 1682]
+Episode:  2471 , steps:  4470000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1622 1622 1657 1622 1622]
+Episode:  2477 , steps:  4480000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1678 1678 1617 1617]
+Episode:  2483 , steps:  4490000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2489 , steps:  4500000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2495 , steps:  4510000
+start
+  - Rewards: [3 3 3 3 3]
+  - Amount of actions: [3819 3819 3819 3819 3819]
+Episode:  2500 , steps:  4520000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1652 1652 1652 1652]
+Epoch:  2500  - Total reward:  20.0 Episode duration:  1652 Actions:  [639 350 663] Threshold:  0.01
+Episode:  2506 , steps:  4530000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2511 , steps:  4540000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2517 , steps:  4550000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1617 1617 1680 1617 1617]
+Episode:  2522 , steps:  4560000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2528 , steps:  4570000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2534 , steps:  4580000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2540 , steps:  4590000
+start
+  - Rewards: [17 17 17 17 17]
+  - Amount of actions: [1900 1900 1900 1900 1900]
+Episode:  2546 , steps:  4600000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2551 , steps:  4610000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2557 , steps:  4620000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2563 , steps:  4630000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2569 , steps:  4640000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2574 , steps:  4650000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2580 , steps:  4660000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2586 , steps:  4670000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2592 , steps:  4680000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2598 , steps:  4690000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2603 , steps:  4700000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2609 , steps:  4710000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2615 , steps:  4720000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2621 , steps:  4730000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2626 , steps:  4740000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2632 , steps:  4750000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2638 , steps:  4760000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [749 749 749 749 749]
+Episode:  2643 , steps:  4770000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1617 1617 1617 1757 1617]
+Episode:  2649 , steps:  4780000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2655 , steps:  4790000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2660 , steps:  4800000
+start
+  - Rewards: [21 20 20 21 21]
+  - Amount of actions: [1622 1657 1657 1622 1622]
+Episode:  2666 , steps:  4810000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2672 , steps:  4820000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1653 1622 1653 1622]
+Episode:  2677 , steps:  4830000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2683 , steps:  4840000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1710 1710 1710 1710 1710]
+Episode:  2689 , steps:  4850000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2695 , steps:  4860000
+start
+  - Rewards: [21 20 21 20 20]
+  - Amount of actions: [1617 1652 1617 1652 1652]
+Episode:  2701 , steps:  4870000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2706 , steps:  4880000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2713 , steps:  4890000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2719 , steps:  4900000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2724 , steps:  4910000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2730 , steps:  4920000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2735 , steps:  4930000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2741 , steps:  4940000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2747 , steps:  4950000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Epoch:  2750  - Total reward:  21.0 Episode duration:  1620 Actions:  [583 502 535] Threshold:  0.01
+Episode:  2753 , steps:  4960000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2759 , steps:  4970000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2764 , steps:  4980000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2770 , steps:  4990000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2776 , steps:  5000000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2782 , steps:  5010000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2788 , steps:  5020000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1710 1710 1710 1710 1710]
+Episode:  2793 , steps:  5030000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2799 , steps:  5040000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2805 , steps:  5050000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1702 1702 1702 1702 1702]
+Episode:  2811 , steps:  5060000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2816 , steps:  5070000
+start
+  - Rewards: [20 20 18 20 20]
+  - Amount of actions: [1652 1652 1784 1652 1652]
+Episode:  2822 , steps:  5080000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1617 1617 1617 1652 1617]
+Episode:  2827 , steps:  5090000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2832 , steps:  5100000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2836 , steps:  5110000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2842 , steps:  5120000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2847 , steps:  5130000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2853 , steps:  5140000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2858 , steps:  5150000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2864 , steps:  5160000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2870 , steps:  5170000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2876 , steps:  5180000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2882 , steps:  5190000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2887 , steps:  5200000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2893 , steps:  5210000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2899 , steps:  5220000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2905 , steps:  5230000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2911 , steps:  5240000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2917 , steps:  5250000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2923 , steps:  5260000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2929 , steps:  5270000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2934 , steps:  5280000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2940 , steps:  5290000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2946 , steps:  5300000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1627 1627 1627 1627 1627]
+Episode:  2952 , steps:  5310000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  2957 , steps:  5320000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2963 , steps:  5330000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2968 , steps:  5340000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2974 , steps:  5350000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2979 , steps:  5360000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2985 , steps:  5370000
+start
+  - Rewards: [20 20 20 21 20]
+  - Amount of actions: [1657 1657 1657 1622 1657]
+Episode:  2991 , steps:  5380000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  2997 , steps:  5390000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Epoch:  3000  - Total reward:  19.0 Episode duration:  1889 Actions:  [820 440 629] Threshold:  0.01
+Episode:  3003 , steps:  5400000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3008 , steps:  5410000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1680 1680 1680 1680 1680]
+Episode:  3014 , steps:  5420000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3020 , steps:  5430000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3026 , steps:  5440000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3031 , steps:  5450000
+start
+  - Rewards: [5 5 5 5 5]
+  - Amount of actions: [2761 2761 2761 2761 2761]
+Episode:  3037 , steps:  5460000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3043 , steps:  5470000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3048 , steps:  5480000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3053 , steps:  5490000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3059 , steps:  5500000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3065 , steps:  5510000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3071 , steps:  5520000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3077 , steps:  5530000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3082 , steps:  5540000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3088 , steps:  5550000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1731 1731 1731 1731 1731]
+Episode:  3093 , steps:  5560000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3099 , steps:  5570000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3105 , steps:  5580000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3110 , steps:  5590000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3116 , steps:  5600000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3122 , steps:  5610000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3127 , steps:  5620000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3133 , steps:  5630000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3139 , steps:  5640000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3145 , steps:  5650000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3151 , steps:  5660000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3157 , steps:  5670000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3163 , steps:  5680000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3168 , steps:  5690000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3174 , steps:  5700000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3180 , steps:  5710000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3186 , steps:  5720000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3191 , steps:  5730000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3197 , steps:  5740000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3203 , steps:  5750000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3209 , steps:  5760000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3214 , steps:  5770000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3220 , steps:  5780000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3226 , steps:  5790000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3232 , steps:  5800000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3238 , steps:  5810000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3244 , steps:  5820000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3250 , steps:  5830000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Epoch:  3250  - Total reward:  -4.0 Episode duration:  2544 Actions:  [ 743  785 1016] Threshold:  0.01
+Episode:  3255 , steps:  5840000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3261 , steps:  5850000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3267 , steps:  5860000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3272 , steps:  5870000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3278 , steps:  5880000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3284 , steps:  5890000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3289 , steps:  5900000
+start
+  - Rewards: [19 19 19 19 19]
+  - Amount of actions: [1804 1804 1804 1804 1804]
+Episode:  3294 , steps:  5910000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3300 , steps:  5920000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3306 , steps:  5930000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3312 , steps:  5940000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3318 , steps:  5950000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3324 , steps:  5960000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1695 1617 1617 1617 1617]
+Episode:  3330 , steps:  5970000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3336 , steps:  5980000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3341 , steps:  5990000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3347 , steps:  6000000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3353 , steps:  6010000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3358 , steps:  6020000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3364 , steps:  6030000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1678 1617 1617 1678]
+Episode:  3370 , steps:  6040000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3376 , steps:  6050000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3382 , steps:  6060000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3387 , steps:  6070000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3393 , steps:  6080000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3399 , steps:  6090000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3405 , steps:  6100000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1652 1652 1652 1652 1652]
+Episode:  3410 , steps:  6110000
+start
+  - Rewards: [5 7 7 7 7]
+  - Amount of actions: [3012 2965 2966 2966 2966]
+Episode:  3416 , steps:  6120000
+start
+  - Rewards: [20 21 21 21 21]
+  - Amount of actions: [1686 1622 1622 1622 1622]
+Episode:  3422 , steps:  6130000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3428 , steps:  6140000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3433 , steps:  6150000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3440 , steps:  6160000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3446 , steps:  6170000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3451 , steps:  6180000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3457 , steps:  6190000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3464 , steps:  6200000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3470 , steps:  6210000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3475 , steps:  6220000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3482 , steps:  6230000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3487 , steps:  6240000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3493 , steps:  6250000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3499 , steps:  6260000
+start
+  - Rewards: [1 1 1 1 1]
+  - Amount of actions: [3702 3702 3702 3702 3702]
+Epoch:  3500  - Total reward:  21.0 Episode duration:  1617 Actions:  [626 268 723] Threshold:  0.01
+Episode:  3504 , steps:  6270000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3510 , steps:  6280000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3515 , steps:  6290000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3521 , steps:  6300000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3526 , steps:  6310000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3532 , steps:  6320000
+start
+  - Rewards: [-7 -7 -6 -7 -6]
+  - Amount of actions: [2333 2333 2460 2333 2460]
+Episode:  3538 , steps:  6330000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3544 , steps:  6340000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3550 , steps:  6350000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1621 1621 1621 1621 1621]
+Episode:  3555 , steps:  6360000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3561 , steps:  6370000
+start
+  - Rewards: [21 20 21 21 21]
+  - Amount of actions: [1622 1657 1622 1622 1622]
+Episode:  3567 , steps:  6380000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3572 , steps:  6390000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3578 , steps:  6400000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3584 , steps:  6410000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3589 , steps:  6420000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3595 , steps:  6430000
+start
+  - Rewards: [21 20 21 21 21]
+  - Amount of actions: [1622 1657 1622 1622 1622]
+Episode:  3601 , steps:  6440000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1622 1622 1657 1622 1622]
+Episode:  3607 , steps:  6450000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3612 , steps:  6460000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3618 , steps:  6470000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3624 , steps:  6480000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3629 , steps:  6490000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3635 , steps:  6500000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1678 1678 1617 1617]
+Episode:  3641 , steps:  6510000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3646 , steps:  6520000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3651 , steps:  6530000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3657 , steps:  6540000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1678 1617 1678 1617]
+Episode:  3663 , steps:  6550000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3669 , steps:  6560000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3675 , steps:  6570000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3680 , steps:  6580000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1678 1678 1617]
+Episode:  3686 , steps:  6590000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3692 , steps:  6600000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3698 , steps:  6610000
+start
+  - Rewards: [20 20 20 20 20]
+  - Amount of actions: [1673 1673 1673 1673 1673]
+Episode:  3703 , steps:  6620000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3709 , steps:  6630000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3715 , steps:  6640000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3720 , steps:  6650000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3726 , steps:  6660000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3732 , steps:  6670000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3737 , steps:  6680000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3743 , steps:  6690000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3749 , steps:  6700000
+start
+  - Rewards: [21 21 21 21 20]
+  - Amount of actions: [1617 1617 1617 1617 1652]
+Epoch:  3750  - Total reward:  21.0 Episode duration:  1617 Actions:  [704 412 501] Threshold:  0.01
+Episode:  3755 , steps:  6710000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3760 , steps:  6720000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3766 , steps:  6730000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3772 , steps:  6740000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3778 , steps:  6750000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3784 , steps:  6760000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3790 , steps:  6770000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3796 , steps:  6780000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3801 , steps:  6790000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3806 , steps:  6800000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3812 , steps:  6810000
+start
+  - Rewards: [17 17 17 17 17]
+  - Amount of actions: [2147 2147 2147 2147 2147]
+Episode:  3817 , steps:  6820000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3823 , steps:  6830000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3829 , steps:  6840000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3835 , steps:  6850000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3840 , steps:  6860000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1617 1617 1617 1652 1617]
+Episode:  3845 , steps:  6870000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3851 , steps:  6880000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3856 , steps:  6890000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3862 , steps:  6900000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3868 , steps:  6910000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3873 , steps:  6920000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3879 , steps:  6930000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1617 1617 1652 1617 1617]
+Episode:  3885 , steps:  6940000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3890 , steps:  6950000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3896 , steps:  6960000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3902 , steps:  6970000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3908 , steps:  6980000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3914 , steps:  6990000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3919 , steps:  7000000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3925 , steps:  7010000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3930 , steps:  7020000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  3936 , steps:  7030000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3942 , steps:  7040000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3948 , steps:  7050000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3953 , steps:  7060000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3959 , steps:  7070000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3965 , steps:  7080000
+start
+  - Rewards: [21 21 21 21 18]
+  - Amount of actions: [1617 1617 1617 1617 1780]
+Episode:  3970 , steps:  7090000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3976 , steps:  7100000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3982 , steps:  7110000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3988 , steps:  7120000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  3994 , steps:  7130000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4000 , steps:  7140000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Epoch:  4000  - Total reward:  19.0 Episode duration:  1827 Actions:  [874 396 557] Threshold:  0.01
+Episode:  4006 , steps:  7150000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4012 , steps:  7160000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4018 , steps:  7170000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4023 , steps:  7180000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4029 , steps:  7190000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4035 , steps:  7200000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4040 , steps:  7210000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4046 , steps:  7220000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4052 , steps:  7230000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4058 , steps:  7240000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4064 , steps:  7250000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4070 , steps:  7260000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4076 , steps:  7270000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4081 , steps:  7280000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4087 , steps:  7290000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4093 , steps:  7300000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4098 , steps:  7310000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4104 , steps:  7320000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4110 , steps:  7330000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4116 , steps:  7340000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4122 , steps:  7350000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4127 , steps:  7360000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4132 , steps:  7370000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4138 , steps:  7380000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4144 , steps:  7390000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4149 , steps:  7400000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4155 , steps:  7410000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4161 , steps:  7420000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4165 , steps:  7430000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4171 , steps:  7440000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4177 , steps:  7450000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4183 , steps:  7460000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4189 , steps:  7470000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4194 , steps:  7480000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4200 , steps:  7490000
+start
+  - Rewards: [17 17 17 17 17]
+  - Amount of actions: [1813 1813 1813 1813 1813]
+Episode:  4206 , steps:  7500000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4212 , steps:  7510000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4218 , steps:  7520000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1621 1621 1621 1621 1621]
+Episode:  4223 , steps:  7530000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4229 , steps:  7540000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4235 , steps:  7550000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4240 , steps:  7560000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4246 , steps:  7570000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Epoch:  4250  - Total reward:  19.0 Episode duration:  1779 Actions:  [1074  245  460] Threshold:  0.01
+Episode:  4252 , steps:  7580000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4258 , steps:  7590000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4263 , steps:  7600000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4269 , steps:  7610000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4275 , steps:  7620000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4281 , steps:  7630000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4287 , steps:  7640000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4293 , steps:  7650000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4299 , steps:  7660000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4305 , steps:  7670000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4311 , steps:  7680000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4316 , steps:  7690000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4322 , steps:  7700000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4328 , steps:  7710000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4333 , steps:  7720000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4339 , steps:  7730000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4345 , steps:  7740000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4351 , steps:  7750000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4356 , steps:  7760000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4362 , steps:  7770000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4368 , steps:  7780000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4374 , steps:  7790000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4379 , steps:  7800000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4385 , steps:  7810000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4391 , steps:  7820000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4397 , steps:  7830000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4403 , steps:  7840000
+start
+  - Rewards: [19 21 21 21 21]
+  - Amount of actions: [1687 1617 1617 1617 1617]
+Episode:  4408 , steps:  7850000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4414 , steps:  7860000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4420 , steps:  7870000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4426 , steps:  7880000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4432 , steps:  7890000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4438 , steps:  7900000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4444 , steps:  7910000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4449 , steps:  7920000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4455 , steps:  7930000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4461 , steps:  7940000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4467 , steps:  7950000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4473 , steps:  7960000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4479 , steps:  7970000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4484 , steps:  7980000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4489 , steps:  7990000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4495 , steps:  8000000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Epoch:  4500  - Total reward:  21.0 Episode duration:  1638 Actions:  [442 537 659] Threshold:  0.01
+Episode:  4501 , steps:  8010000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4507 , steps:  8020000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4513 , steps:  8030000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4519 , steps:  8040000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4524 , steps:  8050000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4530 , steps:  8060000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4536 , steps:  8070000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4542 , steps:  8080000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4548 , steps:  8090000
+start
+  - Rewards: [18 18 18 18 18]
+  - Amount of actions: [2085 2085 2085 2085 2085]
+Episode:  4554 , steps:  8100000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4560 , steps:  8110000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4566 , steps:  8120000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4572 , steps:  8130000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4577 , steps:  8140000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4583 , steps:  8150000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4589 , steps:  8160000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4595 , steps:  8170000
+start
+  - Rewards: [21 21 21 21 20]
+  - Amount of actions: [1617 1617 1617 1617 1712]
+Episode:  4600 , steps:  8180000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4606 , steps:  8190000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4612 , steps:  8200000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4618 , steps:  8210000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4623 , steps:  8220000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4629 , steps:  8230000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4635 , steps:  8240000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4641 , steps:  8250000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4647 , steps:  8260000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4653 , steps:  8270000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4658 , steps:  8280000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4663 , steps:  8290000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4668 , steps:  8300000
+start
+  - Rewards: [10 10 10 10 10]
+  - Amount of actions: [4297 4297 4297 4297 4297]
+Episode:  4674 , steps:  8310000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4680 , steps:  8320000
+start
+  - Rewards: [21 21 20 21 21]
+  - Amount of actions: [1617 1617 1652 1617 1617]
+Episode:  4685 , steps:  8330000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4691 , steps:  8340000
+start
+  - Rewards: [11 11 12 11 11]
+  - Amount of actions: [3182 3182 3022 3182 3182]
+Episode:  4697 , steps:  8350000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1617 1617 1617 1681 1617]
+Episode:  4703 , steps:  8360000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4709 , steps:  8370000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4715 , steps:  8380000
+start
+  - Rewards: [21 20 21 21 21]
+  - Amount of actions: [1617 1652 1617 1617 1617]
+Episode:  4721 , steps:  8390000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4727 , steps:  8400000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4733 , steps:  8410000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4738 , steps:  8420000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4744 , steps:  8430000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4750 , steps:  8440000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Epoch:  4750  - Total reward:  20.0 Episode duration:  1729 Actions:  [739 287 703] Threshold:  0.01
+Episode:  4755 , steps:  8450000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4761 , steps:  8460000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4767 , steps:  8470000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4772 , steps:  8480000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4778 , steps:  8490000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1679]
+Episode:  4784 , steps:  8500000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4789 , steps:  8510000
+start
+  - Rewards: [20 20 21 20 20]
+  - Amount of actions: [1681 1681 1617 1681 1681]
+Episode:  4795 , steps:  8520000
+start
+  - Rewards: [21 20 20 21 20]
+  - Amount of actions: [1617 1652 1681 1617 1652]
+Episode:  4801 , steps:  8530000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4806 , steps:  8540000
+start
+  - Rewards: [20 21 20 21 21]
+  - Amount of actions: [1652 1617 1652 1617 1617]
+Episode:  4812 , steps:  8550000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4818 , steps:  8560000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4824 , steps:  8570000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4830 , steps:  8580000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4836 , steps:  8590000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4841 , steps:  8600000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4847 , steps:  8610000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1617 1617 1617 1652 1617]
+Episode:  4853 , steps:  8620000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4859 , steps:  8630000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4865 , steps:  8640000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4869 , steps:  8650000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1622 1622 1622 1622 1622]
+Episode:  4875 , steps:  8660000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4881 , steps:  8670000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4886 , steps:  8680000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4893 , steps:  8690000
+start
+  - Rewards: [20 21 21 21 21]
+  - Amount of actions: [1652 1617 1617 1617 1617]
+Episode:  4898 , steps:  8700000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4905 , steps:  8710000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4910 , steps:  8720000
+start
+  - Rewards: [-16 -16 -16 -16 -16]
+  - Amount of actions: [2327 2327 2390 2390 2327]
+Episode:  4916 , steps:  8730000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4922 , steps:  8740000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4927 , steps:  8750000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4933 , steps:  8760000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4939 , steps:  8770000
+start
+  - Rewards: [ 21 -21  21 -21 -21]
+  - Amount of actions: [1617  797 1617  797  797]
+Episode:  4945 , steps:  8780000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4951 , steps:  8790000
+start
+  - Rewards: [21 21 21 20 21]
+  - Amount of actions: [1622 1622 1622 1657 1622]
+Episode:  4957 , steps:  8800000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4962 , steps:  8810000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4968 , steps:  8820000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4974 , steps:  8830000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4979 , steps:  8840000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1678 1617 1617]
+Episode:  4985 , steps:  8850000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4991 , steps:  8860000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Episode:  4997 , steps:  8870000
+start
+  - Rewards: [21 21 21 21 21]
+  - Amount of actions: [1617 1617 1617 1617 1617]
+Complete
+Script fishished.

@@ -1,0 +1,2782 @@
+Running script...
+Start using cuda
+
+Writing to 'runs/report_runs/PER_Dueling_2019-12-27 14:57:21.941226_Pong-v0'
+Episode:  0 , steps:  1
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 969 970 960 969]
+Epoch:  0  - Total reward:  -21.0 Episode duration:  958 Actions:  [300 356 302] Threshold:  0.9905708902536989
+Episode:  8 , steps:  10000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1526 1330 1068 1055 1053]
+Episode:  16 , steps:  20000
+start
+  - Rewards: [-21 -19 -20 -21 -21]
+  - Amount of actions: [ 980 1192 1090 1065  980]
+Episode:  23 , steps:  30000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1060  975  972  984  976]
+Episode:  32 , steps:  40000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [ 970  968  983 1258 1055]
+Episode:  39 , steps:  50000
+start
+  - Rewards: [-20 -20 -20 -19 -18]
+  - Amount of actions: [1209 1482 1431 1543 1457]
+Episode:  48 , steps:  60000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 984 1083 1051  992 1087]
+Episode:  56 , steps:  70000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 974 972 967 987]
+Episode:  64 , steps:  80000
+start
+  - Rewards: [-21 -21 -19 -20 -21]
+  - Amount of actions: [1049 1057 1293 1176 1062]
+Episode:  72 , steps:  90000
+start
+  - Rewards: [-20 -19 -20 -21 -21]
+  - Amount of actions: [1088 1191 1070  992  993]
+Episode:  80 , steps:  100000
+start
+  - Rewards: [-20 -21 -21 -20 -20]
+  - Amount of actions: [1334  972 1136 1321 1165]
+Episode:  87 , steps:  110000
+start
+  - Rewards: [-21 -20 -21 -21 -20]
+  - Amount of actions: [1257 1182 1052 1215 1568]
+Episode:  94 , steps:  120000
+start
+  - Rewards: [-21 -21 -21 -20 -20]
+  - Amount of actions: [1225 1073 1399 1257 1082]
+Episode:  101 , steps:  130000
+start
+  - Rewards: [-21 -17 -21 -21 -21]
+  - Amount of actions: [ 964 1998  969  979  986]
+Episode:  108 , steps:  140000
+start
+  - Rewards: [-19 -20 -20 -20 -21]
+  - Amount of actions: [1622 1400 1626 1110 1535]
+Episode:  116 , steps:  150000
+start
+  - Rewards: [-21 -19 -19 -21 -20]
+  - Amount of actions: [1487 1750 1789 1722 1578]
+Episode:  123 , steps:  160000
+start
+  - Rewards: [-18 -21 -19 -21 -20]
+  - Amount of actions: [2206 1129 1594 1609 1916]
+Episode:  129 , steps:  170000
+start
+  - Rewards: [-19 -19 -17 -16 -19]
+  - Amount of actions: [1828 1647 2079 2699 1769]
+Episode:  133 , steps:  180000
+start
+  - Rewards: [-15 -17 -18 -16 -19]
+  - Amount of actions: [3510 3173 2556 3218 2444]
+Episode:  138 , steps:  190000
+start
+  - Rewards: [-20 -15 -17 -21 -16]
+  - Amount of actions: [2013 2438 2192 1746 2276]
+Episode:  142 , steps:  200000
+start
+  - Rewards: [-19 -15 -16 -18 -17]
+  - Amount of actions: [2645 2985 3003 2387 3201]
+Episode:  146 , steps:  210000
+start
+  - Rewards: [-19 -19 -18 -19 -18]
+  - Amount of actions: [2345 2774 2754 2191 2530]
+Episode:  150 , steps:  220000
+start
+  - Rewards: [-17 -17 -17 -18 -17]
+  - Amount of actions: [2437 2514 1965 1930 1990]
+Episode:  154 , steps:  230000
+start
+  - Rewards: [-18 -18 -16 -17 -21]
+  - Amount of actions: [2621 2306 2701 2162 1834]
+Episode:  159 , steps:  240000
+start
+  - Rewards: [-16 -17 -20 -15 -16]
+  - Amount of actions: [2671 2652 2708 2529 2332]
+Episode:  162 , steps:  250000
+start
+  - Rewards: [-16 -21 -20 -16 -19]
+  - Amount of actions: [3716 2564 1748 2863 2569]
+Episode:  167 , steps:  260000
+start
+  - Rewards: [-19  -3 -15 -11 -18]
+  - Amount of actions: [2316 4056 2998 3212 2383]
+Episode:  170 , steps:  270000
+start
+  - Rewards: [-18 -18 -15 -15 -12]
+  - Amount of actions: [2257 2275 2704 2863 3513]
+Episode:  174 , steps:  280000
+start
+  - Rewards: [-14 -12 -18 -13 -16]
+  - Amount of actions: [2860 3079 2462 3147 2639]
+Episode:  178 , steps:  290000
+start
+  - Rewards: [-18 -17 -20 -15 -19]
+  - Amount of actions: [3109 2054 2784 2613 2211]
+Episode:  183 , steps:  300000
+start
+  - Rewards: [-14 -17 -15 -15 -16]
+  - Amount of actions: [2968 2413 2630 2787 2581]
+Episode:  186 , steps:  310000
+start
+  - Rewards: [-14 -18 -17 -12 -15]
+  - Amount of actions: [2958 2131 2637 3318 2941]
+Episode:  190 , steps:  320000
+start
+  - Rewards: [-19 -16 -16 -18 -14]
+  - Amount of actions: [3070 2614 3341 3419 3572]
+Episode:  193 , steps:  330000
+start
+  - Rewards: [-17 -16 -18 -17 -14]
+  - Amount of actions: [2995 4479 2939 3431 3196]
+Episode:  196 , steps:  340000
+start
+  - Rewards: [-18 -15 -17 -21 -17]
+  - Amount of actions: [2834 2900 2655 2254 2549]
+Episode:  201 , steps:  350000
+start
+  - Rewards: [-19 -20 -19 -19 -19]
+  - Amount of actions: [2587 2569 2485 2370 2662]
+Episode:  204 , steps:  360000
+start
+  - Rewards: [-19 -19 -19 -18 -13]
+  - Amount of actions: [2474 2613 2825 2375 3621]
+Episode:  207 , steps:  370000
+start
+  - Rewards: [-15 -20 -12 -19 -16]
+  - Amount of actions: [3791 1621 3415 2206 2860]
+Episode:  213 , steps:  380000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [957 959 967 984 983]
+Episode:  217 , steps:  390000
+start
+  - Rewards: [-17 -17 -19 -15 -16]
+  - Amount of actions: [2893 3018 2595 3209 2994]
+Episode:  222 , steps:  400000
+start
+  - Rewards: [-18 -21 -19 -14 -18]
+  - Amount of actions: [1970 1421 2545 3407 1990]
+Episode:  226 , steps:  410000
+start
+  - Rewards: [-15 -17 -18 -20 -19]
+  - Amount of actions: [2791 2723 2439 2053 1892]
+Episode:  230 , steps:  420000
+start
+  - Rewards: [-16 -18 -20 -15 -18]
+  - Amount of actions: [4083 2770 1839 3915 2331]
+Episode:  234 , steps:  430000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1042 1605 1134 1209 1566]
+Episode:  239 , steps:  440000
+start
+  - Rewards: [-17 -17 -18 -15 -21]
+  - Amount of actions: [2733 2669 1986 2803 2195]
+Episode:  243 , steps:  450000
+start
+  - Rewards: [-20 -16 -19 -18 -16]
+  - Amount of actions: [3084 3151 2418 2871 2621]
+Episode:  246 , steps:  460000
+start
+  - Rewards: [-18 -17 -17 -17 -16]
+  - Amount of actions: [3678 3363 4426 4380 4338]
+Episode:  249 , steps:  470000
+start
+  - Rewards: [-14 -17 -14 -19 -20]
+  - Amount of actions: [3632 3742 4041 3373 2977]
+Epoch:  250  - Total reward:  -12.0 Episode duration:  3934 Actions:  [1274  655 2005] Threshold:  0.018486485382094305
+Episode:  252 , steps:  480000
+start
+  - Rewards: [-19 -17 -17 -18 -19]
+  - Amount of actions: [2514 3330 3540 3624 2717]
+Episode:  255 , steps:  490000
+start
+  - Rewards: [-18 -21 -21 -20 -21]
+  - Amount of actions: [2866 2829 2679 2927 2454]
+Episode:  260 , steps:  500000
+start
+  - Rewards: [-18 -20 -19 -19 -21]
+  - Amount of actions: [2509 2518 2710 2496 2358]
+Episode:  263 , steps:  510000
+start
+  - Rewards: [-15 -12 -13 -18 -17]
+  - Amount of actions: [2232 3307 3398 2378 2059]
+Episode:  268 , steps:  520000
+start
+  - Rewards: [-20 -21 -18 -19 -19]
+  - Amount of actions: [1819 2151 3240 1784 1941]
+Episode:  271 , steps:  530000
+start
+  - Rewards: [-20 -16 -13 -17 -19]
+  - Amount of actions: [2139 3077 3455 2643 2847]
+Episode:  275 , steps:  540000
+start
+  - Rewards: [-19 -20 -19 -21 -19]
+  - Amount of actions: [1998 2078 2846 1996 2383]
+Episode:  279 , steps:  550000
+start
+  - Rewards: [-16 -17 -19 -15 -18]
+  - Amount of actions: [2728 2459 2263 2660 2349]
+Episode:  284 , steps:  560000
+start
+  - Rewards: [-19 -19 -18 -17 -15]
+  - Amount of actions: [2418 2021 2174 2159 2444]
+Episode:  288 , steps:  570000
+start
+  - Rewards: [-19 -20 -15 -21 -17]
+  - Amount of actions: [2662 2583 2627 2474 2830]
+Episode:  291 , steps:  580000
+start
+  - Rewards: [-20 -13 -17 -16 -18]
+  - Amount of actions: [2379 3874 3037 3206 3288]
+Episode:  295 , steps:  590000
+start
+  - Rewards: [-17 -18 -18 -17 -14]
+  - Amount of actions: [2693 3476 2876 3334 3936]
+Episode:  297 , steps:  600000
+start
+  - Rewards: [-13 -12 -16 -15 -16]
+  - Amount of actions: [3780 4718 3101 3427 4288]
+Episode:  300 , steps:  610000
+start
+  - Rewards: [-17 -17 -19 -14 -17]
+  - Amount of actions: [3562 4049 3299 3500 2784]
+Episode:  303 , steps:  620000
+start
+  - Rewards: [-14 -10 -17 -15 -12]
+  - Amount of actions: [3019 3910 3546 3057 3679]
+Episode:  306 , steps:  630000
+start
+  - Rewards: [ -9  -9 -15  -4 -15]
+  - Amount of actions: [4479 3961 3460 5664 3922]
+Episode:  308 , steps:  640000
+start
+  - Rewards: [-16 -10 -13 -15 -16]
+  - Amount of actions: [2770 3677 3247 2842 2679]
+Episode:  311 , steps:  650000
+start
+  - Rewards: [-12 -16 -15  -4 -13]
+  - Amount of actions: [3895 4002 3933 4747 3694]
+Episode:  314 , steps:  660000
+start
+  - Rewards: [-15 -15 -19 -19 -17]
+  - Amount of actions: [3091 3091 2749 2504 2889]
+Episode:  317 , steps:  670000
+start
+  - Rewards: [ -9 -17 -15 -14 -10]
+  - Amount of actions: [3831 3317 3896 3112 3781]
+Episode:  320 , steps:  680000
+start
+  - Rewards: [-16 -17 -20 -15 -14]
+  - Amount of actions: [3552 3143 2796 3114 4452]
+Episode:  324 , steps:  690000
+start
+  - Rewards: [-19 -20 -16 -18 -16]
+  - Amount of actions: [2200 2271 2419 2086 2511]
+Episode:  327 , steps:  700000
+start
+  - Rewards: [-11 -17 -16 -15 -16]
+  - Amount of actions: [4303 3266 3693 3584 3377]
+Episode:  329 , steps:  710000
+start
+  - Rewards: [-20 -14 -17 -15 -17]
+  - Amount of actions: [2606 3641 3446 4549 3264]
+Episode:  333 , steps:  720000
+start
+  - Rewards: [-13 -13 -18 -11  -2]
+  - Amount of actions: [3538 3270 2859 3757 4773]
+Episode:  336 , steps:  730000
+start
+  - Rewards: [-11 -14 -11 -16 -17]
+  - Amount of actions: [3804 4223 4384 3238 3167]
+Episode:  339 , steps:  740000
+start
+  - Rewards: [-16 -20 -13 -10 -15]
+  - Amount of actions: [3375 2611 3585 3642 3616]
+Episode:  342 , steps:  750000
+start
+  - Rewards: [-17 -17 -17 -16 -17]
+  - Amount of actions: [3475 2648 2780 3061 2646]
+Episode:  345 , steps:  760000
+start
+  - Rewards: [-18 -16 -13 -13 -17]
+  - Amount of actions: [3275 3471 3449 3767 3204]
+Episode:  348 , steps:  770000
+start
+  - Rewards: [-17 -14 -19 -12 -12]
+  - Amount of actions: [3591 5239 3066 4063 3746]
+Episode:  351 , steps:  780000
+start
+  - Rewards: [-19 -17 -17 -14 -17]
+  - Amount of actions: [3366 2865 4383 4340 3473]
+Episode:  353 , steps:  790000
+start
+  - Rewards: [-15 -16 -12 -12 -18]
+  - Amount of actions: [4249 3548 4398 5085 3558]
+Episode:  356 , steps:  800000
+start
+  - Rewards: [-20 -19 -16 -18 -17]
+  - Amount of actions: [3044 2899 2994 3333 3423]
+Episode:  359 , steps:  810000
+start
+  - Rewards: [-17 -16 -17 -16 -15]
+  - Amount of actions: [4466 3801 3661 3938 4372]
+Episode:  362 , steps:  820000
+start
+  - Rewards: [-18 -14 -16 -16 -11]
+  - Amount of actions: [4395 5208 4602 3750 6147]
+Episode:  365 , steps:  830000
+start
+  - Rewards: [-17 -15 -17 -16 -13]
+  - Amount of actions: [4310 4427 3464 4756 4927]
+Episode:  367 , steps:  840000
+start
+  - Rewards: [-15 -16 -11 -18 -18]
+  - Amount of actions: [4062 3231 4999 3581 3212]
+Episode:  369 , steps:  850000
+start
+  - Rewards: [-16 -18 -14 -16 -14]
+  - Amount of actions: [4856 3374 4388 3738 4537]
+Episode:  372 , steps:  860000
+start
+  - Rewards: [-19 -11 -18 -17 -18]
+  - Amount of actions: [3215 3630 2189 3651 3035]
+Episode:  374 , steps:  870000
+start
+  - Rewards: [-18 -15 -15 -14  -9]
+  - Amount of actions: [3437 3806 3624 3578 4636]
+Episode:  377 , steps:  880000
+start
+  - Rewards: [-14 -17 -18 -12 -14]
+  - Amount of actions: [4227 4377 3861 4606 4128]
+Episode:  379 , steps:  890000
+start
+  - Rewards: [-20 -14 -16 -16 -13]
+  - Amount of actions: [4212 4726 4640 4407 4680]
+Episode:  382 , steps:  900000
+start
+  - Rewards: [-13 -13 -19 -18 -15]
+  - Amount of actions: [5071 3544 3831 3569 3022]
+Episode:  384 , steps:  910000
+start
+  - Rewards: [-11 -16 -17 -15 -14]
+  - Amount of actions: [5061 3693 3279 4607 4777]
+Episode:  387 , steps:  920000
+start
+  - Rewards: [-17 -16 -12 -15 -13]
+  - Amount of actions: [3492 3422 4779 4431 3980]
+Episode:  390 , steps:  930000
+start
+  - Rewards: [-17 -11 -18 -13 -20]
+  - Amount of actions: [3789 3827 3316 5390 3219]
+Episode:  392 , steps:  940000
+start
+  - Rewards: [-12 -13 -15 -19 -10]
+  - Amount of actions: [4853 4210 4825 3057 5877]
+Episode:  394 , steps:  950000
+start
+  - Rewards: [-12 -19 -14 -18 -13]
+  - Amount of actions: [4683 3392 4118 3064 4369]
+Episode:  396 , steps:  960000
+start
+  - Rewards: [-16 -17 -18 -18 -17]
+  - Amount of actions: [3897 4655 3832 3710 4229]
+Episode:  400 , steps:  970000
+start
+  - Rewards: [-17 -15 -15 -16 -19]
+  - Amount of actions: [3876 4504 3915 3561 4957]
+Episode:  403 , steps:  980000
+start
+  - Rewards: [-13 -17 -13 -15 -18]
+  - Amount of actions: [4976 4155 5119 4957 2863]
+Episode:  405 , steps:  990000
+start
+  - Rewards: [-14 -18 -15 -15 -19]
+  - Amount of actions: [5126 4614 5563 4101 4198]
+Episode:  407 , steps:  1000000
+start
+  - Rewards: [-12 -16 -14 -12 -10]
+  - Amount of actions: [4864 4128 5013 4918 4830]
+Episode:  411 , steps:  1010000
+start
+  - Rewards: [-21 -15 -10  -7 -11]
+  - Amount of actions: [3534 3437 4960 5552 3838]
+Episode:  415 , steps:  1020000
+start
+  - Rewards: [-12 -13 -13 -12 -14]
+  - Amount of actions: [4386 3228 3907 4384 3857]
+Episode:  418 , steps:  1030000
+start
+  - Rewards: [-15 -15 -16 -16 -14]
+  - Amount of actions: [4861 3753 4356 3407 4086]
+Episode:  420 , steps:  1040000
+start
+  - Rewards: [-12 -14  -8 -16 -12]
+  - Amount of actions: [6095 4902 6471 4404 4918]
+Episode:  423 , steps:  1050000
+start
+  - Rewards: [-10 -15 -14 -13 -15]
+  - Amount of actions: [4522 4172 4409 4834 4178]
+Episode:  425 , steps:  1060000
+start
+  - Rewards: [-18 -16 -15  -9 -17]
+  - Amount of actions: [3498 3636 4082 6670 4040]
+Episode:  428 , steps:  1070000
+start
+  - Rewards: [-15 -10 -10 -13 -11]
+  - Amount of actions: [3056 4250 4033 4032 3632]
+Episode:  431 , steps:  1080000
+start
+  - Rewards: [-18 -15 -15 -18 -15]
+  - Amount of actions: [3414 3521 3683 3319 3018]
+Episode:  434 , steps:  1090000
+start
+  - Rewards: [-15 -12 -17 -11 -12]
+  - Amount of actions: [4481 3305 3728 4413 5377]
+Episode:  436 , steps:  1100000
+start
+  - Rewards: [-13 -15 -19  -6 -14]
+  - Amount of actions: [5061 5141 4549 6530 5414]
+Episode:  437 , steps:  1110000
+start
+  - Rewards: [-15 -19 -18 -16 -13]
+  - Amount of actions: [4974 2990 3923 5851 6921]
+Episode:  439 , steps:  1120000
+start
+  - Rewards: [-17 -11 -18 -12 -13]
+  - Amount of actions: [5082 5719 3991 5514 5046]
+Episode:  442 , steps:  1130000
+start
+  - Rewards: [-19 -20 -18 -20 -15]
+  - Amount of actions: [2160 1507 2822 2561 3169]
+Episode:  445 , steps:  1140000
+start
+  - Rewards: [-12 -13 -19 -12 -18]
+  - Amount of actions: [6075 5492 3168 5386 3476]
+Episode:  447 , steps:  1150000
+start
+  - Rewards: [-18  -9 -10  -8 -14]
+  - Amount of actions: [5584 6838 7025 7427 5150]
+Episode:  450 , steps:  1160000
+start
+  - Rewards: [-16 -20 -16 -20 -20]
+  - Amount of actions: [3567 2778 3666 2698 1840]
+Episode:  452 , steps:  1170000
+start
+  - Rewards: [-15 -16 -13 -14 -19]
+  - Amount of actions: [3618 3873 4791 3594 3176]
+Episode:  455 , steps:  1180000
+start
+  - Rewards: [-15 -20 -16 -18 -10]
+  - Amount of actions: [3234 2275 3265 3284 3843]
+Episode:  457 , steps:  1190000
+start
+  - Rewards: [-11 -16 -18 -11 -11]
+  - Amount of actions: [4225 3915 2959 4105 4535]
+Episode:  459 , steps:  1200000
+start
+  - Rewards: [-17 -15 -15 -16 -17]
+  - Amount of actions: [4997 5194 5299 4327 5265]
+Episode:  461 , steps:  1210000
+start
+  - Rewards: [-11  -6 -15 -11 -16]
+  - Amount of actions: [4677 5558 4207 4474 3835]
+Episode:  463 , steps:  1220000
+start
+  - Rewards: [-13 -11 -14 -16 -13]
+  - Amount of actions: [5231 5936 4009 4444 5034]
+Episode:  466 , steps:  1230000
+start
+  - Rewards: [-16 -14 -19 -12 -14]
+  - Amount of actions: [3490 4514 4731 4957 4348]
+Episode:  468 , steps:  1240000
+start
+  - Rewards: [-18 -19 -14 -15 -16]
+  - Amount of actions: [5001 3608 4153 4238 4964]
+Episode:  470 , steps:  1250000
+start
+  - Rewards: [-17 -13 -16 -18 -11]
+  - Amount of actions: [5279 5079 3994 5051 6902]
+Episode:  472 , steps:  1260000
+start
+  - Rewards: [-13 -16 -18 -16 -13]
+  - Amount of actions: [4189 5348 3441 4627 5692]
+Episode:  475 , steps:  1270000
+start
+  - Rewards: [-17 -16 -16 -14 -17]
+  - Amount of actions: [3053 3299 3527 5045 4487]
+Episode:  477 , steps:  1280000
+start
+  - Rewards: [ -6 -15 -14 -17  -5]
+  - Amount of actions: [6207 5466 6560 5866 7261]
+Episode:  479 , steps:  1290000
+start
+  - Rewards: [-13 -12 -14 -14  -8]
+  - Amount of actions: [5813 6277 5981 5537 6378]
+Episode:  481 , steps:  1300000
+start
+  - Rewards: [-11 -15 -15 -13 -12]
+  - Amount of actions: [4759 3968 4281 5281 5303]
+Episode:  482 , steps:  1310000
+start
+  - Rewards: [ -6  -8 -15 -12 -12]
+  - Amount of actions: [7245 7017 5263 5485 5843]
+Episode:  484 , steps:  1320000
+start
+  - Rewards: [-11 -12 -11 -18  -8]
+  - Amount of actions: [5356 6111 6127 5509 6862]
+Episode:  486 , steps:  1330000
+start
+  - Rewards: [-14 -17 -15 -17 -13]
+  - Amount of actions: [4782 3900 5420 5152 5163]
+Episode:  492 , steps:  1340000
+start
+  - Rewards: [-18 -17 -15 -18 -18]
+  - Amount of actions: [2859 2731 3433 2975 2604]
+Episode:  496 , steps:  1350000
+start
+  - Rewards: [-16 -18 -15 -19 -17]
+  - Amount of actions: [3758 3127 4130 2477 2894]
+Episode:  498 , steps:  1360000
+start
+  - Rewards: [-13 -16 -16 -13 -20]
+  - Amount of actions: [5921 4109 4102 4058 2892]
+Episode:  500 , steps:  1370000
+start
+  - Rewards: [-11 -13 -16  -5 -15]
+  - Amount of actions: [5401 5939 4965 6530 5099]
+Epoch:  500  - Total reward:  -18.0 Episode duration:  4656 Actions:  [ 547  774 3335] Threshold:  0.010001108192402939
+Episode:  502 , steps:  1380000
+start
+  - Rewards: [-18 -19 -10  -9 -11]
+  - Amount of actions: [4124 5735 5406 6489 7494]
+Episode:  506 , steps:  1390000
+start
+  - Rewards: [ -9 -13 -13  -9 -15]
+  - Amount of actions: [6358 5690 5295 5707 5380]
+Episode:  508 , steps:  1400000
+start
+  - Rewards: [-17 -19 -17 -20 -16]
+  - Amount of actions: [4265 3584 4499 4395 5055]
+Episode:  510 , steps:  1410000
+start
+  - Rewards: [-18 -16 -17 -15 -12]
+  - Amount of actions: [3792 5019 5123 4460 4897]
+Episode:  512 , steps:  1420000
+start
+  - Rewards: [-17 -15  -4 -12 -15]
+  - Amount of actions: [3181 4288 5428 5790 4582]
+Episode:  514 , steps:  1430000
+start
+  - Rewards: [-10 -15 -13 -17 -16]
+  - Amount of actions: [4876 3615 4823 3155 3468]
+Episode:  516 , steps:  1440000
+start
+  - Rewards: [-12 -15  -8 -14  -4]
+  - Amount of actions: [6023 4874 6870 5295 7155]
+Episode:  518 , steps:  1450000
+start
+  - Rewards: [-11  -8 -10  -1 -11]
+  - Amount of actions: [5289 5655 5573 6836 5571]
+Episode:  519 , steps:  1460000
+start
+  - Rewards: [-11  -2  -5  -5 -11]
+  - Amount of actions: [4965 6810 6195 6464 4437]
+Episode:  523 , steps:  1470000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [986 966 969 976 965]
+Episode:  530 , steps:  1480000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [975 973 983 969 969]
+Episode:  532 , steps:  1490000
+start
+  - Rewards: [ -8 -16 -12 -18 -19]
+  - Amount of actions: [7104 4711 5029 4365 4505]
+Episode:  533 , steps:  1500000
+start
+  - Rewards: [ -8 -15 -18 -11 -12]
+  - Amount of actions: [7146 5143 5044 6003 5758]
+Episode:  535 , steps:  1510000
+start
+  - Rewards: [ -7  -9   1 -17  -9]
+  - Amount of actions: [6770 6463 7083 4456 7103]
+Episode:  537 , steps:  1520000
+start
+  - Rewards: [ -9 -15  -7  -8 -12]
+  - Amount of actions: [7385 4603 7649 6717 6575]
+Episode:  539 , steps:  1530000
+start
+  - Rewards: [-14 -13 -16 -17 -14]
+  - Amount of actions: [3917 4862 3880 4460 4227]
+Episode:  542 , steps:  1540000
+start
+  - Rewards: [-13 -14 -17 -21 -14]
+  - Amount of actions: [2883 4674 3837 1852 4374]
+Episode:  545 , steps:  1550000
+start
+  - Rewards: [-13 -14 -16 -16 -18]
+  - Amount of actions: [3969 4329 3257 4305 3711]
+Episode:  547 , steps:  1560000
+start
+  - Rewards: [-17 -14 -15 -15 -17]
+  - Amount of actions: [3500 3701 4760 5177 3575]
+Episode:  550 , steps:  1570000
+start
+  - Rewards: [-15  -8 -19  -5  -6]
+  - Amount of actions: [4271 6714 2830 6416 6019]
+Episode:  553 , steps:  1580000
+start
+  - Rewards: [-10 -14 -18 -19  -9]
+  - Amount of actions: [3574 3902 3113 2867 3918]
+Episode:  555 , steps:  1590000
+start
+  - Rewards: [-17 -10 -10  -5  -9]
+  - Amount of actions: [2982 5049 4599 4793 4050]
+Episode:  558 , steps:  1600000
+start
+  - Rewards: [-15 -11 -13 -17 -21]
+  - Amount of actions: [3441 3881 3496 2617 2358]
+Episode:  560 , steps:  1610000
+start
+  - Rewards: [-14  -4 -18 -13 -11]
+  - Amount of actions: [3830 7018 2930 3878 4258]
+Episode:  562 , steps:  1620000
+start
+  - Rewards: [ -8 -17 -15 -10 -19]
+  - Amount of actions: [5703 3496 3563 5314 4675]
+Episode:  564 , steps:  1630000
+start
+  - Rewards: [-11 -12 -17 -17 -15]
+  - Amount of actions: [4118 3813 3186 3541 3331]
+Episode:  567 , steps:  1640000
+start
+  - Rewards: [-10  -9  -4  -8   2]
+  - Amount of actions: [5437 6916 6697 5697 7756]
+Episode:  568 , steps:  1650000
+start
+  - Rewards: [ -4  -4 -19 -10   2]
+  - Amount of actions: [6079 6818 3752 5237 7295]
+Episode:  570 , steps:  1660000
+start
+  - Rewards: [  6  -9 -13 -15  -8]
+  - Amount of actions: [4420 4848 4466 4214 4772]
+Episode:  572 , steps:  1670000
+start
+  - Rewards: [-13  -2  -9 -18 -11]
+  - Amount of actions: [6042 7925 5592 4599 5047]
+Episode:  573 , steps:  1680000
+start
+  - Rewards: [ -4 -10 -12  -3  -6]
+  - Amount of actions: [7290 5740 5872 7849 6490]
+Episode:  575 , steps:  1690000
+start
+  - Rewards: [  2 -15  -4  -3   1]
+  - Amount of actions: [6280 5380 7359 6451 6874]
+Episode:  576 , steps:  1700000
+start
+  - Rewards: [-7 -4 -1  1 -5]
+  - Amount of actions: [7820 7452 8575 7208 6868]
+Episode:  578 , steps:  1710000
+start
+  - Rewards: [-10  -7  -6  -9  -9]
+  - Amount of actions: [6717 7603 6764 6337 7130]
+Episode:  580 , steps:  1720000
+start
+  - Rewards: [-11   2 -11   4  -3]
+  - Amount of actions: [7982 9307 5805 7081 9389]
+Episode:  581 , steps:  1730000
+start
+  - Rewards: [-3 -7 10 -6 -7]
+  - Amount of actions: [7211 7508 5950 8021 7991]
+Episode:  583 , steps:  1740000
+start
+  - Rewards: [-1 -6  7 -7 -6]
+  - Amount of actions: [7309 6574 7090 8215 8090]
+Episode:  585 , steps:  1750000
+start
+  - Rewards: [ -7  -5 -11 -12  -8]
+  - Amount of actions: [6656 6215 5401 5141 6461]
+Episode:  587 , steps:  1760000
+start
+  - Rewards: [ -9 -14 -10  -4 -16]
+  - Amount of actions: [6283 5514 6789 9582 5353]
+Episode:  589 , steps:  1770000
+start
+  - Rewards: [-15 -18  -8 -13  -8]
+  - Amount of actions: [4846 4213 7719 6300 7653]
+Episode:  591 , steps:  1780000
+start
+  - Rewards: [-10 -10 -13 -10 -13]
+  - Amount of actions: [5816 6790 6397 3634 4077]
+Episode:  594 , steps:  1790000
+start
+  - Rewards: [-10 -15  -1 -12 -13]
+  - Amount of actions: [5782 3482 7878 4610 5323]
+Episode:  596 , steps:  1800000
+start
+  - Rewards: [-15  -8 -10  -7 -14]
+  - Amount of actions: [4096 5828 5754 5689 4463]
+Episode:  598 , steps:  1810000
+start
+  - Rewards: [-13 -15 -15 -14 -14]
+  - Amount of actions: [5320 3832 3720 3834 3452]
+Episode:  600 , steps:  1820000
+start
+  - Rewards: [-11  -8  -9 -14  -7]
+  - Amount of actions: [5434 6498 6080 5666 7045]
+Episode:  603 , steps:  1830000
+start
+  - Rewards: [-15 -10 -12  -8 -12]
+  - Amount of actions: [3134 3609 4329 5358 4504]
+Episode:  605 , steps:  1840000
+start
+  - Rewards: [-3 -2 -6 -3 -9]
+  - Amount of actions: [6414 7133 6762 6491 5711]
+Episode:  608 , steps:  1850000
+start
+  - Rewards: [ -6   1 -10 -10  -3]
+  - Amount of actions: [7845 8035 6376 5531 7599]
+Episode:  610 , steps:  1860000
+start
+  - Rewards: [ -9  -9  -3 -11  -8]
+  - Amount of actions: [7221 7425 9254 8326 8330]
+Episode:  611 , steps:  1870000
+start
+  - Rewards: [-11 -10 -15 -14 -13]
+  - Amount of actions: [6679 4987 4412 5444 5796]
+Episode:  614 , steps:  1880000
+start
+  - Rewards: [-12 -12 -15  -9 -15]
+  - Amount of actions: [5313 5051 3670 5763 3437]
+Episode:  616 , steps:  1890000
+start
+  - Rewards: [-11 -14  -2 -13  -2]
+  - Amount of actions: [4695 4092 6458 4864 6054]
+Episode:  618 , steps:  1900000
+start
+  - Rewards: [ -7  -3 -14 -14  -7]
+  - Amount of actions: [5872 6628 5167 4223 6356]
+Episode:  620 , steps:  1910000
+start
+  - Rewards: [-19 -16 -17 -16 -15]
+  - Amount of actions: [3521 4014 4287 6477 4638]
+Episode:  622 , steps:  1920000
+start
+  - Rewards: [ -8  -9 -13 -18  -3]
+  - Amount of actions: [4468 3923 3915 3029 5322]
+Episode:  624 , steps:  1930000
+start
+  - Rewards: [-19 -14  -9 -15   4]
+  - Amount of actions: [3986 4792 4245 4565 6076]
+Episode:  627 , steps:  1940000
+start
+  - Rewards: [-14 -13 -12 -13  -2]
+  - Amount of actions: [4682 3792 6257 5281 7167]
+Episode:  629 , steps:  1950000
+start
+  - Rewards: [ -7  -7 -12  -2  -7]
+  - Amount of actions: [7201 6970 5013 6811 6510]
+Episode:  630 , steps:  1960000
+start
+  - Rewards: [-16 -16 -17 -11 -16]
+  - Amount of actions: [5065 4812 5641 5557 4788]
+Episode:  633 , steps:  1970000
+start
+  - Rewards: [-11 -16 -18 -11 -13]
+  - Amount of actions: [5886 5546 4014 7214 5522]
+Episode:  635 , steps:  1980000
+start
+  - Rewards: [-14 -13 -13 -15 -13]
+  - Amount of actions: [3978 4205 4760 4422 4395]
+Episode:  637 , steps:  1990000
+start
+  - Rewards: [-15 -13  -6 -12 -12]
+  - Amount of actions: [5044 4573 7128 5830 4232]
+Episode:  641 , steps:  2000000
+start
+  - Rewards: [-21 -19 -14 -17 -14]
+  - Amount of actions: [2368 2127 5551 3949 4620]
+Episode:  643 , steps:  2010000
+start
+  - Rewards: [-16 -16 -14  -9  -4]
+  - Amount of actions: [4480 3735 4195 4691 5831]
+Episode:  646 , steps:  2020000
+start
+  - Rewards: [-18 -18 -19 -16 -11]
+  - Amount of actions: [2580 2746 2856 3246 4139]
+Episode:  649 , steps:  2030000
+start
+  - Rewards: [-19 -18 -20 -14 -13]
+  - Amount of actions: [2693 3041 2370 3063 3075]
+Episode:  653 , steps:  2040000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1006 1016  984 1050 1003]
+Episode:  655 , steps:  2050000
+start
+  - Rewards: [-11 -13 -17  -9  -8]
+  - Amount of actions: [5275 4817 3918 5584 5510]
+Episode:  658 , steps:  2060000
+start
+  - Rewards: [-12 -11 -13  -7 -10]
+  - Amount of actions: [4931 5566 5425 5367 4359]
+Episode:  660 , steps:  2070000
+start
+  - Rewards: [-11 -15  -9 -15 -13]
+  - Amount of actions: [5563 3252 4992 4061 3579]
+Episode:  662 , steps:  2080000
+start
+  - Rewards: [-18 -12 -10  -5 -15]
+  - Amount of actions: [2707 4875 6651 6814 4413]
+Episode:  665 , steps:  2090000
+start
+  - Rewards: [ -7  -8 -10   3 -14]
+  - Amount of actions: [5565 5452 5903 5883 3807]
+Episode:  667 , steps:  2100000
+start
+  - Rewards: [-12  -7  -5 -11 -14]
+  - Amount of actions: [3894 5942 6530 5032 4268]
+Episode:  669 , steps:  2110000
+start
+  - Rewards: [-1 -8 -7 -9 -6]
+  - Amount of actions: [5626 5066 4862 4748 5114]
+Episode:  671 , steps:  2120000
+start
+  - Rewards: [-10  -7  -9  -7  -8]
+  - Amount of actions: [5387 6565 5747 6981 5230]
+Episode:  673 , steps:  2130000
+start
+  - Rewards: [ -1 -12 -12  -9 -12]
+  - Amount of actions: [5914 4503 4770 5891 4525]
+Episode:  675 , steps:  2140000
+start
+  - Rewards: [-14 -10 -18  -8 -16]
+  - Amount of actions: [4074 5284 4577 5676 3680]
+Episode:  676 , steps:  2150000
+start
+  - Rewards: [-10 -18 -11  -2  -7]
+  - Amount of actions: [5414 5850 7109 7483 7712]
+Episode:  678 , steps:  2160000
+start
+  - Rewards: [ -9  -9 -11 -16 -12]
+  - Amount of actions: [4677 4551 5388 4664 4100]
+Episode:  681 , steps:  2170000
+start
+  - Rewards: [-19 -16 -10  -4 -15]
+  - Amount of actions: [3872 5509 4849 6096 4569]
+Episode:  683 , steps:  2180000
+start
+  - Rewards: [-17 -15 -14 -19  -8]
+  - Amount of actions: [5703 5536 5986 5735 6857]
+Episode:  684 , steps:  2190000
+start
+  - Rewards: [-13 -11  -7 -18 -10]
+  - Amount of actions: [4177 4054 4703 2953 4095]
+Episode:  687 , steps:  2200000
+start
+  - Rewards: [-19 -19 -20 -20 -21]
+  - Amount of actions: [1474 1598 1328 1404 1134]
+Episode:  689 , steps:  2210000
+start
+  - Rewards: [ -8 -12  -9 -11  -9]
+  - Amount of actions: [6156 5798 6470 5165 5210]
+Episode:  691 , steps:  2220000
+start
+  - Rewards: [ -5 -14 -15 -16  -9]
+  - Amount of actions: [7112 5105 5749 4340 6109]
+Episode:  692 , steps:  2230000
+start
+  - Rewards: [ -4 -15   2 -17  -3]
+  - Amount of actions: [7041 4877 7958 3888 7030]
+Episode:  694 , steps:  2240000
+start
+  - Rewards: [-10  -8   2  -7 -13]
+  - Amount of actions: [4114 5833 6910 4620 5358]
+Episode:  696 , steps:  2250000
+start
+  - Rewards: [-12  -1  -7   2 -10]
+  - Amount of actions: [4581 6268 4407 5659 4879]
+Episode:  698 , steps:  2260000
+start
+  - Rewards: [ -6 -11 -12  -1 -11]
+  - Amount of actions: [5378 4844 5046 6368 5241]
+Episode:  700 , steps:  2270000
+start
+  - Rewards: [-14 -10 -12 -13  -7]
+  - Amount of actions: [4017 4516 4441 4303 5851]
+Episode:  702 , steps:  2280000
+start
+  - Rewards: [-1 -9 -3 -9 -9]
+  - Amount of actions: [7249 5757 6491 5666 6503]
+Episode:  704 , steps:  2290000
+start
+  - Rewards: [-18 -15 -18 -17 -16]
+  - Amount of actions: [3094 3948 2333 2874 3189]
+Episode:  706 , steps:  2300000
+start
+  - Rewards: [-17 -12 -14 -14 -13]
+  - Amount of actions: [3970 3760 4220 3520 3860]
+Episode:  708 , steps:  2310000
+start
+  - Rewards: [-15 -14  -2 -12 -17]
+  - Amount of actions: [4275 5099 6994 4660 3924]
+Episode:  709 , steps:  2320000
+start
+  - Rewards: [-17 -13 -12 -12 -10]
+  - Amount of actions: [4051 4605 4931 5375 5132]
+Episode:  712 , steps:  2330000
+start
+  - Rewards: [-16   1  -9 -14 -11]
+  - Amount of actions: [3651 5106 4722 3938 4573]
+Episode:  714 , steps:  2340000
+start
+  - Rewards: [-15 -11 -14 -10 -11]
+  - Amount of actions: [4236 4727 3754 4137 3813]
+Episode:  723 , steps:  2350000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [969 987 973 966 983]
+Episode:  734 , steps:  2360000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [973 966 996 964 989]
+Episode:  744 , steps:  2370000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [979 965 977 972 974]
+Epoch:  750  - Total reward:  -21.0 Episode duration:  964 Actions:  [ 49 546 369] Threshold:  0.010000000047249913
+Episode:  754 , steps:  2380000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [986 971 985 964 983]
+Episode:  764 , steps:  2390000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 966 975 973 972]
+Episode:  775 , steps:  2400000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 974 980 974 971]
+Episode:  785 , steps:  2410000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 971 970 972 968]
+Episode:  793 , steps:  2420000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 970 977 976 979]
+Episode:  802 , steps:  2430000
+start
+  - Rewards: [-19 -21 -20 -19 -21]
+  - Amount of actions: [1386 1141 1626 1281 1339]
+Episode:  809 , steps:  2440000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1934 1466 1127 1316 1211]
+Episode:  816 , steps:  2450000
+start
+  - Rewards: [-21 -21 -19 -21 -21]
+  - Amount of actions: [1110 1048 1437 1012 1095]
+Episode:  822 , steps:  2460000
+start
+  - Rewards: [-20 -21 -20 -21 -20]
+  - Amount of actions: [1183 1132 2431 1271 1676]
+Episode:  829 , steps:  2470000
+start
+  - Rewards: [-21 -21 -18 -20 -20]
+  - Amount of actions: [1058 1047 1934 1461 2051]
+Episode:  837 , steps:  2480000
+start
+  - Rewards: [-20 -18 -21 -21 -20]
+  - Amount of actions: [1410 1605 1361 1481 1324]
+Episode:  846 , steps:  2490000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [ 980 1013  976 1215  973]
+Episode:  855 , steps:  2500000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1175 1134 1136 1458 1097]
+Episode:  864 , steps:  2510000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [967 973 971 971 979]
+Episode:  875 , steps:  2520000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [979 984 978 959 963]
+Episode:  885 , steps:  2530000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 970 969 982 976]
+Episode:  894 , steps:  2540000
+start
+  - Rewards: [-21 -20 -21 -21 -20]
+  - Amount of actions: [1192 1162 1137 1096 1196]
+Episode:  903 , steps:  2550000
+start
+  - Rewards: [-19 -21 -21 -21 -21]
+  - Amount of actions: [1317 1167  978 1090  962]
+Episode:  911 , steps:  2560000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1014 1014 1077 1218 1195]
+Episode:  920 , steps:  2570000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1006 1139 1083 1096 1010]
+Episode:  929 , steps:  2580000
+start
+  - Rewards: [-20 -21 -21 -20 -20]
+  - Amount of actions: [1181 1055 1045 1069 1090]
+Episode:  938 , steps:  2590000
+start
+  - Rewards: [-21 -21 -20 -21 -20]
+  - Amount of actions: [1042  980 1066 1008 1182]
+Episode:  947 , steps:  2600000
+start
+  - Rewards: [-21 -21 -20 -20 -21]
+  - Amount of actions: [1208 1286 1144 1087 1210]
+Episode:  955 , steps:  2610000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [983 978 962 980 979]
+Episode:  964 , steps:  2620000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [1011 1050 1063 1046 1079]
+Episode:  973 , steps:  2630000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [970 989 977 969 975]
+Episode:  983 , steps:  2640000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [970 977 989 974 977]
+Episode:  993 , steps:  2650000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [964 973 980 970 960]
+Epoch:  1000  - Total reward:  -20.0 Episode duration:  1184 Actions:  [112 274 798] Threshold:  0.010000000002825572
+Episode:  1002 , steps:  2660000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [1067 1057 1129 1054 1183]
+Episode:  1011 , steps:  2670000
+start
+  - Rewards: [-19 -18 -21 -20 -21]
+  - Amount of actions: [1367 1285 1304 1090 1148]
+Episode:  1020 , steps:  2680000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1164 1144  990  997 1050]
+Episode:  1029 , steps:  2690000
+start
+  - Rewards: [-20 -21 -21 -20 -20]
+  - Amount of actions: [1089  991 1084 1111 1084]
+Episode:  1038 , steps:  2700000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1040 1054 1000 1060 1013]
+Episode:  1048 , steps:  2710000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [993 972 980 963 980]
+Episode:  1057 , steps:  2720000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1098 1046 1131 1083 1054]
+Episode:  1066 , steps:  2730000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1248 1044 1175 1049 1057]
+Episode:  1075 , steps:  2740000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [1065 1258 1074 1196 1212]
+Episode:  1084 , steps:  2750000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1133 1048 1113 1071 1057]
+Episode:  1092 , steps:  2760000
+start
+  - Rewards: [-21 -20 -20 -20 -21]
+  - Amount of actions: [1044 1109 1101 1096 1059]
+Episode:  1101 , steps:  2770000
+start
+  - Rewards: [-20 -21 -21 -20 -21]
+  - Amount of actions: [1108 1069 1210 1099 1060]
+Episode:  1110 , steps:  2780000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1054 1223 1069 1072 1084]
+Episode:  1118 , steps:  2790000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [982 972 957 974 966]
+Episode:  1128 , steps:  2800000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [ 995  967 1091  985  975]
+Episode:  1137 , steps:  2810000
+start
+  - Rewards: [-21 -20 -21 -20 -21]
+  - Amount of actions: [1457 1179 1559 1223 1386]
+Episode:  1146 , steps:  2820000
+start
+  - Rewards: [-21 -20 -21 -21 -20]
+  - Amount of actions: [1060 1108 1051 1287 1479]
+Episode:  1154 , steps:  2830000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1135 1308 1141 1138 1392]
+Episode:  1163 , steps:  2840000
+start
+  - Rewards: [-21 -20 -20 -21 -21]
+  - Amount of actions: [1049 1103 1469 1144 1133]
+Episode:  1172 , steps:  2850000
+start
+  - Rewards: [-21 -21 -19 -21 -21]
+  - Amount of actions: [ 985  981 1398  975  958]
+Episode:  1181 , steps:  2860000
+start
+  - Rewards: [-21 -21 -20 -20 -21]
+  - Amount of actions: [1063 1061 1095 1191 1135]
+Episode:  1188 , steps:  2870000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1090 1220  994 1216 1233]
+Episode:  1197 , steps:  2880000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1095 1084 1138 1255 1141]
+Episode:  1206 , steps:  2890000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1117 1004 1070 1205 1226]
+Episode:  1215 , steps:  2900000
+start
+  - Rewards: [-20 -21 -20 -21 -20]
+  - Amount of actions: [1248  968 1080  969 1079]
+Episode:  1225 , steps:  2910000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [ 968 1049  975 1071  959]
+Episode:  1235 , steps:  2920000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [956 969 960 977 961]
+Episode:  1245 , steps:  2930000
+start
+  - Rewards: [-20 -20 -21 -20 -20]
+  - Amount of actions: [1101 1097 1297 1479 1087]
+Epoch:  1250  - Total reward:  -20.0 Episode duration:  1115 Actions:  [343  20 752] Threshold:  0.010000000000174562
+Episode:  1253 , steps:  2940000
+start
+  - Rewards: [-21 -20 -20 -21 -21]
+  - Amount of actions: [1225 1108 1171 1281 1224]
+Episode:  1262 , steps:  2950000
+start
+  - Rewards: [-21 -20 -20 -21 -21]
+  - Amount of actions: [1044 1312 1084 1135 1003]
+Episode:  1271 , steps:  2960000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [1131 1473 1475 1467 1228]
+Episode:  1280 , steps:  2970000
+start
+  - Rewards: [-21 -20 -21 -21 -20]
+  - Amount of actions: [1221 1117 1156 1039 1852]
+Episode:  1288 , steps:  2980000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1056 1097 1014  989  972]
+Episode:  1297 , steps:  2990000
+start
+  - Rewards: [-21 -21 -21 -20 -20]
+  - Amount of actions: [1177 1087 1046 1057 1095]
+Episode:  1306 , steps:  3000000
+start
+  - Rewards: [-21 -20 -20 -21 -21]
+  - Amount of actions: [1322 1321 1071 1173 1142]
+Episode:  1315 , steps:  3010000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1055 1017 1085 1053 1043]
+Episode:  1323 , steps:  3020000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1148 1093 1043 1044 1042]
+Episode:  1333 , steps:  3030000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1177 1043  994 1266 1054]
+Episode:  1342 , steps:  3040000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 957 981 957 977]
+Episode:  1351 , steps:  3050000
+start
+  - Rewards: [-20 -21 -21 -20 -20]
+  - Amount of actions: [1097 1128 1129 1076 1115]
+Episode:  1360 , steps:  3060000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [1072  998 1054  993 1110]
+Episode:  1369 , steps:  3070000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1184 1064 1126 1379 1062]
+Episode:  1378 , steps:  3080000
+start
+  - Rewards: [-20 -21 -21 -21 -20]
+  - Amount of actions: [1088 1079 1013 1066 1383]
+Episode:  1387 , steps:  3090000
+start
+  - Rewards: [-20 -20 -20 -21 -21]
+  - Amount of actions: [1253 1146 1104 1055 1211]
+Episode:  1396 , steps:  3100000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1043 1051 1062 1125 1037]
+Episode:  1404 , steps:  3110000
+start
+  - Rewards: [-20 -21 -20 -21 -21]
+  - Amount of actions: [1092 1123 1080 1134 1204]
+Episode:  1413 , steps:  3120000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1136 1051 1056 1095 1067]
+Episode:  1422 , steps:  3130000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1062 1072 1056 1101 1294]
+Episode:  1431 , steps:  3140000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1064 1061 1224 1102 1149]
+Episode:  1440 , steps:  3150000
+start
+  - Rewards: [-21 -20 -21 -21 -20]
+  - Amount of actions: [1074 1094 1063 1376 1106]
+Episode:  1448 , steps:  3160000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 972  974  959 1052  963]
+Episode:  1458 , steps:  3170000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [964 957 974 965 968]
+Episode:  1468 , steps:  3180000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [983 979 965 988 968]
+Episode:  1479 , steps:  3190000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [998 962 973 963 965]
+Episode:  1489 , steps:  3200000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [983 977 962 982 993]
+Episode:  1499 , steps:  3210000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [973 975 973 985 973]
+Epoch:  1500  - Total reward:  -21.0 Episode duration:  975 Actions:  [ 56 868  51] Threshold:  0.010000000000011151
+Episode:  1509 , steps:  3220000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [958 972 991 977 961]
+Episode:  1519 , steps:  3230000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [979 973 982 975 974]
+Episode:  1528 , steps:  3240000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [1135 1101 1132 1137 1140]
+Episode:  1537 , steps:  3250000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1141 1141 1109 1058 1139]
+Episode:  1546 , steps:  3260000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [1388 1107 1214 1148 1695]
+Episode:  1555 , steps:  3270000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1066 1052 1052 1066 1297]
+Episode:  1564 , steps:  3280000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1048 1051 1114 1307 1047]
+Episode:  1572 , steps:  3290000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1364 1051 1032 1601 1055]
+Episode:  1580 , steps:  3300000
+start
+  - Rewards: [-20 -21 -21 -21 -20]
+  - Amount of actions: [1117 1064 1189 1041 1095]
+Episode:  1589 , steps:  3310000
+start
+  - Rewards: [-20 -21 -21 -20 -20]
+  - Amount of actions: [1106 1138 1140 1107 1101]
+Episode:  1598 , steps:  3320000
+start
+  - Rewards: [-20 -20 -20 -21 -20]
+  - Amount of actions: [1107 1106 1095 1042 1100]
+Episode:  1607 , steps:  3330000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1298 1055 1063 1103 1144]
+Episode:  1614 , steps:  3340000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1624 1059 1222 1231 1531]
+Episode:  1623 , steps:  3350000
+start
+  - Rewards: [-20 -21 -21 -20 -21]
+  - Amount of actions: [1339 1050 1043 1827 1135]
+Episode:  1631 , steps:  3360000
+start
+  - Rewards: [-21 -18 -20 -18 -21]
+  - Amount of actions: [2048 2881 1398 2843 1131]
+Episode:  1637 , steps:  3370000
+start
+  - Rewards: [-21 -19 -19 -21 -20]
+  - Amount of actions: [1137 2247 1619 1055 1185]
+Episode:  1644 , steps:  3380000
+start
+  - Rewards: [-21 -21 -21 -21 -18]
+  - Amount of actions: [1355 1068 1089 1049 1563]
+Episode:  1652 , steps:  3390000
+start
+  - Rewards: [-21 -20 -20 -21 -21]
+  - Amount of actions: [1079 1229 1522 1054 1124]
+Episode:  1661 , steps:  3400000
+start
+  - Rewards: [-21 -21 -19 -18 -20]
+  - Amount of actions: [1386  985 1403 1486 1337]
+Episode:  1668 , steps:  3410000
+start
+  - Rewards: [-21 -21 -21 -19 -21]
+  - Amount of actions: [1128 1141  994 1439  998]
+Episode:  1675 , steps:  3420000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1145 1136 1322  986 1319]
+Episode:  1682 , steps:  3430000
+start
+  - Rewards: [-18 -21 -20 -21 -21]
+  - Amount of actions: [2531 1058 1902 1058 1050]
+Episode:  1691 , steps:  3440000
+start
+  - Rewards: [-21 -21 -19 -21 -21]
+  - Amount of actions: [1014 1001 1348 1037 1001]
+Episode:  1699 , steps:  3450000
+start
+  - Rewards: [-21 -21 -19 -20 -19]
+  - Amount of actions: [1008 1102 1579 1128 1423]
+Episode:  1707 , steps:  3460000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1239  968 1437 1344 1085]
+Episode:  1716 , steps:  3470000
+start
+  - Rewards: [-21 -21 -18 -21 -19]
+  - Amount of actions: [1101 1044 1784 1531 1369]
+Episode:  1723 , steps:  3480000
+start
+  - Rewards: [-15 -20 -20 -20 -20]
+  - Amount of actions: [2200 1413 1098 1686 1360]
+Episode:  1730 , steps:  3490000
+start
+  - Rewards: [-18 -19 -20 -20 -19]
+  - Amount of actions: [1724 1668 1667 1507 1806]
+Episode:  1736 , steps:  3500000
+start
+  - Rewards: [-21 -20 -19 -21 -20]
+  - Amount of actions: [1399 1524 1679 1158 1175]
+Episode:  1742 , steps:  3510000
+start
+  - Rewards: [-20 -20 -19 -16 -21]
+  - Amount of actions: [1427 1628 2543 2094 1998]
+Episode:  1748 , steps:  3520000
+start
+  - Rewards: [-18 -21 -18 -17 -20]
+  - Amount of actions: [1864 1445 1573 1951 1160]
+Epoch:  1750  - Total reward:  -20.0 Episode duration:  1709 Actions:  [1024  310  375] Threshold:  0.01000000000000049
+Episode:  1754 , steps:  3530000
+start
+  - Rewards: [-18 -18 -18 -21 -21]
+  - Amount of actions: [1908 1713 1903 1838 1977]
+Episode:  1761 , steps:  3540000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [ 983  963 1302  987  966]
+Episode:  1766 , steps:  3550000
+start
+  - Rewards: [-16 -19 -20 -17 -18]
+  - Amount of actions: [1887 2183 1750 2020 2452]
+Episode:  1772 , steps:  3560000
+start
+  - Rewards: [-18 -18 -21 -20 -18]
+  - Amount of actions: [2058 2210 1664 1849 1883]
+Episode:  1776 , steps:  3570000
+start
+  - Rewards: [-21 -21 -18 -16 -17]
+  - Amount of actions: [2073 2258 2790 2600 2572]
+Episode:  1780 , steps:  3580000
+start
+  - Rewards: [-20 -16 -18 -21 -20]
+  - Amount of actions: [2012 3119 2726 2794 2619]
+Episode:  1784 , steps:  3590000
+start
+  - Rewards: [-19 -17 -18 -16 -16]
+  - Amount of actions: [2383 2792 2689 2616 2478]
+Episode:  1790 , steps:  3600000
+start
+  - Rewards: [-21 -20 -20 -21 -21]
+  - Amount of actions: [1295 1274 1423 1094 1399]
+Episode:  1798 , steps:  3610000
+start
+  - Rewards: [-20 -21 -20 -21 -21]
+  - Amount of actions: [2039 1439 1704 1206 1365]
+Episode:  1805 , steps:  3620000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1302 1320 1297 1145 1213]
+Episode:  1814 , steps:  3630000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 971 964 974 971]
+Episode:  1822 , steps:  3640000
+start
+  - Rewards: [-21 -20 -21 -20 -21]
+  - Amount of actions: [1146 1515 1041 1493 1137]
+Episode:  1830 , steps:  3650000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1373 1137 1090 1171 1115]
+Episode:  1838 , steps:  3660000
+start
+  - Rewards: [-21 -19 -20 -21 -20]
+  - Amount of actions: [1092 1662 1249 1100 1238]
+Episode:  1847 , steps:  3670000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1051 1131 1453 1247 1084]
+Episode:  1855 , steps:  3680000
+start
+  - Rewards: [-21 -21 -21 -21 -19]
+  - Amount of actions: [1044 1047 1208 1020 1202]
+Episode:  1863 , steps:  3690000
+start
+  - Rewards: [-21 -18 -21 -19 -21]
+  - Amount of actions: [1305 2049 1289 1534 1143]
+Episode:  1871 , steps:  3700000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1065 1132 1322 1027 1137]
+Episode:  1881 , steps:  3710000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [960 978 983 982 981]
+Episode:  1891 , steps:  3720000
+start
+  - Rewards: [-19 -21 -20 -21 -19]
+  - Amount of actions: [1528  974 1185  980 1584]
+Episode:  1900 , steps:  3730000
+start
+  - Rewards: [-21 -18 -21 -21 -21]
+  - Amount of actions: [1023 1334 1118 1094  986]
+Episode:  1911 , steps:  3740000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1027  966  974  983 1108]
+Episode:  1920 , steps:  3750000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 973  969 1100 1158  968]
+Episode:  1929 , steps:  3760000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1212 1155 1078 1061 1058]
+Episode:  1937 , steps:  3770000
+start
+  - Rewards: [-20 -19 -21 -20 -19]
+  - Amount of actions: [1160 1681 1067 1731 1564]
+Episode:  1945 , steps:  3780000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1057 1116 1056 1203 1214]
+Episode:  1953 , steps:  3790000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1036 1115 1142 1138 1334]
+Episode:  1962 , steps:  3800000
+start
+  - Rewards: [-21 -21 -21 -19 -20]
+  - Amount of actions: [1220 1307  996 1449 1258]
+Episode:  1971 , steps:  3810000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [961 957 967 983 996]
+Episode:  1980 , steps:  3820000
+start
+  - Rewards: [-19 -21 -21 -21 -20]
+  - Amount of actions: [1334 1096 1162  982 1139]
+Episode:  1989 , steps:  3830000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [1055 1003 1156 1059 1148]
+Episode:  1998 , steps:  3840000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1164 1133 1036 1061 1215]
+Epoch:  2000  - Total reward:  -21.0 Episode duration:  1041 Actions:  [695  59 287] Threshold:  0.010000000000000021
+Episode:  2006 , steps:  3850000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1221 1058 1138 1045 1010]
+Episode:  2014 , steps:  3860000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1055 1463 1012 1154 1014]
+Episode:  2023 , steps:  3870000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [1024 1106 1050 1322 1014]
+Episode:  2032 , steps:  3880000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [1047 1168 1067 1138 1169]
+Episode:  2041 , steps:  3890000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1150 1065 1011 1036 1132]
+Episode:  2050 , steps:  3900000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1117 1133 1002 1122 1041]
+Episode:  2059 , steps:  3910000
+start
+  - Rewards: [-21 -21 -20 -21 -20]
+  - Amount of actions: [ 967  998 1056 1288 1077]
+Episode:  2068 , steps:  3920000
+start
+  - Rewards: [-20 -21 -21 -20 -16]
+  - Amount of actions: [1207 1222 1140 1064 1664]
+Episode:  2077 , steps:  3930000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [1417 1141 1116 1048 1053]
+Episode:  2086 , steps:  3940000
+start
+  - Rewards: [-20 -21 -20 -21 -13]
+  - Amount of actions: [1229 1054 1081  981 1946]
+Episode:  2095 , steps:  3950000
+start
+  - Rewards: [-21 -21 -21  20 -21]
+  - Amount of actions: [1038 1092  975 2169 1062]
+Episode:  2105 , steps:  3960000
+start
+  - Rewards: [ 10 -20 -21 -21 -21]
+  - Amount of actions: [2865 1303  968  972 1017]
+Episode:  2113 , steps:  3970000
+start
+  - Rewards: [-21 -21 -20 -21 -20]
+  - Amount of actions: [1060 1076 1095 1004 1252]
+Episode:  2123 , steps:  3980000
+start
+  - Rewards: [-20 -21 -20 -21 -21]
+  - Amount of actions: [1082 1056 1276 1015 1064]
+Episode:  2132 , steps:  3990000
+start
+  - Rewards: [-20 -20 -20 -20 -19]
+  - Amount of actions: [1168 1198 1090 1096 1247]
+Episode:  2141 , steps:  4000000
+start
+  - Rewards: [-21 -21 -21 -20 -20]
+  - Amount of actions: [1155 1016  976 1078 1079]
+Episode:  2149 , steps:  4010000
+start
+  - Rewards: [-21 -21 -21 -20 -20]
+  - Amount of actions: [1015 1045 1000 1095 1073]
+Episode:  2158 , steps:  4020000
+start
+  - Rewards: [-20 -20 -19 -19 -21]
+  - Amount of actions: [1069 1104 1195 1219 1055]
+Episode:  2168 , steps:  4030000
+start
+  - Rewards: [-20 -20 -20 -20 -21]
+  - Amount of actions: [1105 1091 1082 1159 1016]
+Episode:  2177 , steps:  4040000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [950 971 979 975 961]
+Episode:  2187 , steps:  4050000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 974 978 965 963]
+Episode:  2196 , steps:  4060000
+start
+  - Rewards: [-21 -19 -21 -21 -21]
+  - Amount of actions: [1671 1260 1085  966 1014]
+Episode:  2206 , steps:  4070000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [982 973 959 972 982]
+Episode:  2216 , steps:  4080000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [987 962 980 974 962]
+Episode:  2226 , steps:  4090000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 975 976 974 973]
+Episode:  2236 , steps:  4100000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 981 1705  981 1084 1070]
+Episode:  2245 , steps:  4110000
+start
+  - Rewards: [-21 -20 -21 -20 -21]
+  - Amount of actions: [ 992 1121 1728 1073 1723]
+Epoch:  2250  - Total reward:  -21.0 Episode duration:  960 Actions:  [ 10 941   9] Threshold:  0.010000000000000002
+Episode:  2255 , steps:  4120000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [986 976 967 971 960]
+Episode:  2266 , steps:  4130000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [970 976 969 978 960]
+Episode:  2276 , steps:  4140000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [967 965 984 978 973]
+Episode:  2286 , steps:  4150000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [983 970 977 987 980]
+Episode:  2297 , steps:  4160000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [972 970 975 967 978]
+Episode:  2307 , steps:  4170000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 978 974 993 972]
+Episode:  2317 , steps:  4180000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [973 975 964 985 983]
+Episode:  2327 , steps:  4190000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [996 974 992 971 983]
+Episode:  2338 , steps:  4200000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [989 967 969 978 959]
+Episode:  2348 , steps:  4210000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 969 974 971 978]
+Episode:  2358 , steps:  4220000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 973 988 975 969]
+Episode:  2368 , steps:  4230000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 970 978 982 974]
+Episode:  2378 , steps:  4240000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [962 969 989 976 966]
+Episode:  2389 , steps:  4250000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [968 969 972 987 955]
+Episode:  2399 , steps:  4260000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [970 974 964 971 984]
+Episode:  2409 , steps:  4270000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 973 963 969 967]
+Episode:  2418 , steps:  4280000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1080 1129 1066 1214 1147]
+Episode:  2428 , steps:  4290000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1132 1216 1124 1217 1055]
+Episode:  2437 , steps:  4300000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1131 1064 1050 1060 1079]
+Episode:  2446 , steps:  4310000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1221 1131 1055 1229 1050]
+Episode:  2454 , steps:  4320000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1384 1065 1029 1055 1058]
+Episode:  2463 , steps:  4330000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1462 1295 1199 1047 1150]
+Episode:  2472 , steps:  4340000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1143 1126 1048 1149 1148]
+Episode:  2481 , steps:  4350000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [991 975 970 981 984]
+Episode:  2491 , steps:  4360000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [987 971 959 967 972]
+Epoch:  2500  - Total reward:  -21.0 Episode duration:  978 Actions:  [954  22   2] Threshold:  0.01
+Episode:  2501 , steps:  4370000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1073  985 1026  978  967]
+Episode:  2511 , steps:  4380000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 994 1099 1021 1001 1055]
+Episode:  2521 , steps:  4390000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 991 1033  982  966  976]
+Episode:  2531 , steps:  4400000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [ 972  968 1013 1070 1028]
+Episode:  2541 , steps:  4410000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [ 977  969  985 1068  972]
+Episode:  2551 , steps:  4420000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [993 971 960 997 969]
+Episode:  2561 , steps:  4430000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [970 965 977 963 976]
+Episode:  2571 , steps:  4440000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [987 979 980 980 977]
+Episode:  2581 , steps:  4450000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [987 962 959 967 979]
+Episode:  2591 , steps:  4460000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 974 981 971 983]
+Episode:  2601 , steps:  4470000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 972 1721  962  972  984]
+Episode:  2611 , steps:  4480000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [975 978 986 982 972]
+Episode:  2621 , steps:  4490000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [986 986 971 959 981]
+Episode:  2632 , steps:  4500000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [973 974 979 980 974]
+Episode:  2642 , steps:  4510000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [981 973 970 963 968]
+Episode:  2652 , steps:  4520000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [981 973 974 970 966]
+Episode:  2662 , steps:  4530000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [975 983 984 976 964]
+Episode:  2673 , steps:  4540000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [988 967 984 956 981]
+Episode:  2683 , steps:  4550000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [960 976 989 980 961]
+Episode:  2693 , steps:  4560000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 981 980 959 967]
+Episode:  2703 , steps:  4570000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [973 971 980 966 986]
+Episode:  2713 , steps:  4580000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 981 958 966 970]
+Episode:  2724 , steps:  4590000
+start
+  - Rewards: [-21 -20 -20 -21 -20]
+  - Amount of actions: [ 979 1078 1074 1020 1087]
+Episode:  2733 , steps:  4600000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 962 1006  985  980 1050]
+Episode:  2743 , steps:  4610000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 978 1031  982  987 1018]
+Epoch:  2750  - Total reward:  -20.0 Episode duration:  1071 Actions:  [1015   25   31] Threshold:  0.01
+Episode:  2753 , steps:  4620000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 975 1054  972  974 1022]
+Episode:  2763 , steps:  4630000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 961  984  970 1640 1025]
+Episode:  2773 , steps:  4640000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [968 978 982 966 972]
+Episode:  2782 , steps:  4650000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 971 979 968 959]
+Episode:  2792 , steps:  4660000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [1020 1075  974 1014 1005]
+Episode:  2802 , steps:  4670000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 967 1011  965  968  952]
+Episode:  2811 , steps:  4680000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [ 966  962  974 1085  977]
+Episode:  2821 , steps:  4690000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 982  971  969  979 1412]
+Episode:  2831 , steps:  4700000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 963 977 971 960]
+Episode:  2842 , steps:  4710000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 981  980  977  995 1003]
+Episode:  2852 , steps:  4720000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [979 983 967 966 990]
+Episode:  2862 , steps:  4730000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 976 1040  981  967 1028]
+Episode:  2871 , steps:  4740000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1085  978  965  971  969]
+Episode:  2881 , steps:  4750000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [ 960  982 1087  988 1015]
+Episode:  2892 , steps:  4760000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 980  982  975 1018  973]
+Episode:  2902 , steps:  4770000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 990 1011  983  979  968]
+Episode:  2911 , steps:  4780000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1076 1111  976 1005  975]
+Episode:  2921 , steps:  4790000
+start
+  - Rewards: [-20 -20 -21 -20 -21]
+  - Amount of actions: [1106 1073  963 1078  985]
+Episode:  2930 , steps:  4800000
+start
+  - Rewards: [-20 -21 -20 -21 -21]
+  - Amount of actions: [1064  972 1076 1018 1040]
+Episode:  2940 , steps:  4810000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1140  967 1006  990  982]
+Episode:  2949 , steps:  4820000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 973 1009  982  971 1002]
+Episode:  2959 , steps:  4830000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [ 964  970 1026  972 1081]
+Episode:  2970 , steps:  4840000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [963 981 958 962 961]
+Episode:  2980 , steps:  4850000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [972 971 972 958 966]
+Episode:  2990 , steps:  4860000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [983 981 976 984 979]
+Episode:  3000 , steps:  4870000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [989 967 973 980 974]
+Epoch:  3000  - Total reward:  -21.0 Episode duration:  981 Actions:  [ 81 587 313] Threshold:  0.01
+Episode:  3010 , steps:  4880000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [960 977 966 981 987]
+Episode:  3020 , steps:  4890000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [984 987 967 972 962]
+Episode:  3030 , steps:  4900000
+start
+  - Rewards: [-21 -20 -20 -20 -19]
+  - Amount of actions: [1062 1072 1057 1072 1217]
+Episode:  3039 , steps:  4910000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [981 974 973 974 966]
+Episode:  3049 , steps:  4920000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 969 971 978 968]
+Episode:  3058 , steps:  4930000
+start
+  - Rewards: [-21 -20 -20 -20 -20]
+  - Amount of actions: [1045 1081 1077 1080 1072]
+Episode:  3068 , steps:  4940000
+start
+  - Rewards: [-20 -20 -20 -20 -20]
+  - Amount of actions: [1063 1073 1073 1084 1086]
+Episode:  3077 , steps:  4950000
+start
+  - Rewards: [-21 -21 -20 -21 -20]
+  - Amount of actions: [ 970 1104 1079 1023 1068]
+Episode:  3087 , steps:  4960000
+start
+  - Rewards: [-20 -21 -20 -20 -21]
+  - Amount of actions: [1075  963 1087 1158  998]
+Episode:  3096 , steps:  4970000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [1009 1004 1089 1051  964]
+Episode:  3105 , steps:  4980000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [1007 1075 1050 1019 1019]
+Episode:  3115 , steps:  4990000
+start
+  - Rewards: [-20 -20 -20 -20 -21]
+  - Amount of actions: [1102 1076 1078 1085 1014]
+Episode:  3124 , steps:  5000000
+start
+  - Rewards: [-20 -21 -21 -20 -21]
+  - Amount of actions: [1083 1007 1048 1063  967]
+Episode:  3134 , steps:  5010000
+start
+  - Rewards: [-21 -21 -21 -20 -20]
+  - Amount of actions: [1006 1029  989 1069 1075]
+Episode:  3143 , steps:  5020000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [1014 1122  992 1093  986]
+Episode:  3152 , steps:  5030000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1024 1043 1053  972  988]
+Episode:  3162 , steps:  5040000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 968 1019  976  989  966]
+Episode:  3172 , steps:  5050000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [ 984  965 1082  976  979]
+Episode:  3181 , steps:  5060000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [981 982 963 955 963]
+Episode:  3192 , steps:  5070000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 958 966 976 984]
+Episode:  3202 , steps:  5080000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [990 978 974 963 980]
+Episode:  3212 , steps:  5090000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 980 976 979 973]
+Episode:  3223 , steps:  5100000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 973 976 967 968]
+Episode:  3233 , steps:  5110000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 980 972 976 982]
+Episode:  3243 , steps:  5120000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [983 957 960 976 978]
+Epoch:  3250  - Total reward:  -21.0 Episode duration:  991 Actions:  [  9 923  59] Threshold:  0.01
+Episode:  3253 , steps:  5130000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 965 973 965 983]
+Episode:  3264 , steps:  5140000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 978 958 974 975]
+Episode:  3274 , steps:  5150000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [964 982 957 981 983]
+Episode:  3284 , steps:  5160000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 979 1002 1017  975 1036]
+Episode:  3294 , steps:  5170000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1095  978  979  983  966]
+Episode:  3304 , steps:  5180000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [ 986  971  970 1029 1090]
+Episode:  3314 , steps:  5190000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [960 977 985 959 979]
+Episode:  3323 , steps:  5200000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [961 965 974 972 970]
+Episode:  3332 , steps:  5210000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 982 1166  974 1046  986]
+Episode:  3342 , steps:  5220000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [959 985 974 971 961]
+Episode:  3352 , steps:  5230000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 968 981 965 960]
+Episode:  3361 , steps:  5240000
+start
+  - Rewards: [-20 -17 -20 -21 -20]
+  - Amount of actions: [1094 1527 1088 1014 1122]
+Episode:  3371 , steps:  5250000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 956  986  974 1051  962]
+Episode:  3381 , steps:  5260000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [967 985 988 970 976]
+Episode:  3391 , steps:  5270000
+start
+  - Rewards: [-20 -20 -20 -20 -20]
+  - Amount of actions: [1059 1084 1068 1069 1155]
+Episode:  3400 , steps:  5280000
+start
+  - Rewards: [-20 -20 -20 -21 -20]
+  - Amount of actions: [1061 1080 1100 1057 1094]
+Episode:  3409 , steps:  5290000
+start
+  - Rewards: [-20 -21 -20 -20 -21]
+  - Amount of actions: [1093 1057 1076 1073 1052]
+Episode:  3419 , steps:  5300000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [963 973 979 957 979]
+Episode:  3430 , steps:  5310000
+start
+  - Rewards: [-20 -21 -21 -20 -21]
+  - Amount of actions: [1063 1011  996 1066 1011]
+Episode:  3439 , steps:  5320000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [972 970 969 981 953]
+Episode:  3450 , steps:  5330000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 961 965 983 960]
+Episode:  3459 , steps:  5340000
+start
+  - Rewards: [-21 -20 -20 -20 -21]
+  - Amount of actions: [1046 1091 1074 1117 1104]
+Episode:  3468 , steps:  5350000
+start
+  - Rewards: [-20 -20 -20 -21 -21]
+  - Amount of actions: [1077 1085 1073  988 1001]
+Episode:  3478 , steps:  5360000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [960 984 965 974 974]
+Episode:  3488 , steps:  5370000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [ 958  974 1087  977  971]
+Episode:  3497 , steps:  5380000
+start
+  - Rewards: [-21 -21 -20 -21 -20]
+  - Amount of actions: [1008 1217 1287 1012 1076]
+Epoch:  3500  - Total reward:  -21.0 Episode duration:  1052 Actions:  [969  28  55] Threshold:  0.01
+Episode:  3507 , steps:  5390000
+start
+  - Rewards: [-20 -20 -21 -21 -21]
+  - Amount of actions: [1077 1095 1051 1042 1008]
+Episode:  3517 , steps:  5400000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 985 988 980 983]
+Episode:  3527 , steps:  5410000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 972 975 991 980]
+Episode:  3537 , steps:  5420000
+start
+  - Rewards: [-20 -21 -20 -21 -21]
+  - Amount of actions: [1077  998 1082  984  967]
+Episode:  3547 , steps:  5430000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [958 975 968 979 981]
+Episode:  3557 , steps:  5440000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [968 969 974 991 994]
+Episode:  3566 , steps:  5450000
+start
+  - Rewards: [-20 -21 -20 -21 -20]
+  - Amount of actions: [1093  990 1068 1009 1072]
+Episode:  3576 , steps:  5460000
+start
+  - Rewards: [-20 -21 -21 -21 -20]
+  - Amount of actions: [1067 1007 1024 1043 1078]
+Episode:  3585 , steps:  5470000
+start
+  - Rewards: [-20 -21 -21 -21 -20]
+  - Amount of actions: [1086 1014  989 1045 1098]
+Episode:  3595 , steps:  5480000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [953 987 981 965 967]
+Episode:  3605 , steps:  5490000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [ 980  968  966 1073 1019]
+Episode:  3615 , steps:  5500000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 982 982 974 953]
+Episode:  3625 , steps:  5510000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [972 964 975 968 974]
+Episode:  3635 , steps:  5520000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [969 981 973 961 977]
+Episode:  3645 , steps:  5530000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 982 1081  976  959  975]
+Episode:  3654 , steps:  5540000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1037  995  975  979  968]
+Episode:  3665 , steps:  5550000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [993 977 977 970 961]
+Episode:  3675 , steps:  5560000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [970 968 973 962 969]
+Episode:  3685 , steps:  5570000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [975 962 990 991 979]
+Episode:  3696 , steps:  5580000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 979 963 967 979]
+Episode:  3706 , steps:  5590000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [987 968 991 977 978]
+Episode:  3716 , steps:  5600000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 976 965 976 972]
+Episode:  3726 , steps:  5610000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 972 986 969 967]
+Episode:  3737 , steps:  5620000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 978 979 988 974]
+Episode:  3747 , steps:  5630000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [979 973 965 970 979]
+Epoch:  3750  - Total reward:  -21.0 Episode duration:  984 Actions:  [ 10   5 969] Threshold:  0.01
+Episode:  3757 , steps:  5640000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 966 993 990 975]
+Episode:  3767 , steps:  5650000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 986 980 983 975]
+Episode:  3778 , steps:  5660000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [993 980 978 982 975]
+Episode:  3788 , steps:  5670000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 980 981 966 965]
+Episode:  3798 , steps:  5680000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 978 975 956 983]
+Episode:  3808 , steps:  5690000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 969 970 971 984]
+Episode:  3819 , steps:  5700000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [987 983 975 979 973]
+Episode:  3829 , steps:  5710000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 973 977 990 975]
+Episode:  3839 , steps:  5720000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 973 962 983 984]
+Episode:  3850 , steps:  5730000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [975 979 970 970 985]
+Episode:  3860 , steps:  5740000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [984 976 972 965 972]
+Episode:  3870 , steps:  5750000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 973 980 970 955]
+Episode:  3880 , steps:  5760000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 975 966 965 972]
+Episode:  3890 , steps:  5770000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [972 978 964 977 971]
+Episode:  3900 , steps:  5780000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 961 976 955 977]
+Episode:  3911 , steps:  5790000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [968 979 990 978 971]
+Episode:  3921 , steps:  5800000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [988 976 971 973 982]
+Episode:  3931 , steps:  5810000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [966 990 989 980 978]
+Episode:  3941 , steps:  5820000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [984 991 975 971 967]
+Episode:  3952 , steps:  5830000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 978 971 956 987]
+Episode:  3962 , steps:  5840000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [986 977 967 980 977]
+Episode:  3972 , steps:  5850000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [983 975 967 968 975]
+Episode:  3982 , steps:  5860000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [970 956 962 976 963]
+Episode:  3993 , steps:  5870000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 967 976 986 973]
+Epoch:  4000  - Total reward:  -21.0 Episode duration:  1037 Actions:  [   5   23 1009] Threshold:  0.01
+Episode:  4003 , steps:  5880000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 975 1057 1060  982  980]
+Episode:  4013 , steps:  5890000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [979 962 979 990 997]
+Episode:  4023 , steps:  5900000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1061 1064 1066 1052 1062]
+Episode:  4033 , steps:  5910000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 974 1084  970  954  958]
+Episode:  4042 , steps:  5920000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1207  970 1129 1198  977]
+Episode:  4052 , steps:  5930000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [986 969 974 985 981]
+Episode:  4062 , steps:  5940000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1042 1049  984 1057  976]
+Episode:  4070 , steps:  5950000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 973 1597 1221  985  971]
+Episode:  4076 , steps:  5960000
+start
+  - Rewards: [-19 -20 -20 -19 -20]
+  - Amount of actions: [1445 1357 1335 1484 1284]
+Episode:  4083 , steps:  5970000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1012  983 1111  972 1095]
+Episode:  4090 , steps:  5980000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1089  974 1051  973 1040]
+Episode:  4097 , steps:  5990000
+start
+  - Rewards: [-20 -18 -21 -21 -21]
+  - Amount of actions: [1238 1628  984  973 1177]
+Episode:  4107 , steps:  6000000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [990 977 973 974 966]
+Episode:  4117 , steps:  6010000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 972 989 975 968]
+Episode:  4127 , steps:  6020000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [967 956 965 981 969]
+Episode:  4138 , steps:  6030000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [966 973 976 975 971]
+Episode:  4148 , steps:  6040000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [969 978 968 971 972]
+Episode:  4158 , steps:  6050000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 970 969 973 978]
+Episode:  4169 , steps:  6060000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [973 989 981 966 971]
+Episode:  4179 , steps:  6070000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [981 991 989 963 983]
+Episode:  4188 , steps:  6080000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 964  982  969  959 1020]
+Episode:  4198 , steps:  6090000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [ 973 1090 1117  972 1070]
+Episode:  4208 , steps:  6100000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [982 986 978 981 975]
+Episode:  4218 , steps:  6110000
+start
+  - Rewards: [-21 -21 -21 -21 -20]
+  - Amount of actions: [1026  972  985 1014 1089]
+Episode:  4227 , steps:  6120000
+start
+  - Rewards: [-20 -21 -20 -20 -20]
+  - Amount of actions: [1064 1047 1082 1071 1151]
+Episode:  4237 , steps:  6130000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [966 975 995 963 976]
+Episode:  4247 , steps:  6140000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [955 980 981 982 981]
+Epoch:  4250  - Total reward:  -21.0 Episode duration:  982 Actions:  [  5 951  26] Threshold:  0.01
+Episode:  4257 , steps:  6150000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [982 962 984 988 977]
+Episode:  4268 , steps:  6160000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [957 975 979 980 974]
+Episode:  4278 , steps:  6170000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 979 971 970 969]
+Episode:  4288 , steps:  6180000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [956 966 980 962 979]
+Episode:  4298 , steps:  6190000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 973  973  979 1040 1017]
+Episode:  4308 , steps:  6200000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [973 991 977 981 962]
+Episode:  4318 , steps:  6210000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [ 982  967 1068 1048  985]
+Episode:  4328 , steps:  6220000
+start
+  - Rewards: [-21 -21 -20 -20 -21]
+  - Amount of actions: [ 973  985 1113 1474  970]
+Episode:  4338 , steps:  6230000
+start
+  - Rewards: [-21 -20 -20 -20 -21]
+  - Amount of actions: [ 977 1087 1068 1122 1050]
+Episode:  4347 , steps:  6240000
+start
+  - Rewards: [-21 -21 -20 -21 -21]
+  - Amount of actions: [ 972 1009 1060  998  968]
+Episode:  4357 , steps:  6250000
+start
+  - Rewards: [-21 -21 -20 -20 -21]
+  - Amount of actions: [ 977  974 1113 1064 1034]
+Episode:  4367 , steps:  6260000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1073  963  985  968  973]
+Episode:  4377 , steps:  6270000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [1016 1087  980  976 1019]
+Episode:  4387 , steps:  6280000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 988 1070 1011 1011  966]
+Episode:  4397 , steps:  6290000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1010  983  966 1009  966]
+Episode:  4407 , steps:  6300000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 976  975  969  974 1012]
+Episode:  4416 , steps:  6310000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1347 1011  971  975  992]
+Episode:  4426 , steps:  6320000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 972 1099  979  979  964]
+Episode:  4436 , steps:  6330000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [963 980 978 976 986]
+Episode:  4446 , steps:  6340000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [962 970 969 982 987]
+Episode:  4457 , steps:  6350000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [965 965 972 966 985]
+Episode:  4467 , steps:  6360000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 969 991 977 974]
+Episode:  4477 , steps:  6370000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1638  988  966 1022  977]
+Episode:  4487 , steps:  6380000
+start
+  - Rewards: [-21 -21 -20 -21 -20]
+  - Amount of actions: [1016  969 1082  981 1065]
+Episode:  4497 , steps:  6390000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 977 971 980 987]
+Epoch:  4500  - Total reward:  -21.0 Episode duration:  973 Actions:  [  3 963   7] Threshold:  0.01
+Episode:  4507 , steps:  6400000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [968 971 970 981 982]
+Episode:  4517 , steps:  6410000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 980  977  969 1023 1004]
+Episode:  4527 , steps:  6420000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1004  968  981 1013  971]
+Episode:  4536 , steps:  6430000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 983 985 969 971]
+Episode:  4546 , steps:  6440000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [963 978 988 985 983]
+Episode:  4556 , steps:  6450000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 973  984  964  982 1052]
+Episode:  4566 , steps:  6460000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [994 989 972 976 979]
+Episode:  4577 , steps:  6470000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [968 968 977 977 993]
+Episode:  4587 , steps:  6480000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 980 963 973 972]
+Episode:  4597 , steps:  6490000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [975 968 974 964 971]
+Episode:  4608 , steps:  6500000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 963 1007  965 1006  969]
+Episode:  4618 , steps:  6510000
+start
+  - Rewards: [-21 -21 -21 -20 -21]
+  - Amount of actions: [ 985 1014  981 1076  977]
+Episode:  4628 , steps:  6520000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [1727 1040  965  980  967]
+Episode:  4638 , steps:  6530000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [967 979 967 979 981]
+Episode:  4648 , steps:  6540000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 968  971  962 1000  985]
+Episode:  4658 , steps:  6550000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [985 982 963 975 969]
+Episode:  4668 , steps:  6560000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [966 973 988 958 962]
+Episode:  4678 , steps:  6570000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [ 979 1016  967  981  969]
+Episode:  4688 , steps:  6580000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 963 977 976 970]
+Episode:  4698 , steps:  6590000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [984 976 971 969 982]
+Episode:  4709 , steps:  6600000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [968 974 988 977 958]
+Episode:  4719 , steps:  6610000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [976 977 971 968 985]
+Episode:  4729 , steps:  6620000
+start
+  - Rewards: [-21 -20 -21 -21 -21]
+  - Amount of actions: [ 977 1067  981  971 1052]
+Episode:  4739 , steps:  6630000
+start
+  - Rewards: [-20 -21 -21 -21 -21]
+  - Amount of actions: [1079 1041  980  995 1012]
+Episode:  4749 , steps:  6640000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [988 966 969 962 976]
+Epoch:  4750  - Total reward:  -21.0 Episode duration:  974 Actions:  [ 30 941   3] Threshold:  0.01
+Episode:  4759 , steps:  6650000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [970 953 968 964 969]
+Episode:  4770 , steps:  6660000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [977 969 971 982 975]
+Episode:  4780 , steps:  6670000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [971 963 976 964 972]
+Episode:  4790 , steps:  6680000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [978 964 986 972 973]
+Episode:  4800 , steps:  6690000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [984 985 974 966 969]
+Episode:  4811 , steps:  6700000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [980 975 972 982 982]
+Episode:  4821 , steps:  6710000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [989 969 985 954 974]
+Episode:  4831 , steps:  6720000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [967 975 958 973 973]
+Episode:  4842 , steps:  6730000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [961 987 973 950 978]
+Episode:  4852 , steps:  6740000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [957 971 977 959 978]
+Episode:  4862 , steps:  6750000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [979 977 973 969 973]
+Episode:  4872 , steps:  6760000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [961 972 967 955 976]
+Episode:  4883 , steps:  6770000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [963 962 979 977 964]
+Episode:  4893 , steps:  6780000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [969 964 966 985 957]
+Episode:  4903 , steps:  6790000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [972 975 972 976 962]
+Episode:  4914 , steps:  6800000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [983 964 981 992 961]
+Episode:  4924 , steps:  6810000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [987 981 974 967 974]
+Episode:  4934 , steps:  6820000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [979 977 980 966 966]
+Episode:  4944 , steps:  6830000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [955 976 973 969 988]
+Episode:  4955 , steps:  6840000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [974 977 970 965 976]
+Episode:  4965 , steps:  6850000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [991 976 963 963 977]
+Episode:  4975 , steps:  6860000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [967 994 984 983 987]
+Episode:  4985 , steps:  6870000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [986 973 991 970 984]
+Episode:  4996 , steps:  6880000
+start
+  - Rewards: [-21 -21 -21 -21 -21]
+  - Amount of actions: [984 959 978 993 976]
+Complete
+Script fishished.

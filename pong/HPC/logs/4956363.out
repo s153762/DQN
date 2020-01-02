@@ -1,0 +1,186 @@
+Running script...
+Start using cuda
+
+Writing to '../runs/report_runs/Dueling_2019-12-19 09:40:52.649598'
+Episodes done:  0 , I Episodes:  0 , Steps_done:  1
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  2 , I Episodes:  2 , Steps_done:  2500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  5 , I Episodes:  5 , Steps_done:  5000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  8 , I Episodes:  8 , Steps_done:  7500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  11 , I Episodes:  11 , Steps_done:  10000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  13 , I Episodes:  13 , Steps_done:  12500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  16 , I Episodes:  16 , Steps_done:  15000
+  - Rewards: 10
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0]
+Episodes done:  19 , I Episodes:  19 , Steps_done:  17500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  21 , I Episodes:  21 , Steps_done:  20000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  24 , I Episodes:  24 , Steps_done:  22500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  27 , I Episodes:  27 , Steps_done:  25000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  29 , I Episodes:  29 , Steps_done:  27500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  32 , I Episodes:  32 , Steps_done:  30000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  34 , I Episodes:  34 , Steps_done:  32500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  36 , I Episodes:  36 , Steps_done:  35000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  39 , I Episodes:  39 , Steps_done:  37500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  41 , I Episodes:  41 , Steps_done:  40000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  44 , I Episodes:  44 , Steps_done:  42500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  46 , I Episodes:  46 , Steps_done:  45000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  49 , I Episodes:  49 , Steps_done:  47500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  52 , I Episodes:  52 , Steps_done:  50000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  55 , I Episodes:  55 , Steps_done:  52500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  57 , I Episodes:  57 , Steps_done:  55000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  60 , I Episodes:  60 , Steps_done:  57500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  63 , I Episodes:  63 , Steps_done:  60000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  66 , I Episodes:  66 , Steps_done:  62500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  68 , I Episodes:  68 , Steps_done:  65000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  71 , I Episodes:  71 , Steps_done:  67500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  74 , I Episodes:  74 , Steps_done:  70000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  76 , I Episodes:  76 , Steps_done:  72500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  79 , I Episodes:  79 , Steps_done:  75000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  81 , I Episodes:  81 , Steps_done:  77500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  83 , I Episodes:  83 , Steps_done:  80000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  85 , I Episodes:  85 , Steps_done:  82500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  87 , I Episodes:  87 , Steps_done:  85000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  89 , I Episodes:  89 , Steps_done:  87500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  91 , I Episodes:  91 , Steps_done:  90000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  93 , I Episodes:  93 , Steps_done:  92500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  95 , I Episodes:  95 , Steps_done:  95000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  97 , I Episodes:  97 , Steps_done:  97500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  99 , I Episodes:  99 , Steps_done:  100000
+  - Rewards: 10
+  - Amount of actions: [-18.0, -18.0, -18.0, -18.0, -18.0, -18.0, -18.0, -18.0, -18.0, -18.0]
+Episodes done:  101 , I Episodes:  101 , Steps_done:  102500
+  - Rewards: 10
+  - Amount of actions: [-18.0, -18.0, -18.0, -18.0, -18.0, -18.0, -18.0, -18.0, -18.0, -18.0]
+Episodes done:  102 , I Episodes:  102 , Steps_done:  105000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  104 , I Episodes:  104 , Steps_done:  107500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  106 , I Episodes:  106 , Steps_done:  110000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  108 , I Episodes:  108 , Steps_done:  112500
+  - Rewards: 10
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0]
+Episodes done:  109 , I Episodes:  109 , Steps_done:  115000
+  - Rewards: 10
+  - Amount of actions: [-19.0, -19.0, -19.0, -19.0, -19.0, -19.0, -19.0, -19.0, -19.0, -19.0]
+Episodes done:  111 , I Episodes:  111 , Steps_done:  117500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  112 , I Episodes:  112 , Steps_done:  120000
+  - Rewards: 10
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0]
+Episodes done:  114 , I Episodes:  114 , Steps_done:  122500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  115 , I Episodes:  115 , Steps_done:  125000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  117 , I Episodes:  117 , Steps_done:  127500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  118 , I Episodes:  118 , Steps_done:  130000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  119 , I Episodes:  119 , Steps_done:  132500
+  - Rewards: 10
+  - Amount of actions: [-17.0, -17.0, -17.0, -17.0, -17.0, -17.0, -17.0, -17.0, -17.0, -17.0]
+Episodes done:  120 , I Episodes:  120 , Steps_done:  135000
+  - Rewards: 10
+  - Amount of actions: [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+Episodes done:  122 , I Episodes:  122 , Steps_done:  137500
+  - Rewards: 10
+  - Amount of actions: [8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0]
+Episodes done:  122 , I Episodes:  122 , Steps_done:  140000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  124 , I Episodes:  124 , Steps_done:  142500
+  - Rewards: 10
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0, -21.0]
+Episodes done:  125 , I Episodes:  125 , Steps_done:  145000
+  - Rewards: 10
+  - Amount of actions: [-21.0, -17.0, -17.0, -17.0, -17.0, -17.0, -17.0, -17.0, -17.0, -17.0]
+Episodes done:  126 , I Episodes:  126 , Steps_done:  147500
+  - Rewards: 10
+  - Amount of actions: [-8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0, -8.0]
+Episodes done:  127 , I Episodes:  127 , Steps_done:  150000
+Script fishished.

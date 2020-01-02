@@ -1,0 +1,7 @@
+Running script...
+Start using cuda
+
+Writing to 'runs/report_runs/PER_Dueling_2019-12-19 16:04:50.136019_Pong-v0'
+Epoch:  0  - Total reward:  -21.0 Episode duration:  1228 Actions:  [422 384 422] Threshold:  0.9879269198163163
+Model new iteration Saved 0
+Script fishished.

@@ -1,0 +1,10 @@
+Running script...
+Start using cuda
+
+Writing to 'runs/report_runs/Baseline_2019-12-19 13:52:02.077994'
+Epoch:  0  - Total reward:  -20.0 Episode duration:  955 Actions:  [280 331 344] Threshold:  0.9906003078216679
+Model new iteration Saved 0
+Model new iteration Saved 250
+Model new iteration Saved 500
+Model new iteration Saved 750
+Script fishished.

@@ -1,0 +1,18 @@
+Running script...
+Start using cuda
+
+Writing to 'runs/report_runs/Baseline_2019-12-21 12:13:28.721605_Pong-v0'
+Epoch:  0  - Total reward:  -21.0 Episode duration:  1300 Actions:  [415 441 444] Threshold:  0.9872230658518822
+Epoch:  250  - Total reward:  -15.0 Episode duration:  4283 Actions:  [1587 1311 1385] Threshold:  0.015178756363233264
+Epoch:  500  - Total reward:  -14.0 Episode duration:  4429 Actions:  [1391 1445 1593] Threshold:  0.010000130335969973
+Epoch:  750  - Total reward:  -13.0 Episode duration:  3907 Actions:  [1165 1353 1389] Threshold:  0.010000000000785018
+Epoch:  1000  - Total reward:  -20.0 Episode duration:  3854 Actions:  [1064 1404 1386] Threshold:  0.010000000000000021
+Epoch:  1250  - Total reward:  -16.0 Episode duration:  3596 Actions:  [1089 1403 1104] Threshold:  0.01
+Epoch:  1500  - Total reward:  -16.0 Episode duration:  4988 Actions:  [1633 1034 2321] Threshold:  0.01
+Epoch:  1750  - Total reward:  -17.0 Episode duration:  4140 Actions:  [1037 1843 1260] Threshold:  0.01
+Epoch:  2000  - Total reward:  -5.0 Episode duration:  5902 Actions:  [1655 1687 2560] Threshold:  0.01
+Epoch:  2250  - Total reward:  -14.0 Episode duration:  3002 Actions:  [1191  957  854] Threshold:  0.01
+Epoch:  2500  - Total reward:  -17.0 Episode duration:  5043 Actions:  [1196 1681 2166] Threshold:  0.01
+Epoch:  2750  - Total reward:  -15.0 Episode duration:  3864 Actions:  [1014  972 1878] Threshold:  0.01
+Complete
+Script fishished.

@@ -1,7 +1,0 @@
-Running script...
-Start using cuda
-
-Writing to 'runs/Pong-v0-new-memory_2019-11-28 09:07:28.808057_cuda'
-Epoch:  0  - Total reward:  -21.0 Episode duration:  1112 Actions:  [380 364 368] Threshold:  0.9891724583657328
-Model new iteration Saved 0
-Script fishished.

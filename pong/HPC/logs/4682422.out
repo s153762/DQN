@@ -1,0 +1,19 @@
+Running script...
+Start using cuda
+
+Epoch:  0  - Total reward:  -20.0 Episode duration:  1339 Actions:  [426. 435. 478.] Threshold:  0.8999431369020918
+Model Saved 0
+Epoch:  1  - Total reward:  -21.0 Episode duration:  1086 Actions:  [426. 319. 341.] Threshold:  0.8998969862427598
+Epoch:  2  - Total reward:  -21.0 Episode duration:  1025 Actions:  [363. 352. 310.] Threshold:  0.8998534301383496
+Model Saved 2
+Epoch:  3  - Total reward:  -21.0 Episode duration:  1130 Actions:  [359. 379. 392.] Threshold:  0.8998054147759935
+Epoch:  4  - Total reward:  -21.0 Episode duration:  1110 Actions:  [407. 360. 343.] Threshold:  0.8997582518842557
+Model Saved 4
+Epoch:  5  - Total reward:  -21.0 Episode duration:  1096 Actions:  [358. 375. 363.] Threshold:  0.8997116864079583
+Epoch:  6  - Total reward:  -21.0 Episode duration:  1237 Actions:  [408. 422. 407.] Threshold:  0.8996591333653735
+Model Saved 6
+Epoch:  7  - Total reward:  -21.0 Episode duration:  1086 Actions:  [347. 379. 360.] Threshold:  0.8996129981270149
+Epoch:  8  - Total reward:  -21.0 Episode duration:  1025 Actions:  [337. 367. 321.] Threshold:  0.8995694565766226
+Model Saved 8
+Epoch:  9  - Total reward:  -21.0 Episode duration:  1250 Actions:  [392. 422. 436.] Threshold:  0.8995163601448672
+Complete

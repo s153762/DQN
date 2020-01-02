@@ -1,0 +1,272 @@
+Running script...
+Start using cuda
+
+Writing to 'runs/report_runs/PER_Dueling_2019-12-25 16:39:30.234871_PongDeterministic-v4'
+Episode:  0 , steps:  1
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Epoch:  0  - Total reward:  -21.0 Episode duration:  749 Actions:  [236 260 253] Threshold:  0.9926224265229543
+Episode:  11 , steps:  10000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  22 , steps:  20000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  33 , steps:  30000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  44 , steps:  40000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  54 , steps:  50000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  64 , steps:  60000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  74 , steps:  70000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  82 , steps:  80000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  90 , steps:  90000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  96 , steps:  100000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  103 , steps:  110000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  108 , steps:  120000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  112 , steps:  130000
+  - Rewards: 5
+  - Amount of actions: [-16.0, -16.0, -16.0, -16.0, -16.0]
+Episode:  116 , steps:  140000
+  - Rewards: 5
+  - Amount of actions: [-10.0, -10.0, -10.0, -10.0, -10.0]
+Episode:  120 , steps:  150000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  124 , steps:  160000
+  - Rewards: 5
+  - Amount of actions: [-19.0, -19.0, -19.0, -19.0, -19.0]
+Episode:  127 , steps:  170000
+  - Rewards: 5
+  - Amount of actions: [-19.0, -19.0, -19.0, -19.0, -19.0]
+Episode:  130 , steps:  180000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  133 , steps:  190000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  137 , steps:  200000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  140 , steps:  210000
+  - Rewards: 5
+  - Amount of actions: [-15.0, -15.0, -15.0, -15.0, -15.0]
+Episode:  143 , steps:  220000
+  - Rewards: 5
+  - Amount of actions: [-15.0, -15.0, -15.0, -15.0, -15.0]
+Episode:  146 , steps:  230000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  148 , steps:  240000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  150 , steps:  250000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  153 , steps:  260000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  156 , steps:  270000
+  - Rewards: 5
+  - Amount of actions: [-18.0, -18.0, -18.0, -18.0, -18.0]
+Episode:  159 , steps:  280000
+  - Rewards: 5
+  - Amount of actions: [-20.0, -20.0, -20.0, -20.0, -20.0]
+Episode:  162 , steps:  290000
+  - Rewards: 5
+  - Amount of actions: [-17.0, -17.0, -17.0, -17.0, -17.0]
+Episode:  165 , steps:  300000
+  - Rewards: 5
+  - Amount of actions: [-8.0, -8.0, -8.0, -8.0, -8.0]
+Episode:  167 , steps:  310000
+  - Rewards: 5
+  - Amount of actions: [3.0, 3.0, 3.0, 3.0, 3.0]
+Episode:  170 , steps:  320000
+  - Rewards: 5
+  - Amount of actions: [-19.0, -19.0, -19.0, -19.0, -19.0]
+Episode:  173 , steps:  330000
+  - Rewards: 5
+  - Amount of actions: [8.0, 8.0, 8.0, 8.0, 8.0]
+Episode:  176 , steps:  340000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  179 , steps:  350000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  181 , steps:  360000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  184 , steps:  370000
+  - Rewards: 5
+  - Amount of actions: [-15.0, -15.0, -15.0, -15.0, -15.0]
+Episode:  187 , steps:  380000
+  - Rewards: 5
+  - Amount of actions: [18.0, 18.0, 18.0, 18.0, 18.0]
+Episode:  189 , steps:  390000
+  - Rewards: 5
+  - Amount of actions: [9.0, 9.0, 9.0, 9.0, 9.0]
+Episode:  193 , steps:  400000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  197 , steps:  410000
+  - Rewards: 5
+  - Amount of actions: [19.0, 19.0, 19.0, 19.0, 19.0]
+Episode:  201 , steps:  420000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  204 , steps:  430000
+  - Rewards: 5
+  - Amount of actions: [17.0, 17.0, 17.0, 17.0, 17.0]
+Episode:  208 , steps:  440000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  211 , steps:  450000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  216 , steps:  460000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  221 , steps:  470000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  225 , steps:  480000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  231 , steps:  490000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  235 , steps:  500000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  240 , steps:  510000
+  - Rewards: 5
+  - Amount of actions: [19.0, 19.0, 19.0, 19.0, 19.0]
+Episode:  244 , steps:  520000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  248 , steps:  530000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Epoch:  250  - Total reward:  20.0 Episode duration:  1996 Actions:  [791 409 796] Threshold:  0.014705419563985536
+Episode:  253 , steps:  540000
+  - Rewards: 5
+  - Amount of actions: [2.0, 2.0, 2.0, 2.0, 2.0]
+Episode:  258 , steps:  550000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  262 , steps:  560000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  266 , steps:  570000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  271 , steps:  580000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  275 , steps:  590000
+  - Rewards: 5
+  - Amount of actions: [19.0, 19.0, 19.0, 19.0, 19.0]
+Episode:  280 , steps:  600000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  284 , steps:  610000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  289 , steps:  620000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  293 , steps:  630000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  297 , steps:  640000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  301 , steps:  650000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  306 , steps:  660000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  311 , steps:  670000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  316 , steps:  680000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  322 , steps:  690000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  327 , steps:  700000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  332 , steps:  710000
+  - Rewards: 5
+  - Amount of actions: [19.0, 19.0, 19.0, 19.0, 19.0]
+Episode:  337 , steps:  720000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  342 , steps:  730000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  348 , steps:  740000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  354 , steps:  750000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  359 , steps:  760000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  364 , steps:  770000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  369 , steps:  780000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  375 , steps:  790000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  380 , steps:  800000
+  - Rewards: 5
+  - Amount of actions: [19.0, 19.0, 19.0, 19.0, 19.0]
+Episode:  385 , steps:  810000
+  - Rewards: 5
+  - Amount of actions: [8.0, 8.0, 8.0, 8.0, 8.0]
+Episode:  389 , steps:  820000
+  - Rewards: 5
+  - Amount of actions: [18.0, 18.0, 18.0, 18.0, 18.0]
+Episode:  395 , steps:  830000
+  - Rewards: 5
+  - Amount of actions: [20.0, 20.0, 20.0, 20.0, 20.0]
+Episode:  400 , steps:  840000
+  - Rewards: 5
+  - Amount of actions: [19.0, 19.0, 19.0, 19.0, 19.0]
+Episode:  405 , steps:  850000
+  - Rewards: 5
+  - Amount of actions: [19.0, 19.0, 19.0, 19.0, 19.0]
+Episode:  410 , steps:  860000
+  - Rewards: 5
+  - Amount of actions: [21.0, 21.0, 21.0, 21.0, 21.0]
+Episode:  415 , steps:  870000
+  - Rewards: 5
+  - Amount of actions: [-21.0, -21.0, -21.0, -21.0, -21.0]
+Episode:  420 , steps:  880000
+Script fishished.

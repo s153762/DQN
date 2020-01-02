@@ -1,7 +1,0 @@
-Running script...
-Start using cuda
-
-Writing to 'runs/report_runs/PER_2019-12-19 16:04:35.425324'
-Epoch:  0  - Total reward:  -21.0 Episode duration:  1285 Actions:  [414 439 432] Threshold:  0.9873696603060692
-Model new iteration Saved 0
-Script fishished.

@@ -1,4 +1,0 @@
-Loaded module: python3/3.6.2
-Loaded module: cuda/10.0
-Loaded module: cudnn/v7.4.2.24-prod-cuda-10.0
-python3: can't open file 'pong/script/Pong_DDQN.py': [Errno 2] No such file or directory

@@ -1,0 +1,27 @@
+Loaded module: python3/3.6.2
+Loaded module: cuda/10.0
+Loaded module: cudnn/v7.4.2.24-prod-cuda-10.0
+Traceback (most recent call last):
+  File "Pong_DDQN.py", line 125, in <module>
+    env.render()
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/gym/envs/atari/atari_env.py", line 152, in render
+    from gym.envs.classic_control import rendering
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/gym/envs/classic_control/rendering.py", line 27, in <module>
+    from pyglet.gl import *
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/pyglet/gl/__init__.py", line 239, in <module>
+    import pyglet.window
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/pyglet/window/__init__.py", line 1896, in <module>
+    gl._create_shadow_window()
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/pyglet/gl/__init__.py", line 208, in _create_shadow_window
+    _shadow_window = Window(width=1, height=1, visible=False)
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/pyglet/window/xlib/__init__.py", line 166, in __init__
+    super(XlibWindow, self).__init__(*args, **kwargs)
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/pyglet/window/__init__.py", line 501, in __init__
+    display = get_platform().get_default_display()
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/pyglet/window/__init__.py", line 1845, in get_default_display
+    return pyglet.canvas.get_display()
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/pyglet/canvas/__init__.py", line 82, in get_display
+    return Display()
+  File "/zhome/ad/0/108841/.local/lib/python3.6/site-packages/pyglet/canvas/xlib.py", line 86, in __init__
+    raise NoSuchDisplayException('Cannot connect to "%s"' % name)
+pyglet.canvas.xlib.NoSuchDisplayException: Cannot connect to "None"
